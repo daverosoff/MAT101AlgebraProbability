@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<docinfo>
+    <brandlogo source="images/seal.jpg"/> <!--see sample article about 176x240 pixels brand logo-->
+    <latex-preamble>
+        <package>cancel</package></latex-preamble>
+	<latex-image-preamble>
+        \usepackage{pgfplots}               % loads tikz package
+        \usepackage{xcolor}
+        \definecolor{M101_green}{RGB}{0,60,0}
+        \def\firstcircle{(0,0) circle (1.5cm)}
+		\def\secondcircle{(0:2cm) circle (1.5cm)}
+		\def\universe{(-2,-2) rectangle (4,2)}
+
+		\colorlet{circle edge}{M101_green}
+		\colorlet{circle area}{M101_green!50!white}
+
+		\tikzset{filled/.style={fill=circle area, draw=circle edge, thick},
+    outline/.style={draw=circle edge, thick}}
+        \pgfplotsset{axis x line = middle,
+                     axis y line = middle}
+        \usetikzlibrary{backgrounds}
+        \usetikzlibrary{arrows,matrix,patterns,shapes}
+    </latex-image-preamble>
+</docinfo>
+<book>
+    <title>Survey of Algebra and Probability</title>
+    <subtitle>MAT 101</subtitle>
+    <frontmatter>
+    <titlepage>
+        <author>
+            <personname>Robin Cruz</personname>
+            <department>Mathematics Department</department>
+            <institution>
+                <line>College of Idaho</line>
+                <line>Caldwell, Idaho, USA</line>
+            </institution>
+            <email>rcruz@collegeofidaho.edu</email>
+        </author>
+        <author>
+            <personname>Lynda Danielson</personname>
+            <department>Mathematics Department</department>
+            <institution>
+                <line>College of Idaho</line>
+                <line>Caldwell, Idaho, USA</line>
+            </institution>
+            <email>ldanielson@collegeofidaho.edu</email>
+        </author>
+        <author>
+            <personname>Katherine Yoshiwara</personname>
+            <department>Mathematics Department</department>
+            <institution>
+                <line>Los Angeles Pierce College (retired)</line>
+            </institution>
+            <email>kyoshiwara@hotmail.com</email>
+        </author>
+        <date>
+            <today />
+        </date>
+    </titlepage>
+</frontmatter>
+ 
+
+
+<chapter xml:id="chapter-0-preliminaries">
+    <title>Preliminaries</title>
+    <xi:include href="./set00_Preliminaries.mbx" />
+</chapter>
+
+<chapter xml:id="chapter-1-numbers">
+    <title>Numbers</title>
+
+<xi:include href="./set1A_Fractions.mbx" />
+<xi:include href="./set1B_Percents_and_Estimation.mbx" />
+<xi:include href="./set1C_Exponents_and_Scientific_Notation.mbx" />
+</chapter>
+<chapter xml:id="chapter-2-equations-intervals-inequalities">
+    <title>Equations, Intervals, and Inequalities</title>
+<xi:include href="./set2A_Equations_and_Absolute_Value.mbx" />
+<xi:include href="./set2B_Intervals_and_Inequalities.mbx" />
+<xi:include href="./set2C_Applications.mbx" />
+
+</chapter>
+<chapter xml:id="chapter-3-graphs">
+    <title>Graphs</title>
+<xi:include href="./set3A_Interpreting_Graphs.mbx" />
+<xi:include href="./set3B_Lines.mbx" />
+<xi:include href="./set3C_Linear_Models.mbx" />
+</chapter>
+<chapter xml:id="chapter-4-sets-and-probability">
+    <title>Sets and Probability</title>
+<xi:include href="./set4A_Sets_and_Counting.mbx" />
+<xi:include href="./set4B_Probability.mbx" />
+<xi:include href="./set4C_Probability_Rules.mbx" />
+</chapter>
+</book>
+</mathbook>
