@@ -60,16 +60,12 @@
     </titlepage>
 </frontmatter>
  
-
-
 <chapter xml:id="chapter-0-preliminaries">
     <title>Preliminaries</title>
     <xi:include href="./set00_Preliminaries.mbx" />
 </chapter>
-
 <chapter xml:id="chapter-1-numbers">
     <title>Numbers</title>
-
 <xi:include href="./set1A_Fractions.mbx" />
 <xi:include href="./set1B_Percents_and_Estimation.mbx" />
 <xi:include href="./set1C_Exponents_and_Scientific_Notation.mbx" />
@@ -79,7 +75,6 @@
 <xi:include href="./set2A_Equations_and_Absolute_Value.mbx" />
 <xi:include href="./set2B_Intervals_and_Inequalities.mbx" />
 <xi:include href="./set2C_Applications.mbx" />
-
 </chapter>
 <chapter xml:id="chapter-3-graphs">
     <title>Graphs</title>

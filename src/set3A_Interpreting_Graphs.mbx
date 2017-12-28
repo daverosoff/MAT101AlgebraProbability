@@ -14,20 +14,20 @@
   </introduction>
   <subsection>
     <title>The Cartesian Coordinate Plane</title>
-    <p>Often, to get an idea of the behavior of an equation we will make a picture that represents the solutions to the equations. A graph is simply a picture of the solutions to an equation. Before we spend much time on making a visual representation of an equation, we first have to understand the basis of graphing. Following is an example of what is called the Cartesian coordinate plane (named in honor of the 17th century philosopher, mathematician and scientist, Ren&#x00E9; Descartes).</p>
+    <p>To get an idea of the behavior of an equation we can make a picture that represents its solutions. A graph is simply a picture of the solutions to an equation. To graph an equation we use a Cartesian coordinate plane (named in honor of the 17th century philosopher, mathematician and scientist, Ren&#x00E9; Descartes).</p>
     <p>The plane is divided into four regions, called
       <term>quadrants</term>, by a horizontal number line (labelled the
       <m>x</m>-axis on the graph below) and a vertical number line (labelled the
       <m>y</m>-axis).
     </p>
     <sidebyside widths="55% 40%" valign="middle">
-      <figure xml:id="figure-grid-quadrants">
+<!--      <figure xml:id="figure-grid-quadrants">  -->
         <image xml:id="grid-quadrants">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
             <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
               <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.65mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.65mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=M101_green] (0,0) circle (.2cm); \draw[thick,red] (3,3) node {\LARGE $Q1$}; \draw[thick,red] (-3,3) node {\LARGE $Q2$}; \draw[thick,red] (-3,-3) node {\LARGE $Q3$}; \draw[thick,red] (3,-3) node {\LARGE $Q4$}; \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>The quadrants are labeled
               <m>Q1</m>,
@@ -42,31 +42,23 @@
             </p>
           </paragraphs>
         </sidebyside>
-        <p>As we move to the right of the origin the numbers count up from zero, representing
-          <m>x=1, 2, 3\dots</m>.  To the left the numbers count down from zero, representing
-          <m>x = - 1, - 2, - 3\dots</m>. Similarly, as we move up from the origin the number count up from zero,
-          <m>y = 1, 2, 3\dots</m>, and as we move down count down from zero,
-          <m>y = -1, -2, -3, \dots</m>. We can put dots on the graph which we will call points. Each point has an "address" that defines its location. The first number will be the value on the
-          <m>x</m>-axis or horizontal number line. This is the distance the point moves left/right from the origin. The second number will represent the value on the
-          <m>y</m>-axis or vertical number line. This is the distance the point moves up/down from the origin. The points are given as an ordered pair
-          <m>(x, y)</m>.
+        <p>Positive numbers appear to the right of the origin on the <m>x</m>-axis and negative numbers to the left. Similarly, positive numbers appear above the origin on the <m>y</m>-axis, and negative numbers below.  We can put dots on the graph to indicate points. Each point has an "address" that defines its location. The address is given as an ordered pair <m>(x,y).</m> The first number will be the value on the <m>x</m>-axis or horizontal number line. This is the distance from the point to the origin in the horizontal direction. The second number will represent the distance from the point to the origin in the vertical direction. 
         </p>
-        <p>The following example finds the address or coordinate pair for each of several points on the coordinate plane.</p>
   <example>
   <title>Identify Quadrants and Coordinates</title>
     <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 119 pg 89-->
   <p>Give the quadrant and coordinates of each point.
   </p>
   <sidebyside widths="55% 40%" valign="middle">
-    <figure xml:id="figure-grid-3-points">
+<!--    <figure xml:id="figure-grid-3-points">  -->
       <image xml:id="grid-3-points">
         <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
           <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
             <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (1,4) circle (.15cm); \draw[thick,black] (1,4) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-5,3) circle (.15cm); \draw[thick,black] (-5,3) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (0,-2) circle (.15cm); \draw[thick,black] (0,-2) node[shift={(.3,0.3)}] {\LARGE $C$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure> -->
         <paragraphs>
-          <p>Notice that point
+          <p>The point
             <m>A</m> is in
             <m>Q1</m> and point
             <m>B</m> is in
@@ -127,13 +119,13 @@
     <m>A(3, 2), B( - 2, 1), C(3, - 4), D( - 2, - 3), E( - 3, 0), F (0, 2), G(0, 0)</m>
   </p>
   <sidebyside widths="55% 40%" valign="middle">
-    <figure xml:id="figure-grid-2-of-7-points">
+<!--    <figure xml:id="figure-grid-2-of-7-points">  -->
       <image xml:id="grid-2-of-7-points">
         <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
           <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
             <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,red] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \draw[line width=0.75mm,red,->] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,->] (3,0) -- (3,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,blue] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,->] (-2,0) -- (-2,1) node[shift={(-.6,-.5)}] {\Large Up $1$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
         <paragraphs>
           <p>The first point,
             <m>A</m> is at
@@ -149,13 +141,13 @@
         </paragraphs>
       </sidebyside>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-grid-4-of-7-points">
+<!--        <figure xml:id="figure-grid-4-of-7-points">  -->
           <image xml:id="grid-4-of-7-points">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
               <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
                 <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,red] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \draw[line width=0.75mm,red,->] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,->] (3,0) -- (3,-4) node[shift={(1,2.5)}] {\Large Down $4$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,blue] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,->] (-2,0) -- (-2,-3) node[shift={(-1,1.5)}] {\Large Down $3$}; \end{tikzpicture} ]]></latex-image-code>
               </image>
-            </figure>
+<!--            </figure>  -->
             <paragraphs>
               <p>The third point,
                 <m>C(3,-4)</m> is right 3, down 4 (negative moves backwards).  Note that
@@ -169,13 +161,13 @@
           </sidebyside>
           <p>The last three points have zeros in them. We still treat these points just like the other points. If there is a zero there is just no movement.</p>
           <sidebyside widths="55% 40%" valign="middle">
-            <figure xml:id="figure-grid-7-of-7-points">
+ <!--           <figure xml:id="figure-grid-7-of-7-points">  -->
               <image xml:id="grid-7-of-7-points">
                 <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
                   <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
                     <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,blue] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-3,0) node[shift={(2,0.3)}] {\Large Left $3$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,red] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \draw[line width=0.75mm,red,->] (0,0) -- (0,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,purple] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} ]]></latex-image-code>
                   </image>
-                </figure>
+<!--                </figure>  -->
                 <paragraphs>
                   <p>Next is
                     <m>E(-3, 0)</m>. This is left 3 (negative is backwards), and up zero, right on the
@@ -195,20 +187,19 @@
                 </paragraphs>
               </sidebyside>
               <sidebyside widths="55% 40%" valign="middle">
-                <figure xml:id="figure-grid-7-points">
+<!--                <figure xml:id="figure-grid-7-points">  -->
                   <image xml:id="grid-7-points">
                     <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
                       <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
                         <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,black] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,black] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,black] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} ]]></latex-image-code>
                       </image>
-                    </figure>
+<!--                    </figure>  -->
                     <p>Our Solution
                       <m>\checkmark</m>
                     </p>
                   </sidebyside>
                 </example>
-    <p>The main purpose of graphs is not to plot random points, but rather to give a picture of the solutions to an equation. We may have an equation such as
-      <m>y=2x - 3</m>. To determine whether or not a point
+    <p>We will use graphs to give a picture of the solutions to an equation. To determine whether or not a point
       <m>(x,y)</m> is a solution to a given equation, you substitute (or "plug in") the values into their corresponding variables in the equation and check to see that you get a true statement (both sides of the equation have equal values).
     </p>
     <example>
@@ -256,7 +247,7 @@
               <m>P</m> in the table.  Since <m>Q</m> is written in terms of <m>P</m>, we will take <m>P</m> as the horizontal variable and <m>Q</m> for the vertical.
             </p>
             <sidebyside widths="30% 70%" valign="middle">
-              <table>
+<!--              <table>  -->
               <tabular left="minor" top="minor">
                 <col halign="center" right="minor"/>
                 <col halign="center" right="minor"/>
@@ -286,13 +277,13 @@
                 <cell></cell>
               </row>
             </tabular>
-          </table>
+ <!--         </table>  -->
           <p>We will plug each given
                 <m>P</m> value in the equation and solve for
                 <m>Q</m></p>
         </sidebyside>
         <sidebyside widths="30% 70%" valign="middle">
-              <table>
+<!--              <table>  -->
               <tabular left="minor" top="minor">
                 <col halign="center" right="minor"/>
                 <col halign="center" right="minor"/>
@@ -322,7 +313,7 @@
                 <cell><m>22</m></cell>
               </row>
             </tabular>
-          </table>
+<!--          </table>  -->
           <paragraphs>
           <p>Find each
                 <m>Q</m>-coordinate by replacing
@@ -336,12 +327,11 @@
               </paragraphs>
         </sidebyside>
       </example>
-    <p>We may be interested in what type of solutions are possible with the equation
-      <m>y = 2x - 3</m>.  We can visualize the solution by making a graph of possible
+    <p>We can visualize the solutions of an equation by making a graph of possible
       <m>x</m> and
-      <m>y</m> combinations that make this equation a true statement. We will have to start by finding possible
+      <m>y</m> combinations that make the equation true. We will have to start by finding such
       <m>x</m> and
-      <m>y</m> combinations. We will do this using a table of values.
+      <m>y</m> combinations and recording them in a table of values.
     </p>
         <example>
           <title>Graph a Given Equation</title>
@@ -350,7 +340,7 @@
             <m>y=2x-3</m>. We make a table of values.
           </p>
           <sidebyside widths="40% 55%" valign="middle">
-            <table>
+<!--            <table>  -->
             <tabular left="minor" top="minor">
               <col halign="center" right="minor"/>
               <col halign="center" right="minor"/>
@@ -372,11 +362,11 @@
               <cell></cell>
             </row>
           </tabular>
-        </table>
-        <p>We will test three values for <m>x</m>. Three integers easy to work with were chosen.  Any three values could be used.</p>
+<!--        </table>  -->
+        <p>We will test three values for <m>x</m>. We chose three integers easy to work, but any three values can be used.</p>
       </sidebyside>
       <sidebyside widths="40% 55%" valign="middle">
-            <table>
+<!--            <table>  -->
             <tabular left="minor" top="minor">
               <col halign="center" right="minor"/>
               <col halign="center" right="minor"/>
@@ -398,50 +388,42 @@
               <cell><m>-1</m></cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>  -->
         <paragraphs>
-        <p>Evaluate each by replacing <m>x</m> with the given value:</p>
+        <p>We find the <m>y</m>-value for each <m>x</m>-value:</p>
         <p>
           <m>x=-1\mapsto y =2(-1)-3=-2-3=-5</m> 
           <m>x=0\mapsto y =2(0)-3=0-3=-3</m> 
           <m>x=1\mapsto y =2(1)-3=2-3=-1</m></p>
         </paragraphs>
       </sidebyside>
-      <sidebyside widths="40% 55%" valign="middle">
-        <paragraphs>
-        <p>Our table becomes the points:</p>
-        <p> 
+      <p>Our table shows the points: 
           <m>(-1,-5), (0,-3), (1,-1)</m>
-        </p>
-      </paragraphs>
-        <p>These then become the points to graph on our equation.
-        </p>
-      </sidebyside>
+      </p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-graph-line-2x-3">
+<!--        <figure xml:id="figure-graph-line-2x-3">  -->
             <image xml:id="graph-line-2x-3">
               <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
                 <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
                   <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-1,-5) circle (.15cm); \fill[color=black] (0,-3) circle (.15cm); \fill[color=black] (1,-1) circle (.15cm); \draw[line width=0.65mm,black,
                     <->] (-1.5,-6) -- (4,5); \end{tikzpicture} ]]></latex-image-code>
                   </image>
-                </figure>
+<!--                </figure>  -->
           <paragraphs>
-                <p>Plot each point.</p>
-                <p>In the next 
-                  <xref ref="section-3B-lines" autoname="yes" />, we will see that this particular equation determines a line.  Thus, once the points are plotted on the graph, connect the dots to make a line.</p>
+                <p>We plot each point.</p>
+                <p>In  
+                  <xref ref="section-3B-lines" autoname="yes" />, we will see thatall solutionjs of this particular equation lie on a line.  Thus, once the points are plotted on the graph, we connect the dots to make a line.</p>
                 <p>The graph is Our Solution.<m>\checkmark</m>
                 </p>
               </paragraphs>
             </sidebyside>
           </example>
-        <p>What this line tells us is that any point on the line will work in the equation
-          <m>y = 2x -3</m>. For example, notice the graph also goes through the point
+        <p>Any point on the line is a solution of the equation
+          <m>y = 2x -3</m>. For example, notice the graph goes through the point
           <m>(2, 1)</m>. If we use
           <m>x=2</m>, we should get
           <m>y =1</m>. Sure enough,
-          <m>y =2(2)-3=4-3=1</m>, just as the graph suggests. Thus we have a picture of all the solutions for
-          <m>y = 2x - 3</m>. We can use this table of values method to draw a graph of any linear equation.
+          <m>y =2(2)-3=4-3=1</m>, just as the graph suggests.
         </p>
         <example>
           <title>Graph a Given Equation</title>
@@ -450,7 +432,7 @@
             <m>2x-3y=6</m>. We make a table of values.
           </p>
           <sidebyside widths="40% 55%" valign="middle">
-  <table>
+<!--  <table>  -->
     <tabular left="minor" top="minor">
       <col halign="center" right="minor"/>
       <col halign="center" right="minor"/>
@@ -482,12 +464,12 @@
         <cell></cell>
       </row>
     </tabular>
-  </table>
+<!--  </table>  -->
   <p>We will test three values for
-    <m>x</m>. Three integers easy to work with were chosen.  Any three values could be used.
+    <m>x</m>. WE chose three integers easy to work with, but any three values can be used.
   </p>
 </sidebyside>
-<table>
+<!--<table>  -->
   <tabular>
     <col halign="right" />
     <col />
@@ -496,7 +478,7 @@
       <cell>
         <m>2x-3y=6</m>
       </cell>
-      <cell>Substitute each value in for
+      <cell>Substitute each value for
         <m>x</m> and solve for
         <m>y</m>
       </cell>
@@ -545,8 +527,8 @@
       </cell>
     </row>
   </tabular>
-</table>
-<table>
+<!--</table>  -->
+<!-- <table> -->
   <tabular>
     <col halign="right" />
     <col />
@@ -589,8 +571,8 @@
       </cell>
     </row>
   </tabular>
-</table>
-<table>
+<!-- </table> -->
+<!-- <table>  -->
   <tabular>
     <col halign="right" />
     <col />
@@ -645,9 +627,9 @@
       </cell>
     </row>
   </tabular>
-</table>
+<!-- </table>  -->
 <sidebyside widths="40% 55%" valign="middle">
-  <table>
+<!--  <table>  -->
     <tabular left="minor" top="minor">
       <col halign="center" right="minor"/>
       <col halign="center" right="minor"/>
@@ -685,27 +667,21 @@
         </cell>
       </row>
     </tabular>
-  </table>
+<!--  </table>  -->
   <p>Our completed table.</p>
 </sidebyside>
-<sidebyside widths="40% 55%" valign="middle">
-  <paragraphs>
-    <p>Our table becomes the points:</p>
-    <p>
+    <p>Our table becomes the points:
       <m>(-3,-4), (0,-2), (3,0)</m>
     </p>
-  </paragraphs>
-  <p>These then become the points to graph on our equation.</p>
-</sidebyside>
 <sidebyside widths="55% 40%" valign="middle">
-  <figure xml:id="figure-graph-line-2x-3y-equals-6">
+<!--  <figure xml:id="figure-graph-line-2x-3y-equals-6">  -->
     <image xml:id="graph-line-2x-3y-equals-6">
       <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
         <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
           <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-3,-4) circle (.15cm); \fill[color=black] (0,-2) circle (.15cm); \fill[color=black] (3,0) circle (.15cm); \draw[line width=0.65mm,black,
             <->] (-6,-6) -- (6,2); \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
         <paragraphs>
           <p>Graph points and connect dots.</p>
           <p>Our Solution
@@ -714,9 +690,8 @@
         </paragraphs>
       </sidebyside>
     </example>                                       
-  <p>Notice that there are two points on the graph of the equation that lie on an axis.  One is the point in the table
-    <m>(0,-2)</m>. It lies on the
-    <m>y</m>-axis and is called a
+  <p>Notice that there are two points on the graph of the equation that lie on an axis.  One is the point in the table on the
+    <m>y</m>-axis and is called the
     <m>y</m>-intercept. Another is the point
     <m>(3,0)</m>.  It lies on the
     <m>x</m>-axis and is called an
@@ -728,7 +703,7 @@
         <m>y=\lvert x\rvert</m>. We make a table of values.
       </p>
       <sidebyside widths="30% 70%" valign="middle">
-  <table>
+<!--  <table>  -->
     <tabular left="minor" top="minor">
       <col halign="center" right="minor"/>
       <col halign="center" right="minor"/>
@@ -772,13 +747,13 @@
         <cell></cell>
       </row>
     </tabular>
-  </table>
+<!--  </table>  -->
   <p>We will test five values for
     <m>x</m>. Any five can be used
   </p>
 </sidebyside>
 <sidebyside widths="30% 70%" valign="middle">
-  <table>
+<!--  <table>  -->
     <tabular left="minor" top="minor">
       <col halign="center" right="minor"/>
       <col halign="center" right="minor"/>
@@ -822,7 +797,7 @@
         <cell>2</cell>
       </row>
     </tabular>
-  </table>
+<!--  </table>  -->
   <paragraphs>
     <p>Evaluate each by replacing <m>x</m> with the given value:</p>
     <p>
@@ -842,29 +817,23 @@
     </p>
   </paragraphs>
 </sidebyside>
-<sidebyside widths="50% 45%" valign="middle">
-  <paragraphs>
-    <p>Our table becomes the points:</p>
-    <p>
+    <p>Our table shows the points:
       <m>(-2,2), (-1,1), (0,0), (1,1), (2,2)</m>
     </p>
-  </paragraphs>
-  <p>These then become the points to graph on our equation.</p>
-</sidebyside>
 <sidebyside widths="55% 40%" valign="middle">                                   
-    <figure xml:id="figure-graph-absolute-value-of-x">
+<!--    <figure xml:id="figure-graph-absolute-value-of-x">  -->
       <image xml:id="graph-absolute-value-of-x">
         <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
           <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
             <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-2,2) circle (.15cm); \fill[color=black] (-1,1) circle (.15cm); \fill[color=black] (0,0) circle (.15cm); \fill[color=black] (1,1) circle (.15cm); \fill[color=black] (2,2) circle (.15cm); \draw[line width=0.65mm,black,->] (0,0) -- (-5,5); \draw[line width=0.65mm,black,->] (0,0) -- (5,5) node[shift={(-2,-3.75)}] {\LARGE $y=\lvert x\rvert $}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
         <paragraphs>
-          <p>Plot each point.</p>
+          <p>We plot each point.</p>
           <p>The graph is our solution.</p>
           <p> Notice the graph of
             <m>y=\lvert x\rvert</m> lies entirely above the
-            <m>y</m>-axis except for at the origin.
+            <m>y</m>-axis except at the origin.
             <m>\checkmark</m>
           </p>
         </paragraphs>
@@ -873,7 +842,7 @@
   </subsection>                                           
 <subsection>
   <title>Intercepts</title>
-  <p>Intercepts are points on the graph which are on an axis.  Points on the
+  <p>Intercepts are points on the graph which lie on an axis.  Points on the
     <m>y</m>-axis will have an
     <m>x</m>-coordinate of
     <m>0</m>.  Points on the
@@ -950,14 +919,14 @@
     <p>The
       <m>y</m>-intercept <m>(0,2)</m> is labeled on the graph of the equation.
     </p>
-    <figure xml:id="figure-determine-y-intercept">
+<!--    <figure xml:id="figure-determine-y-intercept">  -->
       <image xml:id="determine-y-intercept">
         <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
           <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
             <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (0,2) circle (.15cm) node[shift={(1,-.3)}] {\LARGE $(0,2)$}; \draw[line width=0.65mm,black,
               <->] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+ <!--         </figure>  -->
         </sidebyside>
   </example>
       <example>
@@ -992,18 +961,18 @@
           <p>The
             <m>x</m>-intercept <m>\left(-\frac{2}{3} , 0\right)</m> is labeled on the graph of the equation.
           </p>
-          <figure xml:id="figure-determine-x-intercepts">
+<!--          <figure xml:id="figure-determine-x-intercepts">  -->
           <image xml:id="determine-x-intercepts">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
               <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
                 <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-.67,0) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $\left(-\frac{2}{3},0\right)$}; \draw[line width=0.65mm,black,
                   <->] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} ]]></latex-image-code>
                 </image>
-              </figure>
+ <!--             </figure>  -->
             </sidebyside>
           </p>
             </example>
-  <p>The intercepts are points on the graph where the graph crosses an axis.  If it is understood which kind of intercept is being referred to we may slightly abuse the notation and say "The
+  <p>The intercepts are points where the graph crosses an axis.  We may slightly abuse the notation and say "The
     <m>x</m>-intercept is
     <m>-\frac{2}{3}</m>" instead of referring to the point
     <m>\left( -\frac{2}{3},0\right)</m>.
@@ -1040,7 +1009,7 @@
             <m>Q</m>-intercept <m>\left(0, \frac{8}{5}\right)</m> is labeled on the graph of the equation.
           </p>
         </paragraphs>
-          <figure xml:id="figure-determine-Q-intercepts">
+<!--          <figure xml:id="figure-determine-Q-intercepts">  -->
           <image xml:id="determine-Q-intercepts">
             <latex-image-code><![CDATA[\begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
@@ -1054,7 +1023,7 @@
                 \draw[line width=0.65mm,black,<->] (-6,4) -- (6,-0.8) node[shift={(-2.2,-.4)}] {\LARGE $2a+5Q=8$};
                 \end{tikzpicture} ]]></latex-image-code>
                 </image>
-              </figure>
+  <!--            </figure>  -->
             </sidebyside>
             </example>
 </subsection>
@@ -1065,9 +1034,9 @@ There are situations where you have two (or more) equations and you need to know
 <example>
   <!--Our own -->
   <title>Points in Common</title>
-  <p>Identify the common point of the graphs <m>f(t)</m> and <m>g(t).</m></p>
+  <p>Identify the common point of the graphs shown below.</p>
   <sidebyside widths="55% 40%" valign="middle">
-          <figure xml:id="figure-determine-intersection-of-two-lines">
+<!--          <figure xml:id="figure-determine-intersection-of-two-lines"> -->
           <image xml:id="determine-intersection-of-two-lines">
             <latex-image-code><![CDATA[\begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
@@ -1083,7 +1052,7 @@ There are situations where you have two (or more) equations and you need to know
                 \draw[line width=0.65mm,red,dashed] (1,3) -- (1,-.5) node[shift={(0,-.25)}] {\LARGE $t=1$};
         \end{tikzpicture}]]></latex-image-code>
                 </image>
-              </figure>
+<!--              </figure>  -->
               <paragraphs>
                 <p>The common point is <m>(1,3).</m></p>
                 <p>We say the graphs <term>intersect</term> at common points.</p>
@@ -1102,14 +1071,14 @@ There are situations where you have two (or more) equations and you need to know
   <m>\lvert x+1\rvert =3</m>?
 </p>
 <sidebyside widths="55% 40%" valign="middle">
-<figure xml:id="figure-graph-two-equations-intercepts">
+<!-- <figure xml:id="figure-graph-two-equations-intercepts">  -->
   <image xml:id="graph-two-equations-intercepts">
     <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
       <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
         <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-4,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(-4,3)$}; \fill[color=black] (2,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(2,3)$}; \draw[line width=0.65mm,blue,
           <->] (-6,3) -- (6,3); \draw[line width=0.65mm,black,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,->] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       <paragraphs>
       <p>Using the graph, we see the red
         <m>y=\lvert x+1\rvert</m> and blue line
@@ -1134,14 +1103,14 @@ There are situations where you have two (or more) equations and you need to know
       <m>\lvert x+1\rvert \lt 3</m>?
     </p>
     <sidebyside widths="55% 40%" valign="middle">
-      <figure xml:id="figure-graph-two-equations-less-than">
+ <!--     <figure xml:id="figure-graph-two-equations-less-than">  -->
         <image xml:id="graph-two-equations-less-than">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
             <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
               <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
                 <->] (-6,3) -- (6,3); \draw[line width=0.65mm,black,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,->] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red] (-1,0) -- (-4,3); \draw[line width=0.65mm,red] (-1,0) -- (2,3); \draw[line width=0.65mm,red] (-4,0) -- (2,0); \end{tikzpicture} ]]></latex-image-code>
               </image>
-            </figure>
+<!--            </figure>  -->
         <paragraphs>
           <p>Using the graph, we see the red
             <m>y=\lvert x+1\rvert</m> lies below the blue line
@@ -1168,14 +1137,14 @@ There are situations where you have two (or more) equations and you need to know
   <m>\lvert x+1\rvert \gt 3</m>?
 </p>
 <sidebyside widths="55% 40%" valign="middle">
-<figure xml:id="figure-graph-two-equations-greater-than">
+<!-- <figure xml:id="figure-graph-two-equations-greater-than"> -->
   <image xml:id="graph-two-equations-greater-than">
     <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
       <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
         <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
           <->] (-6,3) -- (6,3); \draw[line width=0.65mm,red,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,red,->] (-1,0) -- (5,6); \draw[line width=0.65mm,black] (-1,0) -- (-4,3); \draw[line width=0.65mm,black] (-1,0) -- (2,3)  node[shift={(0,-1.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red,->] (-4,0) -- (-6,0); \draw[line width=0.65mm,red,->] (2,0) -- (6,0); \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       <paragraphs>
       <p>Using the graph, we see the red
         <m>y=\lvert x+1\rvert</m> lies above the blue line

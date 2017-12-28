@@ -9,7 +9,7 @@
   </introduction>
   <subsection>
     <title>Solution to an Equation</title>
-    <p>Solving linear equations is an important and fundamental skill in algebra. In algebra, we are often presented with a problem where the answer is known, but part of the problem is missing. The missing part of the problem is what we seek to find. An example of such a problem is shown below.</p>
+    <p>In algebra, we are often presented with an equation whose solution is unknown.  Finding the solution is called <term>solving the equation</term></p>
     <example xml:id="example-equation">
       <title>Example Linear Equation</title>
       <p>
@@ -20,12 +20,8 @@
       Equations are of the form "left-hand side" equals "right-hand side" or <term>LHS</term><m>=</m><term>RHS</term> for short<m>.\checkmark</m>
       </p>
     </example>
-    <p>Notice the above equation in <xref ref="example-equation" autoname="yes" /> has a missing part, or unknown number, that is marked by
-      <m>x.</m> If we are given that the solution to this equation is
-      <m>-5</m>, it could be plugged into the equation, replacing the
-      <m>x</m> with
-      <m>-5.</m> This is shown in
-      <xref ref="demonstrate-solution" autoname="yes" />.
+    <p>Notice the equation in <xref ref="example-equation" autoname="yes" /> above has a missing part, or unknown number, that is marked by
+      <m>x.</m> To show <m>-5</m> is a solution of this equation, we replace <m>x</m> by <m>-5</m> and simplify the LHS.
     </p>
     <example xml:id="demonstrate-solution">
       <title>A Solution</title>
@@ -46,7 +42,7 @@
       Since we get a true statement <m>-4=-4</m>, <m>x=-5</m> IS a solution of the equation <m>4x + 16= -4.</m><m>\checkmark</m>
       </p>
     </example>
-    <p>Now the equation comes out to a true statement! Notice also that if another number, for example,
+    <p>Now the equation is a true statement! Notice also that if another number, for example,
       <m>3</m>, were plugged in for
       <m>x</m>, we would not get a true statement as seen in 
       <xref ref="not-a-solution" autoname="yes" />.
@@ -99,6 +95,8 @@
           <c>x = -12</c>, NOT just the value
           <c>-12</c>.
         </p>
+        <p> When you are solving an equation on paper, your final answer may be in the form <m>3=t</m>.  In WeBWorK, you must enter your answer with the variable on the left side of the equal sign: <c>t = 3</c>
+      </p>
       </assemblage>
     
     <!--  The same process is used in each of the following examples.
@@ -177,9 +175,7 @@
       </md>
     </p>
     </example>
-    <p>With multiplication problems it is very important that care is taken with signs. If
-      the variable is multiplied by a negative then we will multiply by the negative reciprocal 
-      (or divide by a negative.)</p>
+    <p>With multiplication problems it is very important that care is taken with signs. If the variable is multiplied by a negative number we multiply by its negative reciprocal (or divide by a negative.)</p>
     <example>
       <title>Negative Constant Multiple</title>
       <p>Solve the equation for
@@ -283,7 +279,7 @@
         <mrow>x=14\amp\amp\amp x=40 \amp\amp\amp x=-36</mrow>
       </md>-->
     </example>
-    <p>The process described above is fundamental to solving equations. Once this process is mastered, the problems we will see have several more steps. These problems may seem more complex, but the process and patterns used will remain the same.</p>
+    <p>The process described above is fundamental to solving equations. Soon, the problems we see will have several more steps. These problems may seem more complex, but the process and patterns used will remain the same.</p>
   </subsection>
   <subsection>
     <title>Linear Equations - Two-Step Equations</title>
@@ -319,7 +315,7 @@
       <mrow>x\amp =3 \amp\amp \text{Our Solution}\checkmark</mrow>
     </md>
   </p>
-    <p>One way we can check the correctness of Our Solution is to substitute
+    <p>To check the correctness of Our Solution we substitute
       <m>x=3</m> back in to the original equation:
     </p>
     <md>
@@ -335,7 +331,7 @@
     </md>
     <p>Since we get a true statement
       <m>-8=-8</m>, Our Solution
-      <m>x=3</m> is correct.<m>\checkmark\checkmark</m>
+      <m>x=3</m> is correct.<m>\checkmark</m>
     </p>
   </example>
 
@@ -356,13 +352,13 @@
         \(P\)}</mrow>
         <mrow>\overline{\,5\,}\phantom{1}\amp\phantom{12} \overline{\,5\,} \amp\amp \text{Divide both sides by
         \(5\) (recall
-        \(\frac{0}{5}=0\))}</mrow>
+        \(0/5=0\))}</mrow>
         <mrow>P\amp= 0 \amp\amp \text{Our Solution}\checkmark</mrow>
       </md>
     </p>
     </example>
-    <p>Notice the seven subtracted out completely! Many students get stuck on this point, do not forget that we have a number for "nothing left" and that number is zero. With this in mind the process is almost identical to our first example.</p>
-    <p>A common error students make with two-step equations is with negative signs. Remember the sign always stays with the number. Consider the following example.</p>
+    <p>Notice the seven subtracted out completely! Many students get stuck on this point, do not forget that we have a number for "nothing left" and that number is zero.</p>
+    <p>When solving two-step equations, remember the sign always stays with the number. Consider the following example.</p>
     <example>
       <title>Negative Coefficient</title>
       <p>
@@ -380,7 +376,7 @@
       </md>
     </p>
     </example>
-    <p>The same is true even if there the coefficient in front of the variable is a negative \(1\). Consider the next example.</p>
+    <p>The same is true even if the coefficient in front of the variable is a negative \(1\). Consider the next example.</p>
     <example>
       <title>Negative Coefficient</title>
       <p>
@@ -400,7 +396,7 @@
       </md>
     </p>
     </example>
-    <p>Solving two-step equations is a very important skill to master, as we study algebra. The first step is to add or subtract, the second is to multiply or divide. This pattern is seen in each of the following examples.</p>
+    <p>The first step is to add or subtract, the second is to multiply or divide. This pattern is seen in each of the following three examples.</p>
     <example>
       <title>More Two-Step Examples</title>
       <!--
@@ -461,8 +457,8 @@
   </subsection>
   <subsection>
     <title>Solving Linear Equations-General Equations</title>
-    <p>Often as we are solving linear equations we will need to do some work to set them up into a form we are familiar with solving. This section will focus on manipulating an equation we are asked to solve in such a way that we can use our pattern for solving two-step equations to ultimately arrive at the solution.</p>
-    <p>One such issue that needs to be addressed is parentheses. Often the parentheses can get in the way of solving an otherwise easy problem. As you might expect we can handle the parentheses by using the distributive property. This is shown in the following example. Notice the first step is distributing, then it is solved like any other two-step equation.</p>
+    <p>Often as we are solving linear equations we will need to do some work to set them up into a form we are familiar with solving. This section will focus on manipulating an equation so that we can use our pattern for solving two-step equations.</p>
+    <p>To handle the parentheses we use the distributive property. This is shown in the following example.</p>
     <example>
       <title>Distribute First</title>
       <p>Solve the equation for
@@ -509,7 +505,7 @@
       </md>
     </p>
     </example>
-    <p>A second type of problem that becomes a two-step equation after a bit of work is one where we see the variable on both sides. This is shown in the following example:</p>
+    <p>We may see the variable on both sides of an equation.</p>
     <example xml:id="example-collect-like-terms-first">
       <title>Collect Like Terms First</title>
       <p>Solve the equation for
@@ -622,11 +618,12 @@
           \(9\)}</mrow>
           <mrow>\overline{\,9\,}\amp\phantom{123}\overline{\,9\,} \amp\amp \text{Divide both sides by
           \(9\)}</mrow>
-          <mrow> 4\amp =z \amp\amp \text{Our Solution}\checkmark</mrow>
+          <mrow> 4\amp =z \amp\amp \text{ }</mrow>
+          <mrow> z\amp =4 \amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
       </p>
     </example>
-    <p>Linear equations can become particularly interesting when the two processes are combined. In the following problems we have parentheses and the variable on both sides. Notice in each of the following examples we distribute, then combine like terms, then move the variable to one side of the equation.</p>
+    <p>In the following problems we have parentheses and the variable on both sides. Notice in each of the following examples we distribute, then combine like terms, then move the variable to one side of the equation.</p>
     <example>
       <title>Distribute and Collect</title>
       <p>Solve the equation for
@@ -743,7 +740,8 @@
         \(3\)}</mrow>
         <mrow>\overline{\,3\,}\amp\phantom{123}\overline{\,3\,} \amp\amp \text{Divide both sides by
         \(3\)}</mrow>
-        <mrow>2\amp =x \amp\amp \text{Our Solution}\checkmark</mrow>
+        <mrow>2\amp =x \amp\amp \text{ }</mrow>
+        <mrow>x\amp =2 \amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
       </p>
       <p>
@@ -800,7 +798,7 @@
           <mrow>\lvert -5\rvert \amp =5</mrow>
         </md>
       </p>
-      <figure xml:id="figure-absolute-value-x-equal-5">
+ <!--     <figure xml:id="figure-absolute-value-x-equal-5"> -->
         <image xml:id="absolute-value-x-equal-5">
           <latex-image-code><![CDATA[
             \begin{tikzpicture} \draw[<->] (-5.5,0) -- (5.5,0);
@@ -817,7 +815,7 @@
                \node[anchor=south, color=M101_green] at (2.5,.5) {distance $=5$}; 
              \end{tikzpicture}]]></latex-image-code>
         </image>
-      </figure>
+ <!--     </figure> -->
     </sidebyside>
       <p>Thus when solving equations with absolute value we can end up with more than one possible answer. This is because the expression inside the absolute value can be either positive or negative and we must account for both possibilities when solving equations. This is illustrated in the following example.</p>
       <example>
@@ -826,10 +824,10 @@
           <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 84 pg 52-->
         </p>
         <md>
-          <mrow>\lvert x\rvert  = 7 \amp\amp\amp \text{Absolute value can be positive or negative}</mrow>
+          <mrow>\lvert x\rvert  = 5 \amp\amp\amp \text{Absolute value can be positive or negative}</mrow>
           <mrow>\text{
-            \(x=7\) or
-            \(x=-7\)} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
+            \(x=5\) or
+            \(x=-5\)} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
         <p>Notice that we have determined two possibilities, both the positive and negative. Either way, the absolute value of our number will be positive
           <m>7.</m>
@@ -838,9 +836,12 @@
       <assemblage>
         <title>WeBWorK: Entering Two Solutions</title>
         <p>Be sure to include the word "or" between the solutions:
-          <c>x = 7 or x = -7</c>.
+          <c>x = 5 or x = -5</c>.
         </p>
       </assemblage>
+      <p>
+        Absolute value may also be used to define the distance from a point other than zero.  Note that the "distance" between two numbers is the <term>positive difference</term> between the numbers--the absolute value.
+      </p>
       <example>
       <title>Distance Equation</title>
       <!-- Our own like WeBWorK 1C Problem 15-->
@@ -851,12 +852,36 @@
         <m>x</m> and write an absolute value equation that describes this situation.
       </p>
       <p>
+        The difference between <m>x</m> and <m>4</m> is <m>x-4</m> and the difference between the numbers could be to the right (<m>+7</m>) or to the left (<m>-7</m>) of <m>4</m>.
+        <!--REDO THE TEXT SO THAT EACH CALCULATION LINES UP WITH THE SIDE OF THE GRAPH THAT MATCHES IT.-->
+
+ <!--     <figure xml:id="figure-absolute-value-distance-from-4-is-7"> -->
+        <image xml:id="absolute-value-distance-from-4-is-7">
+          <latex-image-code><![CDATA[
+            \begin{tikzpicture} \draw[<->] (-4.5,0) -- (12.5,0);
+              \foreach \x in {-4,...,12}
+                \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x};
+               \fill[color=red] (-3,0) circle (.1cm);
+               \fill[color=red] (11,0) circle (.1cm);
+               \fill[color=blue] (4,0) circle (.1cm);
+               \draw[color=M101_green] (-3,.5) -- (11,.5);
+               \draw[color=M101_green] (-3,.4) -- (-3,.6);
+               \draw[color=M101_green] (4,.4) -- (4,.6);
+               \draw[color=M101_green] (11,.4) -- (11,.6);
+               \node[anchor=south, color=M101_green] at (0,.5) {$x-2=-3$};
+               \node[anchor=south, color=M101_green] at (7,.5) {$x-2=3$}; 
+             \end{tikzpicture}]]></latex-image-code>
+        </image>
+ <!--     </figure>  -->
+
       <md>
-        <mrow>  x\amp = 4+7 = 11\amp\amp \text{\(11\) is \(7\) units to the right of \(4\)}</mrow>
-        <mrow>  x\amp = 4-7 = -3\amp\amp \text{AND \(-3\) is \(7\) units to the left of \(4\)}</mrow>
-        <mrow>x=11\amp \text{ or } x=-3\amp\amp \text{Our Solution}\checkmark</mrow>
-        <mrow></mrow>
-        <mrow>\amp\lvert x-4 \rvert =7\amp\amp \text{Absolute value equation that describes this situation}\checkmark</mrow>
+        <mrow> \text{ Solve: } \amp x-4=7 \amp\amp \text{ \(x = 7+4 = 11\) is \(7\) units to the right of \(4\)}</mrow>
+        <mrow>  \text{ Solve: } \amp x-4=-7 \amp\amp \text{\(x = -7+4 = -3\) is \(7\) units to the left of \(4\)}</mrow>
+        <mrow> \amp x=11 \text{ or } x=-3\amp\amp \text{Our Solution}\checkmark</mrow>
+      </md>
+      To denote "the distance between the number <m>x</m> and <m>4</m> is <m>7</m>", we write the difference in absolute value.
+      <md>
+        <mrow>\lvert x-4\rvert =7\amp\amp \text{Absolute value equation that describes this situation}\checkmark</mrow>
       </md>
     </p>
     </example>
@@ -968,7 +993,10 @@
         </md>
       </p>
       </example> -->
-      <p>Again we see the same process: consider the distance to the left and right of the value. Often the absolute value will have more than just a variable in it. In this case we consider the positive and negative possibilities and solve the resulting equations. This is shown in the next example.</p>
+<!--      <p>Again we see the same process: consider the distance to the left and right of the value. Often the absolute value will have more than just a variable in it. In this case we consider the positive and negative possibilities and solve the resulting equations. This is shown in the next example.</p>
+-->
+      <p>The next few examples demonstrate the steps to solve a general absolute value equation. Remember that the expression <term>inside</term> the absolute value symbols may be positive or negative--the absolute value will make the value non-negative in the end--so, both possibilities must be solved for to determine all solutions to an absolute value equation.
+      </p>
       <example>
         <title>Absolute Value of an Expression</title>
         <p>Solve the equation for <m>x.</m>
@@ -976,21 +1004,21 @@
         </p>
         <p>
         <md>
-          <mrow>\lvert 2x-1\rvert  = 7 \amp\amp\amp \text{Absolute value can be positive or negative}</mrow>
+          <mrow>\lvert 2x-1\rvert  = 9 \amp\amp\amp \text{Consider both positive or negative values}</mrow>
           <mrow>\text{
-            \(2x-1=7\) or
-            \(2x-1=-7\)} \amp\amp\amp \text{Two equations to solve}</mrow>
+            \(2x-1=9\) or
+            \(2x-1=-9\)} \amp\amp\amp \text{Two equations to solve}</mrow>
         </md>
       </p>
         <p>Now notice we have two equations to solve, each equation will give us a different solution. Both equations solve (separately) like any other two-step equation.</p>
         <p>
         <md>
-          <mrow>2x-1=7\amp\amp\amp\text{ OR }\amp\amp\amp 2x-1=-7</mrow>
+          <mrow>2x-1=9\amp\amp\amp\text{ or }\amp\amp\amp 2x-1=-9</mrow>
           <mrow>\underline{+1\,+1}\amp\amp\amp\text{ }\amp\amp\amp\underline{+1\phantom{12}+1}</mrow>
-          <mrow>2x=8\amp\amp\amp\text{ }\amp\amp\amp 2x=-6</mrow>
+          <mrow>2x=10\amp\amp\amp\text{ }\amp\amp\amp 2x=-8</mrow>
           <mrow>\overline{2}\phantom{1234}\overline{2}\amp\amp\amp\phantom{1234}\amp\amp\amp\overline{2}\phantom{1234}\overline{\,2\,}</mrow>
-          <mrow>x=4\amp\amp\amp\text{ OR }\amp\amp\amp x=-3</mrow>
-          <mrow>x=4\amp\amp\amp \text{ or }x=-3\amp\amp\amp\text{Our Solution}\checkmark</mrow>
+          <mrow>x=5\amp\amp\amp\text{ }\amp\amp\amp x=-4</mrow>
+          <mrow>\amp\amp x=5\amp\text{ or } x=-4\amp\amp\amp\text{Our Solution}\checkmark</mrow>
         </md>
       </p>
       </example>
@@ -1037,11 +1065,11 @@
         </md>
       </p>
       </example>-->
-      <p>As we are solving absolute value equations it is important to be aware of special cases. Remember the result of an absolute value must always be nonnegative. Notice what happens in the next example.</p>
+      <p>Remember the result of an absolute value must always be nonnegative. Notice what happens in the next example.</p>
       <example>
         <title>Absolute Values Can't Be Negative</title>
         <p>
-          <!-- COue own-->
+          <!-- CofI own-->
         </p>
         <md>
           <mrow>\lvert 2x-5\rvert = -4 \amp\amp\amp \text{Notice the problem asks where the expression is negative}</mrow>

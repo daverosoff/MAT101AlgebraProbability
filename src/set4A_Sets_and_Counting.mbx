@@ -181,13 +181,13 @@
               <p>Consider the below graph of two intervals. The
                     <term>union</term> of the points in the graph would be all values in either the top interval OR in the bottom (or in both).</p>
               <sidebyside widths="55% 40%" valign="middle">
-              <figure xml:id="figure-intervals-overlapping">
+<!--              <figure xml:id="figure-intervals-overlapping">  -->
                 <image xml:id="intervals-overlapping">
                   <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                     <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=green] (2,1) circle (.1cm); \draw[green,
                       <-] (-5.5,1) -- (2,1); \draw[color=blue] (-2,.5) circle (.1cm); \draw[blue, ->] (-1.9,.5) -- (5.5,.5); \end{tikzpicture}]]></latex-image-code>
                     </image>
-                  </figure>
+<!--                  </figure>  -->
                   <paragraphs>
                   <p>For example,
                     <m>-3</m> is in the top interval
@@ -226,9 +226,9 @@
                     <term>intersection</term> of the points in the graph would be all values in both the top interval AND the bottom.  This is points common to both (or in the <term>overlap</term>).
                   </p>
                   <sidebyside widths="55% 40%" valign="middle">
-                  <figure xml:id="figure-intervals-overlapping-copy">
+<!--                  <figure xml:id="figure-intervals-overlapping-copy"> -->
                     <image source="images/intervals-overlapping.svg" />
-                  </figure>
+ <!--                 </figure>  -->
                   <paragraphs>
                   <p> For example,
                     <m>-3</m> is NOT in the bottom interval
@@ -259,13 +259,13 @@
                   <p>Recall the
                         <term>union</term> of the points in the graph would be all values in either the first interval OR in the second (or in both).</p>
                 <sidebyside widths="55% 40%" valign="middle">
-                  <figure xml:id="figure-intervals-overlapping2">
+<!--                  <figure xml:id="figure-intervals-overlapping2">  -->
                     <image xml:id="intervals-overlapping2">
                       <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                         <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-3,1) circle (.1cm); \draw[red,
                           <-] (-5.5,1) -- (-3,1); \draw[color=green] (4,.5) circle (.1cm); \draw[green, <-] (-5.5,.5) -- (3.9,.5); \end{tikzpicture}]]></latex-image-code>
                         </image>
-                      </figure>
+<!--                      </figure>  -->
                       <paragraphs>
                       <p>For example,
                         <m>-3</m> is in both the top and bottom intervals, so
@@ -295,9 +295,9 @@
                       <p>Consider the same two intervals of <xref ref="example-overlapping-intervals2" autoname="yes" />. Recall the
                         <term>intersection</term> of the points in the graph would be all values in both the first interval AND the second. This is points common to both (or in the <term>overlap</term>).</p>
                     <sidebyside widths="55% 40%" valign="middle">
-                      <figure xml:id="figure-intervals-overlapping2-copy">
+<!--                      <figure xml:id="figure-intervals-overlapping2-copy"> -->
                         <image source="images/intervals-overlapping2.svg" />
-                      </figure>
+<!--                      </figure>  -->
                       <paragraphs>
                       <p>For example,
                         <m>-3</m> is in both the top and bottom intervals, so
@@ -324,13 +324,13 @@
                         <term>union</term> of the points in the graph.
                       </p> 
                     <sidebyside widths="55% 40%" valign="middle">
-                      <figure xml:id="figure-interval-non-overlapping">
+<!--                      <figure xml:id="figure-interval-non-overlapping"> -->
                         <image xml:id="interval-non-overlapping">
                           <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                             <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=green] (1,1) circle (.1cm); \draw[green, ->] (1,1) -- (5.5,1); \fill[color=red] (-2,.5) circle (.1cm); \draw[red,
                               <-] (-5.5,.5) -- (-2,.5); \end{tikzpicture}]]></latex-image-code>
                             </image>
-                          </figure>
+<!--                          </figure>  -->
                         <p>Recall the
                             <term>union</term> of the points in the graph would be all values in either the first interval OR in the second (or in both).</p>
                           </sidebyside>
@@ -363,9 +363,9 @@
                           </p>
                           <p>Consider the same two intervals of <xref ref="example-non-overlapping" autoname="yes" />.</p>
                         <sidebyside widths="55% 40%" valign="middle">
-                          <figure xml:id="figure-interval-non-overlapping-copy">
+<!--                          <figure xml:id="figure-interval-non-overlapping-copy"> -->
                             <image source="images/interval-non-overlapping.svg" />
-                          </figure>
+<!--                          </figure>  -->
                           <p>The
                             <term>intersection</term> of the points in the graph would be all values common to both (overlap).
                           </p>
@@ -484,11 +484,11 @@
     <title>Venn Diagrams</title>
     <p><!--We now use Venn diagrams to illustrate the relations between sets.--> In the late 1800s, an English logician named John Venn developed a method to visualize relationships between sets. He represented these relationships using diagrams, which are now known as Venn diagrams. A Venn diagram represents a set as the interior of a circle. Often two or more circles are enclosed in a rectangle where the rectangle represents the universal set. To visualize an union or intersection of a set is easy.  Below are a few examples.</p>
     <sidebyside widths="45% 45%" valign="middle">
-      <figure xml:id="figure-Venn-A-union-B">
+ <!--     <figure xml:id="figure-Venn-A-union-B"> -->
         <image xml:id="Venn-A-union-B">
           <latex-image-code><![CDATA[\begin{tikzpicture}\draw \universe; \node[anchor=south east] at (current bounding box.south east) {$U$}; \node[anchor=south] at (current bounding box.north) {$A \cup B$}; \draw[filled] \firstcircle node {$A$} \secondcircle node {$B$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       <paragraphs>
       <p>The shaded region represents the collection of all elements that are either in
         <m>A</m> or in
@@ -501,11 +501,11 @@
     </paragraphs>
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
-      <figure xml:id="figure-Venn-A-intersect-B">
+<!--      <figure xml:id="figure-Venn-A-intersect-B">  -->
         <image xml:id="Venn-A-intersect-B">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe; \node[anchor=south east] at (current bounding box.south east) {$U$}; \begin{scope} \clip \firstcircle; \fill[filled] \secondcircle; \end{scope} \draw[outline] \firstcircle node {$A$}; \draw[outline] \secondcircle node {$B$}; \node[anchor=south] at (current bounding box.north) {$A \cap B$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       <paragraphs>
       <p>The shaded region represents the collection of all elements that are common to both
         <m>A</m> and
@@ -516,11 +516,11 @@
     </paragraphs>
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
-      <figure xml:id="figure-Venn-A-complement">
+<!--      <figure xml:id="figure-Venn-A-complement">  -->
         <image xml:id="Venn-A-complement">
           <latex-image-code><![CDATA[\begin{tikzpicture} \fill[color = M101_green!50!white ] \universe; \node[anchor=south east] at (current bounding box.south east) {$U$}; \draw \universe; \node[anchor=south] at (current bounding box.north) {$A'$}; \fill[color = white] \firstcircle; \draw[outline] \firstcircle node {$A$}; \draw[outline] \secondcircle node {$B$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       <paragraphs>
       <p>The shaded region represents the collection of all elements that are NOT in
         <m>A.</m></p>
@@ -640,7 +640,7 @@
           <m>n(A\cap S)=\color{red}{12}</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-cars-12">
+<!--      <figure xml:id="figure-venn-cars-12">  -->
         <image xml:id="venn-cars-12">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -648,7 +648,7 @@
             \draw[outline] \secondcircle node[shift={(1.5,1.5)}] {$S$};
             \node[shift={(1,0)}] {$\color{red}{12}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
       <paragraphs>
@@ -665,7 +665,7 @@
           <m>\color{green}{y}=n(S\cap A')</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-cars-12-x-y">
+<!--      <figure xml:id="figure-venn-cars-12-x-y"> -->
         <image xml:id="venn-cars-12-x-y">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -675,7 +675,7 @@
             \node[shift={(0,0)}] {$\color{blue}{x}$};
             \node[shift={(2,0)}] {$\color{green}{y}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+ <!--     </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -695,7 +695,7 @@
             <m>S</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-cars-12-18-y">
+<!--        <figure xml:id="figure-venn-cars-12-18-y">  -->
           <image xml:id="venn-cars-12-18-y">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
               \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -705,7 +705,7 @@
               \node[shift={(0,0)}] {$\color{blue}{18}$};
               \node[shift={(2,0)}] {$\color{green}{y}$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -725,7 +725,7 @@
             <m>A</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-cars-12-18-8">
+<!--        <figure xml:id="figure-venn-cars-12-18-8">  -->
         <image xml:id="venn-cars-12-18-8">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -735,7 +735,7 @@
             \node[shift={(0,0)}] {$\color{blue}{18}$};
             \node[shift={(2,0)}] {$\color{green}{8}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <p>Now that all the information is sorted out, it is easy to read from the diagram that:</p> 
@@ -776,7 +776,7 @@
             <m>\color{green}{y}=n(K\cap D')</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-parks-6-x-y">
+<!--        <figure xml:id="figure-venn-parks-6-x-y">  -->
           <image xml:id="venn-parks-6-x-y">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
               \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -786,7 +786,7 @@
               \node[shift={(0,0)}] {$\color{blue}{x}$};
               \node[shift={(2,0)}] {$\color{green}{y}$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -806,7 +806,7 @@
             <m>K</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-parks-6-54-y">
+<!--        <figure xml:id="figure-venn-parks-6-54-y">  -->
           <image xml:id="venn-parks-6-54-y">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
               \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -816,7 +816,7 @@
               \node[shift={(0,0)}] {$\color{blue}{54}$};
               \node[shift={(2,0)}] {$\color{green}{y}$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -836,7 +836,7 @@
             <m>D</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-parks-6-54-9">
+<!--        <figure xml:id="figure-venn-parks-6-54-9">  -->
           <image xml:id="venn-parks-6-54-9">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
               \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -846,7 +846,7 @@
               \node[shift={(0,0)}] {$\color{blue}{54}$};
               \node[shift={(2,0)}] {$\color{green}{9}$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -860,7 +860,7 @@
             <m>z=n(D\cup K)'</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-parks-6-54-9-z">
+<!--        <figure xml:id="figure-venn-parks-6-54-9-z">  -->
         <image xml:id="venn-parks-6-54-9-z">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -871,7 +871,7 @@
             \node[shift={(0,0)}] {$\color{blue}{54}$};
             \node[shift={(2,0)}] {$\color{green}{9}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure> -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
         <paragraphs>
@@ -891,7 +891,7 @@
             <m>(D\cup K)'</m>.
           </p>
         </paragraphs>
-        <figure xml:id="figure-venn-parks-solution">
+<!--        <figure xml:id="figure-venn-parks-solution">  -->
         <image xml:id="venn-parks-solution">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw \universe;
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -902,7 +902,7 @@
             \node[shift={(0,0)}] {$\color{blue}{54}$};
             \node[shift={(2,0)}] {$\color{green}{9}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+ <!--     </figure>  -->
     </sidebyside>
     <p>
       <md>
@@ -913,7 +913,7 @@
     <p>Looking back at the final Venn diagram of <xref ref="example-disneyland-knotts" autoname="yes" /> in which <m>100</m> people in California were surveyed, we can organize the results in a two-way table as follows:
     </p>
     <p>
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -945,7 +945,7 @@
             <cell><m>100</m></cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
       Notice from the above table, we can determine particular counts.  For example, at the bottom of the Disneyland column is the boxed number
       <m>\fbox{60}</m>, which is the total number of people surveyed who visited Disneyland.  The red
       <m>\color{red}{6}</m> is the intersection of row Knott's and column Disneyland, which is
@@ -1005,7 +1005,7 @@
           <m>\color{brown}{z}=n((S\cap C)\cap J')</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-survey-x-y-z">
+<!--      <figure xml:id="figure-venn-survey-x-y-z">  -->
         <image xml:id="venn-survey-x-y-z">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1017,7 +1017,7 @@
             \node[shift={(.25,-1)}] {$\color{green}{y}$};
             \node[shift={(1.75,-1)}] {$\color{brown}{z}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
       <paragraphs>
@@ -1041,7 +1041,7 @@
           <m>\color{red}{m}, \color{blue}{n},\color{green}{ p}</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-survey-m-n-p">
+<!--      <figure xml:id="figure-venn-survey-m-n-p">  -->
         <image xml:id="venn-survey-m-n-p">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1056,7 +1056,7 @@
             \node[shift={(2.25,.25)}] {$\color{blue}{n}$};
             \node[shift={(1,-2)}] {$\color{green}{p}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
       <paragraphs>
@@ -1076,7 +1076,7 @@
           <m>\color{green}{p = 22}</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-survey-interiors">
+<!--      <figure xml:id="figure-venn-survey-interiors"> -->
         <image xml:id="venn-survey-interiors">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1091,7 +1091,7 @@
             \node[shift={(2.25,.25)}] {$\color{blue}{12}$};
             \node[shift={(1,-2)}] {$\color{green}{22}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
       <paragraphs>
@@ -1103,7 +1103,7 @@
           <m>100-88=\color{red}{12}</m>.
         </p>
       </paragraphs>
-      <figure xml:id="figure-venn-survey-outside">
+<!--      <figure xml:id="figure-venn-survey-outside">  -->
         <image xml:id="venn-survey-outside">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1119,12 +1119,12 @@
             \node[shift={(1,-2)}] {$22$};
             \node[shift={(-1,-2.25)}] {$\color{red}{12}$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <sidebyside widths="45% 45%" valign="middle">
       <p>Our Solution<m>\checkmark</m>
       </p>
-       <figure xml:id="figure-venn-survey-solution">
+<!--       <figure xml:id="figure-venn-survey-solution">  -->
         <image xml:id="venn-survey-solution">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1140,7 +1140,7 @@
             \node[shift={(1,-2)}] {$22$};
             \node[shift={(-1,-2.25)}] {$12$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
   </example>
   <example>
@@ -1152,7 +1152,7 @@
     <p>The region which contains joggers who do not swim or cycle is highlighted in
       <m>\color{red}{\text{red}}</m>.
     </p>
-    <figure xml:id="figure-venn-survey-jog-not-swim-or-cycle">
+<!--    <figure xml:id="figure-venn-survey-jog-not-swim-or-cycle">  -->
         <image xml:id="venn-survey-jog-not-swim-or-cycle">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
           \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1171,7 +1171,7 @@
           \node[shift={(1,-2)}] {$22$};
           \node[shift={(-1,-2.25)}] {$12$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <p>Our Solution: <m>30</m> people jog but do not swim or cycle.<m>\checkmark</m></p>
   </example>
@@ -1184,7 +1184,7 @@
     <p>The regions which contain people taking part in exactly one activity are highlighted in
       <m>\color{blue}{\text{blue}}</m>.
     </p>
-    <figure xml:id="figure-venn-survey-one-activity">
+<!--    <figure xml:id="figure-venn-survey-one-activity">  -->
         <image xml:id="venn-survey-one-activity">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (-2,-3.5) rectangle (4,2);
             \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -1215,7 +1215,7 @@
             \node[shift={(1,-2)}] {$22$};
             \node[shift={(-1,-2.25)}] {$12$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+ <!--     </figure>  -->
     </sidebyside>
     <p>Our Solution: <m>30+12+22=64</m> people jog but do not swim or cycle.<m>\checkmark</m></p>
   </example>
@@ -1227,7 +1227,7 @@
     <sidebyside widths="45% 45%" valign="middle">
     <p>The region which contains people who do not take part in any of these activities is highlighted in <m>\color{green}{\text{green}}</m>.
     </p>
-    <figure xml:id="figure-venn-survey-none">
+<!--    <figure xml:id="figure-venn-survey-none">  -->
         <image xml:id="venn-survey-none">
           <latex-image-code><![CDATA[\begin{tikzpicture} \fill [color = green!30!white ] (-2,-3.5) rectangle (4,2);
             \draw (-2,-3.5) rectangle (4,2);
@@ -1247,7 +1247,7 @@
             \node[shift={(1,-2)}] {$22$};
             \node[shift={(-1,-2.25)}] {$12$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <p>Our Solution: <m>12</m> people do not take part in any of these activities.<m>\checkmark</m></p>
   </example>
@@ -1281,7 +1281,7 @@
           <m>8</m> dinner special combinations.</li>
         </ol>
       </p>
-      <figure xml:id="figure-tree-8-leaves">
+<!--      <figure xml:id="figure-tree-8-leaves">  -->
         <image xml:id="tree-8-leaves">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (0,0) -- (3,4) node[shift={(.25,0)}] {$a_1$};
             \draw (3.5, 4) -- (6.5,7) node[shift={(1.25,0)}] {$m_1\rightarrow a_1,m_1$};
@@ -1294,7 +1294,7 @@
             \draw (3.5, -4) -- (6.5,-5) node[shift={(1.25,0)}] {$m_3\rightarrow a_2,m_3$};
             \draw (3.5, -4) -- (6.5,-7) node[shift={(1.25,0)}] {$m_4\rightarrow a_2,m_4$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <p>Our Solution: There are
           <m>8</m> possible different dinner combinations  consisting of one appetizer and one main course. For example, one combination
@@ -1341,7 +1341,7 @@
           <m>2\times 4\times 3 = 24</m> endpoints, one for each of the
           <m>24</m> dinner special combinations.</p>
         </paragraphs>
-      <figure xml:id="figure-tree-24-leaves">
+<!--      <figure xml:id="figure-tree-24-leaves">  -->
         <image xml:id="tree-24-leaves">
           <latex-image-code><![CDATA[\begin{tikzpicture} \draw (0,0) -- (3,4) node[shift={(.25,0)}] {$a_1$};
             \draw (3.5, 4) -- (6.5,7) node[shift={(0.4,0)}] {$m_1$};
@@ -1378,7 +1378,7 @@
             \draw (7.25, -7) -- (9,-7) node[shift={(1.5,0)}] {$d_2\rightarrow a_2,m_4,d_2$};
             \draw (7.25, -7) -- (9,-7.5) node[shift={(1.5,0)}] {$d_3\rightarrow a_2,m_4,d_3$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </sidebyside>
     <p>Our Solution: There are
         <m>24</m> possible different dinner combinations consisting of one appetizer, one main course, and one dessert.<m>\checkmark</m>
@@ -1391,7 +1391,7 @@
     <p>Let us now try to solve <xref ref="example-3-step-tree" autoname="yes" /> without a tree diagram. Recall that the problem involved three steps: choosing an appetizer, choosing a main course, and choosing a dessert. The number of ways of choosing each are listed below:
     </p>
     <p>
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1408,7 +1408,7 @@
             <cell><m>3</m></cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
     </p>
     <p>By multiplying these three numbers we get
       <m>2\cdot 4\cdot 3=24</m>, which is what we got when we did the problem using a tree diagram.  The procedure we just employed is called the <term>multiplication axiom</term>:
@@ -1429,7 +1429,7 @@
     <p>Since there are <m>26</m> letters and <m>10</m> digits, we have the number of choices for each listed in the below table.
     </p>
     <p>
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1452,7 +1452,7 @@
             <cell><m>10</m></cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
       <md>
         <mrow>26\cdot 10 \cdot 10 \cdot 10 \cdot 10\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
         <mrow>260,000\amp\amp\amp\text{Our Solution:}</mrow>
@@ -1467,7 +1467,7 @@
       <m>3</m>-question true-false test be answered?
     </p>
     <p>Since there are two choices for each question, we have:
-    <table>
+<!--    <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1484,7 +1484,7 @@
             <cell><m>2</m></cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
       <md>
         <mrow>2\cdot 2 \cdot 2\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
         <mrow>8\amp\amp\amp\text{Our Solution: There are
@@ -1504,7 +1504,7 @@
     <p>Suppose we put four chairs in a row, and proceed to put four people in these seats.</p>
     <p>There are four choices for the first chair we choose. Once a person sits down in that chair, there are only three choices for the second chair, and so on. We list as shown below:</p>
     <p>
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1524,7 +1524,7 @@
             <cell><m>2</m></cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
       <md>
         <mrow>4\cdot 3\cdot 2\cdot 1\amp\amp\amp \text{Multiply the possibilities using the Multiplication Axiom}</mrow>
         <mrow>24 \amp\amp\amp\text{Our Solution: There are \(24\) different ways.}\checkmark</mrow>
