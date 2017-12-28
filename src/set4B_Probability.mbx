@@ -111,7 +111,7 @@
         <xref ref="section-4A-sets-and-counting" />.
       </p>
       <p>
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor" right="minor">
           <col right="minor" />
           <col right="minor" />
@@ -134,7 +134,7 @@
             </cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  --> 
       <md>
         <mrow>2\cdot 2 \cdot 2\amp\amp\amp \text{Multiply the possibilities using the
           <term>Multiplication Axiom</term>}
@@ -150,11 +150,11 @@
             <m>BGB</m>, for example, indicates that the first born is a boy, the second born a girl, and the third a boy.
           </p>
         </paragraphs>
-        <figure xml:id="figure-tree-gender">
+<!--        <figure xml:id="figure-tree-gender">  -->
           <image xml:id="tree-gender">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$}; \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$}; \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$}; \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$}; \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$}; \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$}; \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$}; \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$}; \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$}; \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-        </figure>
+<!--        </figure>  -->
       </sidebyside>
       <md>
         <mrow>SS=\{BBB,BBG,BGB,BGG,GBB,GBG,GGB,GGG \} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
@@ -188,7 +188,7 @@
       <p>Two fair dice are rolled. Write the sample space.
       </p>
       <p>We assume one of the dice is red, and the other green. We create a table as before:
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col right="minor" />
           <col right="minor" />
@@ -366,7 +366,7 @@
             </cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
       <md>
         <mrow>SS=\{(1,1), (1,2),...,(6,6) \} \amp\amp\amp \text{Our Solution:}</mrow>
       </md>
@@ -487,7 +487,7 @@
       <title>One-Way Table Probabilities</title>
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.1 Homework Problem 1, page 113 -->
       <p>A bag of chocolate candies contained the following distribution of colors.
-      <table>
+<!--      <table>  -->
         <tabular halign="center" top="minor" left="minor">
           <col right="minor" />
           <col right="minor" />
@@ -534,7 +534,7 @@
             </cell>
           </row>
         </tabular>
-      </table>
+<!--      </table>  -->
         If all of the candies are placed in a bowl and one is selected at random, determine the probability of selecting the following candies.</p>
         <p>(a) Determine the probability of selecting a blue candy. Label the event space <m>B</m> for blue.
         <md>
@@ -554,7 +554,7 @@
         <title>Two-Way Table Probabilities</title>
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
         <p>The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-        <table>
+<!--        <table>  -->
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -597,7 +597,7 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>  -->
         Determine the following probabilities.</p>
         <p>(a) Determine the probability that a survivor was female. Label the event space <m>F</m> for female.
         <md>
@@ -642,7 +642,7 @@
             <p>We completed the Venn diagram at the right.
             </p>
           </paragraphs>
-          <figure xml:id="figure-venn-parks-solution">
+ <!--         <figure xml:id="figure-venn-parks-solution">  -->
             <image xml:id="venn-parks-solution">
               <latex-image-code><![CDATA[
                       \begin{tikzpicture}
@@ -656,7 +656,7 @@
                         \node[shift={(2,0)}] {$\color{green}{9}$};
                       \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+ <!--         </figure>  -->
         </sidebyside>
         <p>(a) Determine the probability that a person surveyed went to Disneyland. Label the event space <m>D</m> for Disneyland.
         <md>

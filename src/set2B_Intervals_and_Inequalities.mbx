@@ -10,8 +10,7 @@
   </introduction>
   <subsection>
     <title>Intervals and Inequalities</title>
-    <p>When
-      <m>x = 4</m> we have a specific value for our variable. With inequalities we will give a range of values for our variable. To do this we will not use an equals sign, but one of the following symbols:
+    <p>When we solve an equation we find a single value for our variable. With inequalities we will give a range of values for our variable. To do this we will not use an equals sign, but one of the following symbols:
     
     <md>
       <mrow>\gt \amp\amp\amp \text{Greater than}</mrow>
@@ -32,7 +31,7 @@
         </c> for <m>\leq</m> (greater than or equal to)
       </p>
     </assemblage>
-    <p>If we have an expression such as
+    <p>The expression 
       <m>x \lt 4</m> this means our variable <m>x</m> can be any number smaller than
       <m>4</m> such as
       <m>-2, 0, 3, 3.9</m> or even
@@ -41,15 +40,15 @@
       <m>x \lt 4</m> is the set of all numbers less than
       <m>4</m>. <alert>4 is NOT less than 4</alert>.  We write <m>4\nless 4</m>.  However <m>4</m> IS less than or equal to <m>4</m>.  We write <m>4\leq 4</m>.
     </p>
-    <p>If we have an expression such as
-      <m>y \geq -2,</m> this means our variable <m>y</m> can be any number greater than or equal to
+    <p>The expression 
+      <m>y \geq -2,</m> means that the variable <m>y</m> can be any number greater than or equal to
       <m>-2,</m> such as
       <m>5, 0,-1,-1.9999,</m> or even
       <m>-2</m>. In other words,
       <m>x \geq -2</m> is the set of all numbers greater than or equal to
       <m>-2</m>.
     </p>
-    <p>Because we don't have one set value for our variable, it is often useful to draw a picture of the solutions to the inequality on a number line. We will start from the value in the problem and bold the lower part of the number line if the variable is smaller than the number, and bold the upper part of the number line if the variable is larger. The value itself we will mark with an open or closed circle: open for less than or greater than, and a closed circle for less than or equal to or greater than or equal to.</p>
+    <p>It is often useful to draw a picture of the solutions to the inequality on a number line. We will start from the value in the problem and bold the lower part of the number line if the variable is smaller than the number, and bold the upper part of the number line if the variable is larger. The value itself we will mark with an open or closed circle: open for less than or greater than, and a closed circle for less than or equal to or greater than or equal to.</p>
     <p>Once the graph is drawn we can quickly convert the graph into what is called <term>interval notation</term>. Interval notation gives two numbers, the first is the smallest value (furthest left on the number line), the second is the largest value (furthest right on the number line). We will use square brackets if the inequality includes
       <em>or equal to</em> (so either
       <m>\leq</m> or
@@ -64,12 +63,12 @@
         <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 151 pg 119 and WeBWorK Problems/MAT105_Templates/setAlgebra_04_01_LinearInequalities/41IntAlg_03_LinearIneq.pg-->
       <p>Graph the inequality <m>x\geq 4</m> and give the interval notation.
         <sidebyside widths="55% 40%" valign="middle">
-          <figure xml:id="figure-interval-x-geq-4">
+ <!--         <figure xml:id="figure-interval-x-geq-4"> -->
             <image xml:id="interval-x-geq-4">
               <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                 <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[fill=red] (4,.5) circle (.1cm); \draw[->, red] (4,.5) -- (5.5,.5); \end{tikzpicture} ]]></latex-image-code>
               </image>
-            </figure>
+ <!--           </figure>  -->
             <paragraphs>
               <p>Start at <m>4</m> and shade to the right. Use a closed circle for greater than or equal to.
               </p>
@@ -94,13 +93,13 @@
         <p>Graph the inequality <m>x\lt -4</m> and give the interval notation.
           <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 151 pg 119 and WeBWorK Problems/MAT105_Templates/setAlgebra_04_01_LinearInequalities/41IntAlg_02_LinearIneq.pg -->
         <sidebyside widths="55% 40%" valign="middle">
-          <figure xml:id="figure-interval-x-lt-neg4">
+ <!--         <figure xml:id="figure-interval-x-lt-neg4">  -->
             <image xml:id="interval-x-lt-neg4">
               <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                 <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-4,.5) circle (.1cm); \draw[
                   <-, red] (-5.5,.5) -- (-4.1,.5); \end{tikzpicture} ]]></latex-image-code>
                 </image>
-              </figure>
+  <!--            </figure>  -->
           <paragraphs>
             <p>Start at <m>-4</m> and shade to the left. Use an open circle for less than.
             </p>
@@ -123,12 +122,12 @@
       <p>Graph the inequality <m>-3\lt x \lt 1</m> and give the interval notation.
         <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 151 pg 119 and WeBWorK MAT105_Templates/setAlgebra_04_01_LinearInequalities/41IntAlg_04_LinearIneq.pg -->
       <sidebyside widths="55% 40%" valign="middle">
-          <figure xml:id="figure-interval-neg3-lt-x-lt-1">
+ <!--         <figure xml:id="figure-interval-neg3-lt-x-lt-1">  -->
               <image xml:id="interval-neg3-lt-x-lt-1">
                 <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                   <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \draw[color=blue] (1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (.9,.5); \end{tikzpicture} ]]></latex-image-code>
                 </image>
-              </figure>
+ <!--             </figure>  -->
           <paragraphs>
             <p>Start at <m>-3</m> and shade to the right to <m>1</m>. Use open circles on both ends for less than.
             </p>
@@ -144,7 +143,7 @@
           </subsection>
           <subsection>
             <title>Linear Inequalities</title>
-            <p>Solving inequalities is very similar to solving equations with one exception. Consider the following inequality and what happens when various operations are done to it. Notice what happens to the inequality sign as we add, subtract, multiply and divide by both positive and negative numbers to keep the statement a true statement.</p>
+            <p>Solving inequalities is very similar to solving equations with one exception. Consider the following inequality and notice what happens to the inequality sign as we add, subtract, multiply and divide by both positive and negative numbers to keep the statement a true statement.</p>
             <p>
               <md>
                 <mrow>\text{Start with the true statement }5\amp\gt 1 \amp\amp \text{Add \(3\) to both sides}</mrow>
@@ -193,14 +192,14 @@
                 <mrow>\overline{-2}\amp\phantom{12}\overline{-2} \amp\amp \text{Divide by a negative: flip inequality sign!}</mrow>
                 <mrow>x\amp\color{red}{\leq}\color{black}{}-3 \amp\amp \text{Graph, starting at \(-3\), going left with a solid circle for less than or equal to}</mrow>
               </md>
-              <sidebyside widths="55% 40%" valign="middle">
-                <figure xml:id="figure-inequality-solution-x-leq-neg3">
+              <sidebyside widths="55% 40%" valign="middle">  
+ <!--               <figure xml:id="figure-inequality-solution-x-leq-neg3">  -->
                   <image xml:id="inequality-solution-x-leq-neg3">
                     <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                       <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-3,.5) circle (.1cm); \draw[red,
                         <-] (-5.5,.5) -- (-3,.5); \end{tikzpicture} ]]></latex-image-code>
                       </image>
-                    </figure>
+ <!--                   </figure>  -->
                   <paragraphs>
                     <p>Our Graph<m>\checkmark</m></p>
                     <p>Interval notation:
@@ -229,12 +228,12 @@
                   <mrow>4\amp\lt x \amp\amp \text{Be careful with graph, \(x\) is larger!}</mrow>
                 </md>
                 <sidebyside widths="55% 40%" valign="middle">
-                  <figure xml:id="figure-inequality-solution-x-gt-4">
+ <!--                 <figure xml:id="figure-inequality-solution-x-gt-4">  -->
                     <image xml:id="inequality-solution-x-gt-4">
                       <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                         <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (4,.5) circle (.1cm); \draw[blue, ->] (4.1,.5) -- (5.5,.5); \end{tikzpicture} ]]></latex-image-code>
                       </image>
-                    </figure>
+ <!--                   </figure>  -->
                     <paragraphs>
                       <p>Our Graph<m>\checkmark</m></p>
                       <p>Interval notation:
@@ -246,7 +245,7 @@
             </example>
             <p>It is important to be careful when the inequality is written backwards as in the previous example (
               <m>4 \lt x</m> rather than
-              <m>x \gt 4</m>). Often students draw their graphs the wrong way when this is the case. The inequality symbol opens to the variable, this means the variable is greater than
+              <m>x \gt 4</m>). The inequality symbol opens to the variable, this means the variable is greater than
               <m>4</m>. So we must shade to the right of
               <m>4</m>.
             </p>
@@ -264,12 +263,12 @@
                           <p><m>-4\leq 2x-4 \lt 2</m></p>
                           <p>The inequality requires the expression <m>\color{blue}{2x-4}</m> to lie in the interval <m>[-4,2)</m></p>
                         </paragraphs>
-                        <figure xml:id="figure-inequality-solution-neg4-leq-2x-4-lt-2">
+ <!--                       <figure xml:id="figure-inequality-solution-neg4-leq-2x-4-lt-2">  -->
                           <image xml:id="inequality-solution-neg4-leq-2x-4-lt-2">
                             <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                               <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=blue] (-4,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-4,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (-1,.5) {$2x-4$}; \end{tikzpicture} ]]></latex-image-code>
                             </image>
-                          </figure>
+ <!--                         </figure>   -->
                         </sidebyside>
                       <md>
                         <mrow>-4\leq 2x-4 \lt 2 \amp\amp\amp \text{Add \(4\) to all three parts of the compound inequality}</mrow>
@@ -282,12 +281,12 @@
                         <p>
                           <m>0\leq \color{red}{x} \lt 3</m>
                         </p>
-                        <figure xml:id="figure-inequality-solution-zero-leq-x-lt-3">
+<!--                        <figure xml:id="figure-inequality-solution-zero-leq-x-lt-3">  -->
                           <image xml:id="inequality-solution-zero-leq-x-lt-3">
                             <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                               <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (0,.5) circle (.1cm); \draw[color=red] (3,.5) circle (.1cm); \draw[red] (0,.5) -- (2.9,.5); \node[anchor=south, color=red] at (1.5,.5) {$x$}; \end{tikzpicture} ]]></latex-image-code>
                             </image>
-                          </figure>
+ <!--                         </figure>  -->
                         </sidebyside>
                         <md>
                           <mrow>0\leq x \lt 3 \amp\amp\amp \text{Our Solution: Inequality Notation}\checkmark</mrow>
@@ -304,12 +303,12 @@
                               <p><m>-3\lt 7-2x \leq -1</m></p>
                               <p>The inequality requires the expression <m>\color{blue}{7-2x}</m> to lie in the interval <m>(-3,-1]</m></p>
                             </paragraphs>
-                            <figure xml:id="figure-inequality-solution-neg3-leq-7-2x-lt-neg1">
+ <!--                           <figure xml:id="figure-inequality-solution-neg3-leq-7-2x-lt-neg1">  -->
                               <image xml:id="inequality-solution-neg3-leq-7-2x-lt-neg1">
                                 <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                                   <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \fill[color=blue] (-1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (-1,.5); \node[anchor=south, color=blue] at (-2,.5) {$7-2x$}; \end{tikzpicture} ]]></latex-image-code>
                                 </image>
-                              </figure>
+ <!--                             </figure>  -->
                             </sidebyside>
                           <md>
                             <mrow>-3\lt 7-2x \leq -1 \amp\amp\amp \text{Subtract \(7\) from all three parts of the compound inequality}</mrow>
@@ -322,12 +321,12 @@
                           <sidebyside widths="20% 20% 55%" valign="middle">
                             <p></p>
                             <p><m>5\gt \color{red}{x}\geq 4</m></p>
-                            <figure xml:id="figure-inequality-solution-4-leq-x-lt-5">
+ <!--                           <figure xml:id="figure-inequality-solution-4-leq-x-lt-5">  -->
                               <image xml:id="inequality-solution-4-leq-x-lt-5">
                                 <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                                   <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (4,.5) circle (.1cm); \draw[color=red] (5,.5) circle (.1cm); \draw[red] (4,.5) -- (4.9,.5); \node[anchor=south, color=red] at (4.5,.5) {$x$}; \end{tikzpicture} ]]></latex-image-code>
                                 </image>
-                              </figure>
+ <!--                             </figure>  -->
                             </sidebyside>
                             <md>
                               <mrow>4\leq x \lt 5 \amp\amp\amp \text{Our Solution: Inequality Notation}\checkmark</mrow>
@@ -351,21 +350,23 @@
 <m>2</m> units away from zero are indicated.
 </p>
 <p align="center">
-<figure xml:id="figure-absolute-value-x-lt-2">
+<!--<figure xml:id="figure-absolute-value-x-lt-2">-->
 <image xml:id="absolute-value-x-lt-2">
   <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
     <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-2,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-1.9,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (0,.5) {$-2
       <x<2$}; \end{tikzpicture} ]]></latex-image-code>
     </image>
-  </figure>
+ <!-- </figure>  -->
 </p>
 <p>This graph looks just like the graphs of the three part compound inequalities! When the absolute value is less than a positive number we will determine the solutions to the inequality by changing the problem to a three-part inequality, with the negative value on the "lesser than end" and the positive value on the "greater than end":
   <md>
     <mrow>\lvert x\rvert  \lt 2 \text{ is equivalent to  } \color{blue}{-2 \lt x \lt 2}</mrow>
   </md>as the graph above illustrates.
 </p>
-<p>Consider
-  <m>\lvert x\rvert \gt 2</m>.
+<p>Now consider
+  <md>
+<mrow>\lvert x\rvert \gt 2.</mrow>
+</md>
 </p>
 <p>Keep in mind, absolute value is defined as distance from zero. This inequality represents the values which are  
   <b>greater</b> than
@@ -374,13 +375,13 @@
   <m>2</m> units away from zero.
 </p>
 <p align="center">
-  <figure xml:id="figure-absolute-value-x-gt-2">
+<!--  <figure xml:id="figure-absolute-value-x-gt-2">  -->
     <image xml:id="absolute-value-x-gt-2">
       <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
         <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-2,.5) circle (.1cm); \draw[red,
           <-] (-5.5,.5) -- (-2.1,.5); \node[anchor=south, color=red] at (-4,.5) {$x<-2$}; \draw[color=blue] (2,.5) circle (.1cm); \draw[blue, ->] (2.1,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x>2$}; \end{tikzpicture} ]]></latex-image-code>
         </image>
-      </figure>
+<!--      </figure>  -->
     </p>
     <p>When the absolute value is greater than a positive number we find the solution by rewriting the absolute value inequality as two inequalities.  The first inequality is used to determine the solutions greater than the positive number, the second inequality yields the solutions which are less than the negative of the number:
       <md>
@@ -405,30 +406,32 @@
       </p>
     </assemblage>
     <p>We can solve absolute value inequalities much like we solved absolute value equations.
-      <ol>
-        <!-- <li>Isolate the absolute value</li> <ul> <li>If <m>\lvert \cdot\rvert </m> is less than a negative number, <font color="#FF0000"/> STOP: No solution </li> </ul>-->
-        <li>"Remove" the absolute value</li>
-        <ul>
+    </p>
+    <!--  <ol>-->
+    <aside>
+      <p>To solve an absolute value inequality:</p>
+        <p>1."Remove" the absolute value</p>
+      <ul>
           <li>If
             <m>\lvert \text{expression}\rvert \lt p</m> is
-            <b>less than a positive number</b> make a three part inequality:
+            <term>less than a positive number</term> make a three part inequality:
             <m>-p\lt \text{expression}\lt p</m>
           </li>
           <li>If
             <m>\lvert \text{expression}\rvert \gt p</m> is
-            <b>greater than a positive number</b> make an OR inequality:
-            <m>\text{expression}\gt p</m> or
-            <m>\text{expression}\lt -p</m>
+            <term>greater than a positive number</term> make an OR inequality:
+            <m>\text{expression}\lt -p</m> or
+            <m>\text{expression}\gt p</m>
           </li>
-        </ul>
-        <li>Solve the inequalities</li>
-        <ul>
+       </ul>
+        <p>2. Solve the inequalities</p>
+       <ul>
           <li>
-            <b>Important:</b> if we multiply or divide by a negative number the inequality symbol will switch directions!
+            <term>Important:</term> if we multiply or divide by a negative number the inequality symbol will switch directions!
           </li>
-        </ul>
-      </ol>
-    </p>
+       </ul>
+      <!--</ol>-->
+    </aside>
     <example>
       <title>Absolute Value Inequality: Less than</title>
         <!--Our own -->
@@ -440,7 +443,7 @@
           <mrow>-1 \lt x \lt 5 \amp\amp\amp \text{Graph}</mrow>
         </md>
         <sidebyside widths="55% 40%" valign="middle">
-          <figure xml:id="figure-absolute-value-neg1-lt-x-lt-5">
+<!--          <figure xml:id="figure-absolute-value-neg1-lt-x-lt-5">  -->
             <image xml:id="absolute-value-neg1-lt-x-lt-5">
               <latex-image-code><![CDATA[\begin{tikzpicture} \draw[<->] (-5.5,0) -- (5.5,0); 
                   \foreach \x in {-5,...,5} 
@@ -451,7 +454,7 @@
                   \draw[M101_green] (-.9,.5) -- (4.9,.5);  
                   \node[anchor=south, color=M101_green] at (2,.5) {$-1 < x < 5$}; \end{tikzpicture}]]></latex-image-code>
                 </image>
-              </figure>
+ <!--             </figure>  -->
               <paragraphs>
                 <p>Our Graph
                   <m>\checkmark</m>
@@ -503,7 +506,7 @@
               <mrow>\color{red}{x\leq -4}\amp\text{  OR  }\phantom{1234}\color{blue}{x\geq 2} \amp\amp \text{Graph the solutions}</mrow>
             </md>
             <sidebyside widths="55% 40%" valign="middle">
-              <figure xml:id="figure-absolute-value-x-plus-1-geq-3">
+<!--              <figure xml:id="figure-absolute-value-x-plus-1-geq-3">  -->
                 <image xml:id="absolute-value-x-plus-1-geq-3">
                   <latex-image-code><![CDATA[\begin{tikzpicture} \draw[<->] (-5.5,0) -- (5.5,0); 
     \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; 
@@ -515,7 +518,7 @@
     \node[anchor=south, color=blue] at (4,.5) {$x\geq 2$}; \end{tikzpicture} ]]>
                     </latex-image-code>
                   </image>
-                </figure>
+<!--                </figure>  -->
               <paragraphs>
                 <p>Our Graph
                   <m>\checkmark</m>
@@ -589,41 +592,40 @@
       </md>
     </p>
     </example>
-            <p>The essential idea of the absolute value is to denote distance from a given value. It may also be used in more complicated expressions.  Determining solutions in these cases requires putting to use mathematical tools from this section.</p>
-            <example>
-              <title>Absolute Value Inequality</title>
-              <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 160 pg 129-->
-              <p>Solve, graph, and give interval notation for the solution.
-                <md>
-                  <mrow>\amp\lvert 4x-5\rvert \geq 6 \amp\amp \text{Absolute value is greater than a positive number,}</mrow>
-                  <mrow>\amp\amp\amp\text{use OR inequality}</mrow>
-                  <mrow>4x-5\leq -6\amp\text{ OR } 4x-5\geq 6 \amp\amp \text{Solve both inequalities}</mrow>
-                  <mrow>\underline{+5\phantom{1}+5}\amp\phantom{1234567}\underline{+5\phantom{1}+5} \amp\amp \text{Add \(5\) to both sides of each inequality}</mrow>
-                  <mrow>4x\leq -1\amp\text{ OR }\phantom{123} 4x\geq 11 \amp\amp \text{Divide both sides by \(4\)}</mrow>
-                  <mrow>\overline{4}\phantom{1234}\overline{4}\amp\phantom{1234567}\overline{4}\phantom{12345}\overline{4} \amp\amp </mrow>
-                  <mrow>\color{blue}{x\leq -\dfrac{1}{4}}\amp\text{ OR }\phantom{1234}\color{red}{x\geq \dfrac{11}{4}} \amp\amp \text{Graph the solutions}</mrow>
-                </md>
-                <sidebyside widths="55% 40%" valign="middle">
-                  <figure xml:id="figure-absolute-value-4x-5-geq-6">
-                    <image xml:id="absolute-value-4x-5-geq-6">
-                      <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                        <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-.25,.5) circle (.1cm); \draw[red,
-                          <-] (-5.5,.5) -- (-.35,.5); \node[anchor=south, color=red] at (-3,.5) {$x\leq -\frac{1}{4}$}; \fill[color=blue] (2.75,.5) circle (.1cm); \draw[blue, ->] (2.85,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x\geq\frac{11}{4}$}; \end{tikzpicture} ]]></latex-image-code>
-                        </image>
-                      </figure>
-                  <paragraphs>
-                    <p>Our Graph
-                      <m>\checkmark</m>
-                    </p>
-                    <p>Interval notation:</p>
-                    <p>
-                      <m>\left(-\infty,-\dfrac{1}{4}\right]\cup\left[\dfrac{11}{4},\infty\right)\checkmark</m>
-                    </p>
-                </paragraphs>
-              </sidebyside>
-            </p>
-          </example>
-        <example>
+    <example>
+       <title>Absolute Value Inequality</title>
+        <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 160 pg 129-->
+       <p>Solve, graph, and give interval notation for the solution.
+          <md>
+          <mrow>\amp\lvert 4x-5\rvert \geq 6 \amp\amp \text{Absolute value is greater than a positive number,}</mrow>
+          <mrow>\amp\amp\amp\text{use OR inequality}</mrow>
+          <mrow>4x-5\leq -6\amp\text{ OR } 4x-5\geq 6 \amp\amp \text{Solve both inequalities}</mrow>
+          <mrow>\underline{+5\phantom{1}+5}\amp\phantom{1234567}\underline{+5\phantom{1}+5} \amp\amp \text{Add \(5\) to both sides of each inequality}</mrow>
+          <mrow>4x\leq -1\amp\text{ OR }\phantom{123} 4x\geq 11 \amp\amp \text{Divide both sides by \(4\)}</mrow>
+          <mrow>\overline{4}\phantom{1234}\overline{4}\amp\phantom{1234567}\overline{4}\phantom{12345}\overline{4} \amp\amp </mrow>
+          <mrow>\color{blue}{x\leq -\dfrac{1}{4}}\amp\text{ OR }\phantom{1234}\color{red}{x\geq \dfrac{11}{4}} \amp\amp \text{Graph the solutions}</mrow>
+          </md>      
+          <sidebyside widths="55% 40%" valign="middle">
+<!--          <figure xml:id="figure-absolute-value-4x-5-geq-6">  -->
+          <image xml:id="absolute-value-4x-5-geq-6">
+            <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
+            <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-.25,.5) circle (.1cm); \draw[red,
+              <-] (-5.5,.5) -- (-.35,.5); \node[anchor=south, color=red] at (-3,.5) {$x\leq -\frac{1}{4}$}; \fill[color=blue] (2.75,.5) circle (.1cm); \draw[blue, ->] (2.85,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x\geq\frac{11}{4}$}; \end{tikzpicture} ]]></latex-image-code>
+           </image>
+<!--           </figure>  -->
+           <paragraphs>
+              <p>Our Graph
+              <m>\checkmark</m>
+              </p>
+              <p>Interval notation:</p>
+              <p>
+               <m>\left(-\infty,-\dfrac{1}{4}\right]\cup\left[\dfrac{11}{4},\infty\right)\checkmark</m>
+               </p>
+            </paragraphs>
+            </sidebyside>
+        </p>
+      </example>
+      <example>
           <title>Absolute Value Inequality</title>
             <!-- Our own-->
           <p>Solve, graph, and give interval notation for the solution.
@@ -638,13 +640,13 @@
               <mrow>\color{green}{-1\lt x \lt 2} \amp\amp\amp \text{Graph}</mrow>
             </md>
             <sidebyside widths="55% 40%" valign="middle">
-              <figure xml:id="figure-absolute-value-neg1-lt-x-lt-2">
+ <!--             <figure xml:id="figure-absolute-value-neg1-lt-x-lt-2">  -->
                 <image xml:id="absolute-value-neg1-lt-x-lt-2">
                   <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
                     <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=M101_green] (-1,.5) circle (.1cm); \draw[color=M101_green] (2,.5) circle (.1cm); \draw[M101_green] (-.9,.5) -- (1.9,.5); \node[anchor=south, color=M101_green] at (.5,.5) {$-1
                       < x < 2$}; \end{tikzpicture} ]]></latex-image-code>
                     </image>
-                  </figure>
+ <!--                 </figure>  -->
                 <paragraphs>
                     <p>Our Graph
                       <m>\checkmark</m>
@@ -656,7 +658,7 @@
                 </paragraphs>
               </sidebyside>
             </p>
-          </example>    
+        </example>    
        <p>Recall that there are two special cases when solving absolute value equations.  We must consider them for inequalities as well.</p>
       <example>
         <title>Absolute Value is Always Greater than a Negative</title>

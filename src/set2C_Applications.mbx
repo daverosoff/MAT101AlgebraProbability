@@ -12,8 +12,8 @@
   </introduction>
   <subsection>
     <title>Linear Equation Applications</title>
-    <p>Applications are better known as "story problems." Story problems can be challenging, but are a powerful use of mathematics. Often it takes a bit of practice to convert the English sentence into a mathematical sentence. These first examples will focus on basic number problems to build your skills at "translating" words into math symbols.</p>
-    <p>A few important phrases are described below that can give us clues for how to set up a problem.</p>
+    <p>Applications often involve converting an English sentence into a mathematical sentence. These first examples will focus on basic number problems to build your skills at "translating" words into math symbols.</p>
+    <p>A few important phrases can give us clues for how to set up a problem.</p>
     <ul>
       <li><p>
         <term>A number</term> (or <term>an unknown</term>, <term>a value</term>, etc) usually becomes our variable
@@ -50,7 +50,7 @@
         </ul></p>
       </li>
     </ul>
-    <p>We'll start with a "number problem" to practice translating words into an equation.  Look for these phrases and the mathematical concepts they represent.</p>
+
     <example>
       <title>Number Problem</title>
         <!--Cite Beginning and Intermediate Algebra by Tyler Wallace Example 102 pg 64-->
@@ -62,17 +62,20 @@
       <md>
         <mrow>\text{Let \(x\) equal }``\text{the number"} \amp\amp\amp \text{The variable stands in for the unknown quantity.}</mrow>
         <mrow>5x\amp\amp\amp\text{Translation of }``\text{five times a certain number"}</mrow>
-          <mrow>5x+28\amp\amp\amp \text{We need }``28\text{ more than" \(5x\)}</mrow>
+          <mrow>5x+28\amp\amp\amp \text{We need }``28\text{ more than \(5x\)"}</mrow>
           <mrow>5x+28\amp =233 \amp\amp \text{The quantity }``\text{is" \(233\)}</mrow>
+      </md>
+      Note that the key to solving the problem is to create an equation that describes the situation: <m>5x+28=233.</m>  Once the equation is designed, the solution is just a few algebraic steps away.
+      <md>
+          <mrow>5x+28\amp =233 \amp\amp \text{Now, we solve the equation.}</mrow>
           <mrow>\underline{-28}\amp\underline{\phantom{1}-28} \amp\amp \text{Subtract 28 from both sides}</mrow>
           <mrow>5x\amp =205\amp\amp \text{The variable \(x\) is multiplied by \(5\)}</mrow>
           <mrow>\overline{\,5\,}\amp\phantom{123}\overline{\,5\,}\amp\amp \text{Divide both sides by \(5\)}</mrow>
           <mrow>x\amp =41 \amp\amp \text{Our Solution: The number is \(41\).}\checkmark</mrow>
         </md>
-      Note that the key to solving the problem is to create an equation that describes the situation: <m>5x+28=233.</m>  Once the equation is designed, the solution is just a few algebraic steps away.
       </p>
       </example>
-      <p>The previous example and problems like it are useful for gaining skill in translating words into equations, but you would probably never encounter such questions in a work place.  Although the next few examples are also fairly artificial, working similar problems will help develop your skills in translating problems into mathematical expressions and this is a necessary skill in many careers.  Boiling down a situation into a mathematical representation allows us to use algebra tools to determine a solution to the problem.</p>
+      <p>Although the next few examples are fairly artificial, working similar problems will help develop your skills in translating problems into mathematical expressions.  Boiling down a situation into a mathematical representation allows us to use algebra tools to determine a solution to the problem.</p>
       <example>
         <!--Our own-->
         <title>Translating Words into a Mathematical Expression</title>
@@ -81,13 +84,17 @@
           <m>\$18</m> less than twice what she spent on gasoline.  How much did Brooks spend on filling her tank with gas?
         </p>
         <p>Since we don't know how much she spent on gasoline, we will use a variable to represent this unknown amount. Sometimes it is helpful to write out the other quantities described in the problem in terms of the variable.
-        <md>
+      <md>
           <mrow>\text{Let \(d =\) dollars spent on gas} \amp\amp\amp \text{Translate the quantities into mathematical expressions}</mrow>
           <mrow>2d\amp\amp\amp\text{Translation of }``\text{twice what she spent on gasoline"}</mrow>
        <mrow>\text{\(2d-18 =\) cost of groceries} \amp\amp\amp \text{The groceries cost \(\$18\) }``\text{less than" twice the gas cost}
         </mrow>
         <mrow>\text{\(\$53 =\) cost of groceries} \amp\amp\amp \text{We already know the cost of the groceries}</mrow>
         <mrow>2d-18\amp = 53 \amp\amp \text{We have two equal expressions for cost of the groceries}</mrow>
+      </md>
+        We have an equation that relates the unknown dollars spent on gas to the situation in the problem. Now, solve the equation.
+      <md>
+        <mrow>2d-18\amp = 53 \amp\amp \text{Solve the equation for\(x\)}</mrow>
         <mrow>2d \amp = 71 \amp\amp \text{Added \(18\) to each side}</mrow>
         <mrow>d \amp = 35.5 \amp\amp \text{Divided both sides by 2}</mrow>
         <mrow>\text{She spent \(\$35.50\) on gas.} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
@@ -98,9 +105,11 @@
       <title>WeBWorK: Entering Currency</title>
       <p>Enter currency with a dollar sign
         <m>\$</m> in front.  If your answer is not in whole dollars, type two decimal places:
-        <c>$35.50</c>and <em>not</em>
-        <c>35.5</c>.
+        <c>$35.50</c> and <em>not</em>
+        <c>35.5</c>. 
       </p>
+      <p>If your calculation results in more than two decimal places, round the answer to the nearest penny (hundredths):  For <m>7.386</m>, round to <c>$7.39</c>.
+    </p>
     </assemblage>
     <example>
       <title>A Problem Involving Scientific Notation</title>
@@ -116,10 +125,15 @@
           \(12\) g} \amp\amp\amp \text{Understand what information we are given}</mrow>
         <mrow>\text{Let
           \(x=\) the mass of one atom of carbon} \amp\amp\amp \text{Convert the given information into an equation}</mrow>
-        <mrow>(6.022\times 10^{23})x =12 \amp\amp\amp \text{The number of atoms times the mass of each equals the total mass of
-          \(12\) grams}</mrow>
-        <mrow>x=\dfrac{12}{6.022\times 10^{23}} \amp\amp\amp \text{Solve for
+        <mrow>(6.022\times 10^{23})x =12 \amp\amp\amp \text{The number of atoms times the mass of each } </mrow>
+        <mrow> \text{ } \amp\amp\amp \text{equals the total mass of
+          \(12\) grams}</mrow>          
+      </md>
+      Now we solve the equation.
+      <md>
+        <mrow>(6.022\times 10^{23})x =12 \amp\amp\amp \text{Solve for
           \(x\)}</mrow>
+        <mrow>x=\dfrac{12}{6.022\times 10^{23}} \amp\amp\amp \text{Divide both sides by } 6.022\times 10^{23}</mrow>
         <mrow>\dfrac{12}{6.022}=1.9927... \amp\amp\amp \text{Divide the numbers}</mrow>
         <mrow>1.9927=1.9927\times 10^{0} \amp\amp\amp \text{Convert this number into scientific notation}</mrow>
         <mrow>\dfrac{10^{0}}{10^{23}}=10^{-23} \amp\amp\amp \text{Use quotient rule, using
@@ -207,17 +221,18 @@ same idea is seen in the following example.</p>
   <p>Solve the equation for <m>x_1.</m></p>
   <p>We will need several steps to determine the solution for this problem.  Focus on simple steps to bring the <m>x_1'</m>s together.
     <md>
-        <mrow>L + x_1\amp=\dfrac{5(x_2 - x_1)}{k}\amp\amp\text{Solving for \(x_1\), focus on getting \(x_1\) "loose" on the RHS}</mrow>
-        <mrow>k(L + x_1)\amp=k\left(\dfrac{5(x_2 - x_1)}{k}\right)\amp\amp\text{Multiply both sides by \(k\)}</mrow>
-        <mrow>kL + kx_1\amp=5(x_2 - x_1)\amp\amp\text{Distribute the \(k\) on the LHS, simplify the RHS}</mrow>
-        <mrow>kL + kx_1\amp=5x_2 - 5x_1\amp\amp\text{Distribute the \(5\) on the LHS}</mrow>
+        <mrow>L + x_1\amp=\dfrac{x_2 - x_1}{k}\amp\amp\text{Solving for \(x_1\), focus on getting \(x_1\) "loose" on the RHS}</mrow>
+        <mrow>k(L + x_1)\amp=k\left(\dfrac{x_2 - x_1}{k}\right)\amp\amp\text{Multiply both sides by \(k\)}</mrow>
+        <mrow>kL + kx_1\amp=x_2 - x_1\amp\amp\text{Distribute the \(k\) on the LHS, simplify the RHS}</mrow>
+<!--        <mrow>kL + kx_1\amp=5x_2 - 5x_1\amp\amp\text{Distribute the \(5\) on the LHS}</mrow>
+-->
         <mrow>\underline{-kL}\phantom{12345}\amp\phantom{12346}\underline{-kL}\amp\amp\text{Subtract \(kL\) from both sides}</mrow>
-        <mrow>kx_1 \amp=5x_2 - 5x_1 - kL\amp\amp\text{Simplify}</mrow>
-        <mrow>\underline{+5x_1}\amp\phantom{123456}\underline{+5x_1}\amp\amp\text{Add \(5x_1\) to both sides}</mrow>
-        <mrow>kx_1 + 5x_1 \amp=5x_2 - kL\amp\amp\text{Simplify:}</mrow>
-        <mrow>x_1(k + 5) \amp=5x_2 - kL\amp\amp\text{Factor out the \(x_1\) on the LHS}</mrow>
-        <mrow>\overline{\phantom{12}k+5\phantom{12}}\amp\phantom{123}\overline{\phantom{12}k+5\phantom{12}}\amp\amp\text{Divide both sides by \(k+5\)}</mrow>
-        <mrow>x_1\amp =\dfrac{5x_2 - kL}{k+5}\amp\amp\text{Our Solution}\checkmark</mrow>
+        <mrow>kx_1 \amp=x_2 - x_1 - kL\amp\amp\text{Simplify}</mrow>
+        <mrow>\underline{+x_1}\amp\phantom{123456}\underline{+x_1}\amp\amp\text{Add \(x_1\) to both sides}</mrow>
+        <mrow>kx_1 + x_1 \amp=x_2 - kL\amp\amp\text{Simplify:}</mrow>
+        <mrow>x_1(k + 1) \amp=x_2 - kL\amp\amp\text{Factor out the \(x_1\) on the LHS}</mrow>
+        <mrow>\overline{\phantom{12}k+1\phantom{12}}\amp\phantom{123}\overline{\phantom{12}k+1\phantom{12}}\amp\amp\text{Divide both sides by \(k+1\)}</mrow>
+        <mrow>x_1\amp =\dfrac{x_2 - kL}{k+1}\amp\amp\text{Our Solution}\checkmark</mrow>
       </md>
   </p>
   </example>
@@ -283,8 +298,6 @@ same idea is seen in the following example.</p>
               <mrow>\amp\amp\amp \text{Multiply}</mrow>
               <mrow>x\amp =160 \amp\amp \text{Our Solution}\checkmark</mrow>
             </md>
-        </p>
-        <p>In this problem, the equation is somewhat of artificial in that it immediately yields the solution.
         </p>
         </example>
 
@@ -421,8 +434,8 @@ same idea is seen in the following example.</p>
     </subsection>
     <subsection>
       <title>Applications of Percent</title>
-      <p>Most of the time when you need to solve a percent problem, it will not be presented purely as a "percent" problem.  It will come in some setting like a Chemistry or Business problem. 
-        <!--A person's salary can increase by a percentage. A town's population can decrease by a percentage. A clothing firm can discount its apparel.  -->
+      <p><!--Most of the time when you need to solve a percent problem, it will not be presented purely as a "percent" problem.  It will come in some setting like a Chemistry or Business problem. 
+        A person's salary can increase by a percentage. A town's population can decrease by a percentage. A clothing firm can discount its apparel.  -->
         Consider the following examples. Recognizing the "type" of percent problem will be the key to translating the problem into an equation.</p>
       <example>
         <title>Mixing a Chemical Solution</title>
@@ -452,9 +465,16 @@ same idea is seen in the following example.</p>
           </md>
         </p>
       </example>
-      <p>
-         When solving a word problem, you'll need to do more than a straightforward application of any one method.  The key is to break the situation down into parts you know how to handle. Use a variable for the unknown quantity and then build mathematical expressions from the description of the problem. Put the expressions together to make an equality which you may solve with algebra operations.
-       </p>
+      <p>Let us take time to summarize the steps to solve a word problem</p>
+      <aside>
+         <p>When solving a word problem you'll need to </p>
+         <ul>
+          <li> Break the situation down into parts you know how to handle.</li>
+          <li> Use a variable for the unknown quantity.</li>
+          <li> Build mathematical expressions from the description in the problem.</li> 
+          <li> Put the expressions together to make an equality which you may solve with algebra operations.</li>
+        </ul>
+      </aside>
       <example>
         <title>Percent Increase</title>
           <!-->- Owr own-->
@@ -608,7 +628,20 @@ Consider the computation of the following example grade:
     <subsection>
     <title>Intervals in Context</title>
     <p>In this section we introduce a notation that is used in two different ways.  The correct interpretation of the notation depends on the context in which it occurs.  The notation is called the "plus or minus" sign,
-      <m>\pm,</m> and you may have encountered it when you used the quadratic formula. (Don't worry, the quadratic formula is not part of this section.)
+      <m>\pm.</m> 
+    </p>
+    <example>
+      <title>The Plus or Minus sign</title>
+         <p>Calculate <m>5 \pm 2.</m></p>
+         <p>The expression represents two numbers calculated by subtracting and adding
+           <m>2</m>:
+          <md>
+            <mrow>5-2=3 \amp\amp \text{ and } \amp\amp 5+2=7</mrow>
+            <mrow> \amp\amp 3, 7 \amp\amp\amp \text{Our solution }\checkmark </mrow>
+          </md>
+        </p>
+    </example>
+<!--      and you may have encountered it when you used the quadratic formula. (Don't worry, the quadratic formula is not part of this section.)
     </p>
     <p>The quadratic formula calculates the solutions for an equation like
       <md>
@@ -624,6 +657,7 @@ Consider the computation of the following example grade:
       </md>
       **Here the <m>\pm</m> means add <m>7</m> to <m>-5</m> to calculate one solution and then subtract <m>7</m> from <m>-5</m> to get the second solution.
     </p>
+-->
     <p>The plus or minus sign is also used to indicate an interval or range of values.  For example, you may have seen reports based on opinion polls where the percentage of the population in favor of a particular idea is estimated.  This estimate is usually given in the form:
       <m>45 \pm 3</m> percent.  Here, it means that the percentage of people in favor of the idea could range any where from
       <m>42\%</m> to
@@ -631,7 +665,7 @@ Consider the computation of the following example grade:
       <m>[42, 48]</m> where the ends of the interval are calculated by 
       <m>42=45-3</m> and 
       <m>48=45+3.</m> In this case, the
-      <m>\pm</m> symbol represents a range of values, not just two numbers like it does in the quadratic formula.
+      <m>\pm</m> symbol represents a range of values, not just two numbers as in the previous example.
     </p>
     <example>
       <title>Intervals Using the Plus or Minus sign</title>

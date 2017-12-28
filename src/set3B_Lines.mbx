@@ -12,14 +12,14 @@
   </introduction>
   <subsection>
     <title>Slope</title>
-    <p>As we graph lines, we will want to be able to identify different properties of the lines we graph. One of the most important properties of a line is its slope. Slope is a measure of steepness. A line with a large slope, such as 25, is very steep. A line with a small slope, such as
-      <m>\frac{1}{10}</m> is very flat. We will also use slope to describe the direction of the line. A line that rises from left to right will have a positive slope and a line that falls from left to right will have a negative slope. A horizontal line will have zero slope. As we measure steepness we are interested in how fast the line rises compared to how far the line runs. For this reason we will describe slope as the fraction
+    <p>One of the most important properties of a line is its slope. Slope is a measure of steepness. A line with a large slope, such as 25, is very steep. A line with a small slope, such as
+      <m>\frac{1}{10}</m> is very flat. We will also use slope to describe the direction of the line. A line that rises from left to right has a positive slope, and a line that falls from left to right has a negative slope. A horizontal line has zero slope. To measure steepness we are interested in how fast the line rises compared to how far the line runs. For this reason we will describe slope as the fraction
       <m>\dfrac{\text{rise}}{\text{run}}</m>.
     </p>
-    <p>Rise would be a vertical change, or a change in the
-      <m>y</m>-values. Run would be a horizontal change, or a change in the
+    <p>Rise is a vertical change, or a change in the
+      <m>y</m>-values. Run wis a horizontal change, or a change in the
       <m>x</m>-values. So another way to describe slope would be the fraction
-      <m>\frac{\text{change in } y}{\text{change in } x}</m>. It turns out that if we have a graph we can draw vertical and horizontal lines from one point to another to make what is called a slope triangle. The sides of the slope triangle give us our slope. The following examples show graphs that we find the slope of using this idea.
+      <m>\frac{\text{change in } y}{\text{change in } x}</m>. We can draw vertical and horizontal lines from one point to another to make what is called a slope triangle. The sides of the slope triangle give us our slope.
     </p>
     <example>
       <title>Determine Slope Given Graph</title>
@@ -27,7 +27,7 @@
       <p>
       </p>
         <sidebyside widths="55% 40%" valign="middle" margins="0%">
-          <figure xml:id="figure-negative-slope">
+<!--          <figure xml:id="figure-negative-slope">  -->
           <image xml:id="negative-slope">
             <latex-image-code><![CDATA[
               \begin{tikzpicture}
@@ -45,9 +45,9 @@
                 \draw[line width=0.75mm,blue,->] (-4,-1) -- (2,-1) node[shift={(-3,-.5)}] {\Large Run $6$};
               \end{tikzpicture} ]]></latex-image-code>
               </image>
-            </figure>
+<!--            </figure>  -->
             <paragraphs>
-              <p>To determine the slope of this line we will consider the rise, or vertical change, and the run, or horizontal change. Drawing these lines in makes a slope triangle that we can use to count from one point to the next.</p>
+              <p>To determine the slope of this line we will consider the rise, or vertical change, and the run, or horizontal change. Drawing in these lines makes a slope triangle that we can use to count from one point to the next.</p>
               <p>The graph goes down
                 <m>4</m>, right
                 <m>6</m>. This is rise
@@ -55,7 +55,7 @@
                 <m>6</m>.</p>
               <p>As a fraction it would be
                 <m>\frac{-4}{6}</m>. Reduce the fraction to get
-                <m>\frac{-2}{3}</m>. The slope is negative indicating this line falls.
+                <m>\frac{-2}{3}</m>. The slope is negative, indicating that this line falls.
               </p>
             </paragraphs>
           </sidebyside>
@@ -72,7 +72,7 @@
       <p>
       </p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-positive-slope">
+<!--        <figure xml:id="figure-positive-slope">   -->
         <image xml:id="positive-slope" source="images/positive-slope.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -90,16 +90,16 @@
               \draw[line width=0.75mm,blue,->] (1,3) -- (4,3) node[shift={(-1.5,.5)}] {\Large Run $3$};
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
-            <p>To detemine the slope of this line, the rise is up
+            <p>For this line, the rise is up
               <m>6</m>, the run is right
               <m>3</m>.</p>
             <p>Our slope is then written as a fraction,
               <m>\frac{\text{rise}}{\text{run}}</m> or
               <m>\frac{6}{3}</m>. This fraction reduces to
               <m>2</m>.</p>
-            <p>This will be our positive slope, indicating this line rises.</p>
+            <p>The slope is positive, indicating this line rises.</p>
           </paragraphs>
         </sidebyside>
         <sidebyside widths="20% 35% 40%" valign="middle">
@@ -110,12 +110,12 @@
         </p>
       </sidebyside>
     </example>
-    <p>There are two special lines that have unique slopes that we need to be aware of. They are illustrated in the following example.</p>
+    <p>There are two special lines illustrated in the following example.</p>
     <example>
       <title>Special Slopes</title>
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 125 pg 96-->
       <sidebyside widths="45% 45%" valign="middle">
-        <figure xml:id="figure-horizontal-slope">
+<!--        <figure xml:id="figure-horizontal-slope">  -->
           <image xml:id="horizontal-slope" source="images/horizontal-slope.svg">
             <latex-image-code><![CDATA[
               \begin{tikzpicture}
@@ -131,8 +131,8 @@
                 \draw[line width=0.65mm,black,<->] (-6,2) -- (6,2);
               \end{tikzpicture} ]]></latex-image-code>
               </image>
-          </figure>
-        <figure xml:id="figure-vertical-slope">
+<!--          </figure>  -->
+<!--        <figure xml:id="figure-vertical-slope">  -->
           <image xml:id="vertical-slope" source="images/vertical-slope.svg">
             <latex-image-code><![CDATA[
               \begin{tikzpicture}
@@ -148,7 +148,7 @@
                 \draw[line width=0.65mm,black,<->] (3,6) -- (3,-6);
               \end{tikzpicture} ]]></latex-image-code>
               </image>
-          </figure>
+<!--          </figure>  -->
         </sidebyside>
         <sidebyside widths="45% 45%" valign="middle">
           <p>In this graph there is no rise, but the run is
@@ -163,27 +163,28 @@
         </sidebyside>
     </example>
     <p>As you can see there is a big difference between having a zero slope and having no slope or undefined slope. Remember, slope is a measure of steepness. The first slope is not steep at all, in fact it is flat. Therefore it has a zero slope. The second slope can't get any steeper. It is so steep that there is no number large enough to express how steep it is. This is an undefined slope.</p>
-    <p>We can find the slope of a line through two points without seeing the points on a graph. We can do this using a slope formula. If the rise is the change in
-      <m>y</m> values, we can calculate this by subtracting the
-      <m>y</m> values of a point. Similarly, if run is a change in the
-      <m>x</m> values, we can calculate this by subtracting the
+    <p>We can find the slope of a line through two points without seeing the points on a graph. We can do this using a slope formula. We can calculate the change in <m>y</m> values by subtracting the
+      <m>y</m> coordinates of the points. Similarly, the change in the
+      <m>x</m> values, we can calculate by subtracting the <m>x</m> coordinates of the points.
+    </p>
     <mdn>
       <mrow xml:id="equation-slope">\text{The slope of a line through }
         (x_1, y_1)\text{ and }
         (x_2, y_2)\text{ is }
         \dfrac{y_2-y_1}{x_2-x_1}</mrow>
     </mdn>
-  </p>
     <p>When mathematicians began working with slope, it was called the modular slope. For this reason we often represent the slope with the variable
-      <m>m</m>. Now we have the following for slope:
+      <m>m</m>. Now we have the following formula:
+    </p>    
+
+    <aside>
     <mdn>
       <mrow xml:id="equation-m-slope">\text{Slope}
         =m=\dfrac{\text{rise}}{\text{run}}=\dfrac{\text{change in } y}{\text{change in }x} =\dfrac{y_2-y_1}{x_2-x_1}</mrow>
       </mdn>
-    </p>
-    <p>As we subtract the
-      <m>y</m> values and the
-      <m>x</m> values when calculating slope it is important we subtract them in the same order. This process is shown in the following examples.
+    </aside>
+
+    <p>When calculating slope, it is important we subtract the <m>y</m> values and the <m>x</m> values in the same order.
     </p>
     <example>
       <title>Determine Slope Given Two Points</title>
@@ -224,7 +225,6 @@
       </md>
     </p>
     </example>
-    <p>We may come up against a problem that has a zero slope (horizontal line) or no slope (vertical line) just as with using the graphs.</p>
     <example>
       <title>Determine Slope Given Two Points</title>
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 128 pg 97-->
@@ -288,7 +288,7 @@
   </subsection>
   <subsection>
     <title>Slope-Intercept Form</title>
-    <p>When graphing a line, one method is to make a table of values. However, if we can identify some properties of the line, we may be able to make a graph much quicker and easier. One such method is determining the
+    <p>We have used a table of values to graph a line. However, if we can identify some properties of the line, we can make a graph much more quickly. One such method uses the
       <ul>
         <li>slope (represented by
           <m>m</m>) and the
@@ -297,13 +297,12 @@
           <m>y</m>-intercept (represented by
           <m>b</m>)
         </li>
-      </ul>of the equation. Recall the
-      <m>y</m>-intercept is where the line crosses the vertical axis and that
+      </ul>of the equation. Recall that the
+      <m>y</m>-intercept is the point where the line crosses the vertical axis and that
       <m>x = 0</m> at this point.  Thus the
       <m>y</m>-intercept is the point
-      <m>(0, b)</m> on the line where
-      <m>b</m> is the value where the graph crosses the vertical
-      <m>y</m>-axis. Any other point on the line can be represented by
+      <m>(0, b)</m> where the graph crosses the vertical
+      <m>y</m>-axis. Recall that any other point on the line can be represented by
       <m>(x, y)</m>. Using this information we will look at the slope formula and solve the formula for
       <m>y</m>.
     </p>
@@ -365,7 +364,7 @@
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 134 pg 103-->
       <p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-determine-equation">
+<!--        <figure xml:id="figure-determine-equation">  -->
         <image xml:id="determine-equation" source="images/determine-equation.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -383,7 +382,7 @@
               \draw[line width=0.75mm,blue,->] (0,1) -- (3,1);
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>Identify the point where the graph crosses the
               <m>y</m>-axis
@@ -408,10 +407,9 @@
         </sidebyside>
       </p>
     </example>
-    <p>We can also move in the opposite direction, using the equation to identify the slope and
-      <m>y</m>-intercept and graph the equation from this information. However, it will be important for the equation to first be in slope-intercept form. If it is not, we will have to solve it for
-      <m>y</m> so we can identify the slope and the
-      <m>y</m>-intercept.
+    <p>We can also use an equation to identify the slope and
+      <m>y</m>-intercept and then graph the equation using this information. To put the equation in slope-intercept form, we solve it for
+      <m>y</m>.
     </p>
     <example>
       <title>Determine Slope and Intercept</title>
@@ -464,7 +462,7 @@
       </md>
     </p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-determine-graph-pos-slope">
+<!--        <figure xml:id="figure-determine-graph-pos-slope">  -->
         <image xml:id="determine-graph-pos-slope" source="images/determine-graph-pos-slope.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -482,7 +480,7 @@
               \draw[line width=0.75mm,blue,->] (0,-3) -- (2,-3);
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>Start with a point
               <m>(0, -4)</m> at the
@@ -522,7 +520,7 @@
       </md>
     </p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-determine-graph-neg-slope">
+<!--        <figure xml:id="figure-determine-graph-neg-slope">  -->
         <image xml:id="determine-graph-neg-slope" source="images/determine-graph-neg-slope.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -540,14 +538,14 @@
               \draw[line width=0.75mm,blue,->] (0,0) -- (4,0);
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>Start with a point at the
               <m>y</m>-intercept of
               <m>3</m>.
             </p>
             <p>Then use the slope
-              <m>\frac{\text{rise}}{\text{run}}</m>, but it's negative so it will go downhill: go down
+              <m>\frac{\text{rise}}{\text{run}}</m>. It's negative so it will go downhill: go down
               <m>3</m> units and run
               <m>4</m> units right to plot the next point.
             </p>
@@ -557,16 +555,14 @@
           </paragraphs>
         </sidebyside>
     </example>
-    <p>We want to be very careful not to confuse using slope to find the next point with using a coordinate such as
-      <m>(4, -2)</m> to find an individual point. Coordinates such as
-      <m>(4, -2)</m> start from the origin
-      <m>(0,0)</m> and move horizontally first, and vertically second. Slope starts from a point on the line that could be anywhere on the graph. The numerator of the slope is the vertical change and the denominator is the horizontal change.
+    <p>Be very careful not to confuse using slope to find the next point with using coordinates such as
+      <m>(4, -2)</m> to find an individual point. Using coordinates we start from the origin
+      <m>(0,0)</m> and move horizontally first, and vertically second. Using slope, we start from any point on the line. The numerator of the slope is the vertical change and the denominator is the horizontal change.
     </p>
-    <p>Lines with zero slope or no slope can make a problem seem very different. Zero slope, corresponding to a horizontal line, will simply have a slope of zero which when multiplied by
+    <p>Lines with zero slope or no slope can make a problem seem very different. A horizontal line has slope of zero, which when multiplied by
       <m>x</m> gives zero in the equation. So the equation simply becomes
-      <m>y = b</m> or
-      <m>y</m> is equal to the
-      <m>y</m>-intercept of the graph. If we have no slope (or undefined slope), or a vertical line, the equation can't be written in slope-intercept form at all because the slope is undefined. There is no
+      <m>y = b</m> (the
+      <m>y</m>-intercept of the graph). The equation of a vertical line can't be written in slope-intercept form at all because the slope is undefined. There is no
       <m>y</m> in these equations. We will simply make
       <m>x</m> equal to the
       <m>x</m>-intercept of the graph.
@@ -576,7 +572,7 @@
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 138 pg 104-->
       <p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-vertical-line">
+<!--        <figure xml:id="figure-vertical-line">  -->
         <image xml:id="vertical-line" source="images/vertical-line.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -590,7 +586,7 @@
               \draw[line width=0.65mm,black,<->] (-4,6) -- (-4,-6);
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>Give the equation of the line in the graph.</p>
             <p>Because we have a vertical line and no slope there is no slope-intercept equation we can use. Rather we make
@@ -612,7 +608,7 @@
         <!-- Ours-->
       <p>
       <sidebyside widths="55% 40%" valign="middle">
-        <figure xml:id="figure-horizontal-line">
+<!--        <figure xml:id="figure-horizontal-line"> -->
         <image xml:id="horizontal-line" source="images/horizontal-line.svg">
           <latex-image-code><![CDATA[
             \begin{tikzpicture}
@@ -628,7 +624,7 @@
               \draw[line width=0.65mm,black,<->] (-6,2) -- (6,2);
             \end{tikzpicture} ]]></latex-image-code>
             </image>
-          </figure>
+<!--          </figure>  -->
           <paragraphs>
             <p>Give the equation of the line in the graph.</p>
             <p>Because we have a horizontal line the slope is zero. Thus the equation has

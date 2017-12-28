@@ -264,7 +264,7 @@
       <title>Mutually Exclusive</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
       <p>(Recall Example <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013).
-        <table>
+ <!--       <table>  -->
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -307,7 +307,7 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>  -->
         Determine if the events survivor is a female and survivor is in the first class are mutually exclusive.</p>
       <p>Label the event spaces
             <m>F</m> for female and
@@ -346,7 +346,7 @@
       <title>Conditional Probability--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
       <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-        <table>
+<!--        <table>  -->
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -389,7 +389,7 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>  -->
       Determine the following probabilities.</p>
       <p>(a) Determine the probability that a survivor was in the first class. Label the event space
             <m>1st</m> for first class. 
@@ -510,7 +510,7 @@
       <title>Independent Events--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
       <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-        <table>
+<!--        <table>  -->
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -553,7 +553,7 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-        </table>
+<!--        </table>  -->
       Determine if the events <em>"survivor is a female"</em> and <em>"survivor is in first class"</em> are independent.</p>
       <p>Label the event spaces
             <m>F</m> for female and
@@ -675,7 +675,7 @@
             <m>G</m> has a
             <m>0.97</m> chance of occurring.</p>
           </paragraphs>
-          <figure xml:id="figure-probability-tree-gender">
+<!--      <figure xml:id="figure-probability-tree-gender">  -->
             <image xml:id="probability-tree-gender">
               <latex-image-code><![CDATA[
                       \begin{tikzpicture}
@@ -698,7 +698,7 @@
                         \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$} node[shift={(-1,.025)}] {$0.97$};
                                   \end{tikzpicture} ]]></latex-image-code>
                         </image>
-                      </figure>
+<!--                      </figure>  -->
         </sidebyside>
       </p>
       <p>(a) Determine the probability of all
