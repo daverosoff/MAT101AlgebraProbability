@@ -1,10 +1,12 @@
 <section xml:id="section-1B-percents-and-estimation">
   <title>Percents and Estimation</title>
   <introduction>
-    <ul>
-      <li>Convert between percent and decimal.</li>
-      <li>Estimate sums, differences, products, quotients and percents.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Convert between percent and decimal.</li>
+        <li>Estimate sums, differences, products, quotients and percents.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Percents</title>
@@ -12,13 +14,11 @@
       <term>Percent</term> means "parts per hundred."  For example, the figure below represents
       <m>23\%</m>.
     </p>
-    <p>
-      <!--     <figure xml:id="figure-decimal-square-labeled"> -->
-        <image xml:id="decimal-square-labeled" width="60%">
-          <latex-image-code><![CDATA[\begin{tikzpicture}[scale=.5] \fill[fill=M101_green!50!white] (0,0) rectangle (1,10); \fill[fill=M101_green!50!white] (1,0) rectangle (2,10); \fill[fill=M101_green!50!white] (2,0) rectangle (3,3); \draw[step=1cm,black, thick] (0,0) grid (10,10); \node at (11, 5) {$23\%$}; \end{tikzpicture}]]></latex-image-code>
-        </image>
-      <!-- </figure> -->
-    </p>
+    <sidebyside>
+      <image xml:id="decimal-square-labeled" width="60%">
+        <latex-image-code><![CDATA[\begin{tikzpicture}[scale=.5] \fill[fill=M101_green!50!white] (0,0) rectangle (1,10); \fill[fill=M101_green!50!white] (1,0) rectangle (2,10); \fill[fill=M101_green!50!white] (2,0) rectangle (3,3); \draw[step=1cm,black, thick] (0,0) grid (10,10); \node at (11, 5) {$23\%$}; \end{tikzpicture}]]></latex-image-code>
+      </image>
+    </sidebyside>
     <p>The large square is partitioned into
       <m>10\times 10 = 100</m> equal parts.  We have shaded
       <m>23</m> of the
@@ -57,7 +57,7 @@
     <assemblage>
       <title>WeBWorK: Entering Decimals</title>
       <p>Type
-              <c>.375</c> for <m>.375</m> 
+              <c>.375</c> for <m>.375</m>
       </p>
     </assemblage>
     <p>This last example motivates the following simple rule. To change a percent to a decimal, drop the percent symbol and move the decimal point two places to the left.</p>
