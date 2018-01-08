@@ -1,11 +1,13 @@
 <section xml:id="section-2A-equations-and-absolute-value">
   <title>Equations and Absolute Value</title>
   <introduction>
-    <ul>
-      <li>Solve equations (including equations with variables on both sides) by balancing and using inverse operations.</li>
-      <li>Solve linear absolute value equations.</li>
-      <li>Solve linear distance equation problems.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Solve equations (including equations with variables on both sides) by balancing and using inverse operations.</li>
+        <li>Solve linear absolute value equations.</li>
+        <li>Solve linear distance equation problems.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Solution to an Equation</title>
@@ -44,7 +46,7 @@
     </example>
     <p>Now the equation is a true statement! Notice also that if another number, for example,
       <m>3</m>, were plugged in for
-      <m>x</m>, we would not get a true statement as seen in 
+      <m>x</m>, we would not get a true statement as seen in
       <xref ref="not-a-solution" autoname="yes" />.
     </p>
     <example xml:id="not-a-solution">
@@ -88,7 +90,7 @@
       </md>
     </p>
     </example>
-    
+
       <assemblage>
         <title>WeBWorK: Entering Solutions to Equations</title>
         <p>Enter the entire expression
@@ -98,7 +100,7 @@
         <p> When you are solving an equation on paper, your final answer may be in the form <m>3=t</m>.  In WeBWorK, you must enter your answer with the variable on the left side of the equal sign: <c>t = 3</c>
       </p>
       </assemblage>
-    
+
     <!--  The same process is used in each of the following examples.
         </p>
         <example>
@@ -110,9 +112,9 @@
           </md>
         </example>
     -->
-    <p>The terms in an equation may be in any order and the variable may be a letter 
+    <p>The terms in an equation may be in any order and the variable may be a letter
     other than
-      <m>x.</m> The key is to focus on using operations that get 
+      <m>x.</m> The key is to focus on using operations that get
     the variable by itself on one side of the equals sign.
     </p>
     <example>
@@ -132,7 +134,7 @@
     </example>
     <p>In a subtraction problem, we "counteract" negative numbers by adding them to both sides of the equation. For example, consider the following:</p>
     <example>
-      <title>Solve an Equation Involving Subtration</title>
+      <title>Solve an Equation Involving Subtraction</title>
       <p>Solve the equation for
         <m>x.</m>
       <md>
@@ -147,7 +149,7 @@
     </p>
     </example>
       <!--The same process is used in each of the following examples. Notice that each time we are "eliminating" a negative number by adding.-->
-    
+
     <!--
         <example>
           <title>Solve Equations Involving Subtraction</title>
@@ -318,17 +320,19 @@
     <p>To check the correctness of Our Solution we substitute
       <m>x=3</m> back in to the original equation:
     </p>
-    <md>
-      <mrow>4x-20 \amp = -8 \amp\amp \text{Substitute
-        \(x=3\) into the LHS}
-      </mrow>
-      <mrow>4(3)-20 \amp\amp\amp \text{Multiply
-        \(4(3)\)}</mrow>
-      <mrow>12-20 \amp\amp\amp \text{Subtract
-        \(12-20\)}</mrow>
-      <mrow>-8 \amp\amp\amp\text{Compare the LHS to the RHS}</mrow>
-      <mrow>-8\amp =-8\amp\amp\text{LHS=RHS}</mrow>
-    </md>
+    <p>
+      <md>
+        <mrow>4x-20 \amp = -8 \amp\amp \text{Substitute
+          \(x=3\) into the LHS}
+        </mrow>
+        <mrow>4(3)-20 \amp\amp\amp \text{Multiply
+          \(4(3)\)}</mrow>
+        <mrow>12-20 \amp\amp\amp \text{Subtract
+          \(12-20\)}</mrow>
+        <mrow>-8 \amp\amp\amp\text{Compare the LHS to the RHS}</mrow>
+        <mrow>-8\amp =-8\amp\amp\text{LHS=RHS}</mrow>
+      </md>
+    </p>
     <p>Since we get a true statement
       <m>-8=-8</m>, Our Solution
       <m>x=3</m> is correct.<m>\checkmark</m>
@@ -388,7 +392,7 @@
         <mrow>-x\amp = -6\amp\amp \text{Notice negative
       \(1\) is times
       \(x\)}</mrow>
-        <mrow>(-1)(-x)\amp = -6(-1) \amp\amp \text{Multiply both sides by 
+        <mrow>(-1)(-x)\amp = -6(-1) \amp\amp \text{Multiply both sides by
       \(-1\)}</mrow>
       <mrow>\amp\amp\amp\text{(or divide both sides by
       \(-1\)) for the same result}</mrow>
@@ -548,7 +552,6 @@
     <example>
       <title>Check Our Solution <m>x=8</m></title>
       <p>Check that <m>x=8</m> is a solution of the equation <m>4x-6=2x+10.</m></p>
-      <p>
       <sidebyside>
         <p>
           <md>
@@ -569,7 +572,6 @@
             </md>
           </p>
         </sidebyside>
-      </p>
       <!-- <md>
         <mrow>\text{
           LHS:} \amp\amp\amp 4x-6 \amp\amp\amp\text{ } \amp\amp\amp \text{
@@ -669,7 +671,7 @@
           <mrow>x\amp =\frac{21}{2} \amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
       </p>
-    </example>      
+    </example>
     <p>Sometimes we may have to distribute more than once to clear several parentheses. Remember to combine like terms after you distribute!</p>
     <example>
       <title>Distribute and Collect</title>
@@ -751,9 +753,9 @@
           IS a solution by plugging this value back in to the original equation.
         </p>
     </example>
-        
+
       <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace is licensed under a Creative Commons Attribution 3.0 Unported License. (http://creativecommons.org/licenses/by/3.0/) Based on a work at http://wallace.ccfaculty.org/book/book.html. pages 120-->
-    <p>Let's try one involving scientific notation. The fundamental ideas of solving 
+    <p>Let's try one involving scientific notation. The fundamental ideas of solving
         an equation still apply.</p>
     <example>
       <title>Solve an Equation Involving Scientific Notation</title>
@@ -812,7 +814,7 @@
                \draw[color=M101_green] (0,.4) -- (0,.6);
                \draw[color=M101_green] (5,.4) -- (5,.6);
                \node[anchor=south, color=M101_green] at (-2.5,.5) {distance $=5$};
-               \node[anchor=south, color=M101_green] at (2.5,.5) {distance $=5$}; 
+               \node[anchor=south, color=M101_green] at (2.5,.5) {distance $=5$};
              \end{tikzpicture}]]></latex-image-code>
         </image>
  <!--     </figure> -->
@@ -823,12 +825,14 @@
         <p>
           <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 84 pg 52-->
         </p>
-        <md>
-          <mrow>\lvert x\rvert  = 5 \amp\amp\amp \text{Absolute value can be positive or negative}</mrow>
-          <mrow>\text{
-            \(x=5\) or
-            \(x=-5\)} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
-        </md>
+        <p>
+          <md>
+            <mrow>\lvert x\rvert  = 5 \amp\amp\amp \text{Absolute value can be positive or negative}</mrow>
+            <mrow>\text{
+              \(x=5\) or
+              \(x=-5\)} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
+          </md>
+        </p>
         <p>Notice that we have determined two possibilities, both the positive and negative. Either way, the absolute value of our number will be positive
           <m>7.</m>
         </p>
@@ -840,7 +844,7 @@
         </p>
       </assemblage>
       <p>
-        Absolute value may also be used to define the distance from a point other than zero.  Note that the "distance" between two numbers is the <term>positive difference</term> between the numbers--the absolute value.
+        Absolute value may also be used to define the distance from a point other than zero.  Note that the "distance" between two numbers is the <term>positive difference</term> between the numbers<mdash/>the absolute value.
       </p>
       <example>
       <title>Distance Equation</title>
@@ -851,11 +855,10 @@
         <m>7.</m> Determine
         <m>x</m> and write an absolute value equation that describes this situation.
       </p>
-      <p>
-        The difference between <m>x</m> and <m>4</m> is <m>x-4</m> and the difference between the numbers could be to the right (<m>+7</m>) or to the left (<m>-7</m>) of <m>4</m>.
+      <p>The difference between <m>x</m> and <m>4</m> is <m>x-4</m> and the difference between the numbers could be to the right (<m>+7</m>) or to the left (<m>-7</m>) of <m>4</m>.</p>
         <!--REDO THE TEXT SO THAT EACH CALCULATION LINES UP WITH THE SIDE OF THE GRAPH THAT MATCHES IT.-->
 
- <!--     <figure xml:id="figure-absolute-value-distance-from-4-is-7"> -->
+      <sidebyside>
         <image xml:id="absolute-value-distance-from-4-is-7">
           <latex-image-code><![CDATA[
             \begin{tikzpicture} \draw[<->] (-4.5,0) -- (12.5,0);
@@ -869,20 +872,20 @@
                \draw[color=M101_green] (4,.4) -- (4,.6);
                \draw[color=M101_green] (11,.4) -- (11,.6);
                \node[anchor=south, color=M101_green] at (0,.5) {$x-2=-3$};
-               \node[anchor=south, color=M101_green] at (7,.5) {$x-2=3$}; 
+               \node[anchor=south, color=M101_green] at (7,.5) {$x-2=3$};
              \end{tikzpicture}]]></latex-image-code>
         </image>
- <!--     </figure>  -->
-
-      <md>
-        <mrow> \text{ Solve: } \amp x-4=7 \amp\amp \text{ \(x = 7+4 = 11\) is \(7\) units to the right of \(4\)}</mrow>
-        <mrow>  \text{ Solve: } \amp x-4=-7 \amp\amp \text{\(x = -7+4 = -3\) is \(7\) units to the left of \(4\)}</mrow>
-        <mrow> \amp x=11 \text{ or } x=-3\amp\amp \text{Our Solution}\checkmark</mrow>
-      </md>
-      To denote "the distance between the number <m>x</m> and <m>4</m> is <m>7</m>", we write the difference in absolute value.
-      <md>
-        <mrow>\lvert x-4\rvert =7\amp\amp \text{Absolute value equation that describes this situation}\checkmark</mrow>
-      </md>
+      </sidebyside>
+      <p>
+        <md>
+          <mrow> \text{ Solve: } \amp x-4=7 \amp\amp \text{ \(x = 7+4 = 11\) is \(7\) units to the right of \(4\)}</mrow>
+          <mrow>  \text{ Solve: } \amp x-4=-7 \amp\amp \text{\(x = -7+4 = -3\) is \(7\) units to the left of \(4\)}</mrow>
+          <mrow> \amp x=11 \text{ or } x=-3\amp\amp \text{Our Solution}\checkmark</mrow>
+        </md>
+        To denote "the distance between the number <m>x</m> and <m>4</m> is <m>7</m>", we write the difference in absolute value.
+        <md>
+          <mrow>\lvert x-4\rvert =7\amp\amp \text{Absolute value equation that describes this situation}\checkmark</mrow>
+        </md>
     </p>
     </example>
     <!--Older example
@@ -896,7 +899,7 @@
         <m>x.</m>
       </p>
       <p>
-     <!**  Start by translating the words into an equation.  We will need to translate <term>distance</term> into absolute value. We are given 
+     <!**  Start by translating the words into an equation.  We will need to translate <term>distance</term> into absolute value. We are given
           <ul>
             <li><m>x=</m> the <term>unknown</term> number(s)</li>
             <li>the distance is <m>7</m></li>
@@ -937,11 +940,11 @@
         </p>
         <p>
         <md>
-          <mrow>\underline{x=3:} \amp\amp\amp 
+          <mrow>\underline{x=3:} \amp\amp\amp
             \underline{x=-3:}</mrow>
-          <mrow>5+\lvert 3\rvert  \amp\amp\amp 
+          <mrow>5+\lvert 3\rvert  \amp\amp\amp
             5+\lvert -3\rvert</mrow>
-          <mrow>5+3 = 8\checkmark \amp\amp\amp 
+          <mrow>5+3 = 8\checkmark \amp\amp\amp
             5+3 = 8 \checkmark</mrow>
         </md>
       </p>
@@ -995,7 +998,7 @@
       </example> -->
 <!--      <p>Again we see the same process: consider the distance to the left and right of the value. Often the absolute value will have more than just a variable in it. In this case we consider the positive and negative possibilities and solve the resulting equations. This is shown in the next example.</p>
 -->
-      <p>The next few examples demonstrate the steps to solve a general absolute value equation. Remember that the expression <term>inside</term> the absolute value symbols may be positive or negative--the absolute value will make the value non-negative in the end--so, both possibilities must be solved for to determine all solutions to an absolute value equation.
+      <p>The next few examples demonstrate the steps to solve a general absolute value equation. Remember that the expression <term>inside</term> the absolute value symbols may be positive or negative<mdash/>the absolute value will make the value non-negative in the end<mdash/>so, both possibilities must be solved for to determine all solutions to an absolute value equation.
       </p>
       <example>
         <title>Absolute Value of an Expression</title>
@@ -1071,16 +1074,18 @@
         <p>
           <!-- CofI own-->
         </p>
-        <md>
-          <mrow>\lvert 2x-5\rvert = -4 \amp\amp\amp \text{Notice the problem asks where the expression is negative}</mrow>
-          <mrow> \amp\amp\amp \text{STOP! Result of absolute value can't be negative! }
-          </mrow>
-          <mrow>\text{No solution} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
-        </md>
+        <p>
+          <md>
+            <mrow>\lvert 2x-5\rvert = -4 \amp\amp\amp \text{Notice the problem asks where the expression is negative}</mrow>
+            <mrow> \amp\amp\amp \text{STOP! Result of absolute value can't be negative! }
+            </mrow>
+            <mrow>\text{No solution} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
+          </md>
+        </p>
       </example>
       <p>Notice in the above example, the absolute value expression equals a negative number! This is impossible with absolute value. When this occurs we
         <alert>STOP</alert> and conclude there is no solution.
-      </p> 
+      </p>
       <assemblage>
         <title>WeBWorK: Enter "No solution"</title>
         <p>If the equation has no solution, type
@@ -1093,18 +1098,20 @@
         <p>
           <!--Owr own-->
         </p>
-        <md>
-          <mrow>\lvert x-3\rvert = 0 \amp\amp\amp \text{What numbers are zero distance from \(3\)?}</mrow>
-          <mrow>x = 3 \amp\amp\amp \text{Only \(3\) is zero distance from itself }\checkmark
-          </mrow>
-          <mrow> \amp\amp\amp </mrow>
-          <mrow> \amp\amp\amp \text{Or we could solve this another way:}
-          </mrow>                              
-          <mrow>x-3 = 0 \amp\amp\amp \text{Since \(-0=0\) we only need one equation to solve}
-          </mrow>
-          <mrow>x=3 \amp\amp\amp \text{Add \(3\) to both sides}\checkmark</mrow>
-        </md>
+        <p>
+          <md>
+            <mrow>\lvert x-3\rvert = 0 \amp\amp\amp \text{What numbers are zero distance from \(3\)?}</mrow>
+            <mrow>x = 3 \amp\amp\amp \text{Only \(3\) is zero distance from itself }\checkmark
+            </mrow>
+            <mrow> \amp\amp\amp </mrow>
+            <mrow> \amp\amp\amp \text{Or we could solve this another way:}
+            </mrow>
+            <mrow>x-3 = 0 \amp\amp\amp \text{Since \(-0=0\) we only need one equation to solve}
+            </mrow>
+            <mrow>x=3 \amp\amp\amp \text{Add \(3\) to both sides}\checkmark</mrow>
+          </md>
+        </p>
       </example>
     </subsection>
   </section>
-              
+
