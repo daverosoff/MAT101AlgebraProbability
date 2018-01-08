@@ -1,21 +1,23 @@
 <section xml:id="section-4C-probability-rules">
   <title>Probability Rules</title>
   <introduction>
-    <ul>
-      <li>Utilize probability properties.</li>
-      <li>Calculate conditional probabilities.</li>
-      <li>Calculate probabilities using complementary events.</li>
-      <li>Calculate probabilities using addition rules.</li>
-      <li>Determine if two events are independent or dependent.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Utilize probability properties.</li>
+        <li>Calculate conditional probabilities.</li>
+        <li>Calculate probabilities using complementary events.</li>
+        <li>Calculate probabilities using addition rules.</li>
+        <li>Determine if two events are independent or dependent.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Probability Properties</title>
-      <!--   This is CoconinoCC_chapter_4_Probability.pdf page 116 -->The examples and WeBWorK problems of
     <p>
+      <!--   This is CoconinoCC_chapter_4_Probability.pdf page 116 -->The examples and WeBWorK problems of
       <xref ref="section-4B-probability" autoname="yes" /> demonstrated some important probability results which are summarized below.
     </p>
-    <!-- adds number <list xml:id="probability-properties"> 
+    <!-- adds number <list xml:id="probability-properties">
       <title>Probability Properties</title>-->
       <p>
       <term>Probability Properties</term>
@@ -63,7 +65,7 @@
       </p>
   <!--  </statement>
   </definition>-->
-     
+
     <example>
       <title>Complementary Events--Flu</title>
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.2 Example 4.2.5(b), page 121 -->
@@ -120,27 +122,27 @@
           <mrow>P(Queen) =\dfrac{4}{52} \amp\amp\amp \text{Next use complementary events}
           </mrow>
           <mrow>P(Queen') = 1-\dfrac{4}{52}=\dfrac{38}{52}\approx  0.7308 \amp\amp\amp \text{Our Solution:}</mrow>
-          </md> 
+          </md>
           The probability of not selecting a queen is
             <m>\dfrac{38}{52}</m>or about
-            <m>73.08\%\checkmark</m>. 
+            <m>73.08\%\checkmark</m>.
           </p>
         </example>
-      
+
       <p>The complement is useful when you are trying to find the probability of an event that involves the words <em>"at least"</em> or an event that involves the words <em>"at most"</em>. As an example of an at least event is suppose you want to find the probability of making
         <em>
-          <term>at least</term> 
+          <term>at least</term>
         </em>
         <m>\$50,000</m> when you graduate from college. That means you want the probability of your salary being greater than or equal to
         <m>\$50,000</m>. An example of an at most event is suppose you want to find the probability of rolling a die and getting
         <em>
-          <term>at most</term> 
+          <term>at most</term>
         </em>a
         <m>4</m>. That means that you want to get less than or equal to a
         <m>4</m> on the die. The reason to use the complement is that sometimes it is easier to find the probability of the complement and then subtract from
         <m>1</m>.
       </p>
-   
+
     <example>
       <title>Complementary Events--At Least</title>
         <!--   This matches our WeBWorK  -->
@@ -170,7 +172,7 @@
           The probability of rolling a sum of <em>at least</em> a
             <m>4</m> is
             <m>\dfrac{33}{36}</m> or about
-            <m>91.67\%\checkmark</m>. 
+            <m>91.67\%\checkmark</m>.
           </p>
     </example>
   </subsection>
@@ -190,7 +192,7 @@
           <md>
           <mrow>J\cap A=\{ \} \amp\amp\amp \text{The event
             \(J\cap A\) contains
-            \(0\) outcomes since you can't do that with <em>one</em> card. }
+            \(0\) outcomes since you can't do that with \emph{one} card. }
           </mrow>
           <mrow>P(J\cap A) =\dfrac{0}{52} \amp\amp\amp \text{Our Solution (a):}</mrow>
         </md>
@@ -200,7 +202,7 @@
           <p>(b) Determine the probability of selecting a Jack
             <m>J</m> OR an Ace
             <m>A</m>. First write the event space,
-            <m>J\cup A</m>. 
+            <m>J\cup A</m>.
           <md>
           <mrow>J\cup A=\{JS, JC, JD, JH, AS, AC, AD, AH \} \amp\amp\amp \text{The event
             \(J\cup A\) contains
@@ -215,7 +217,7 @@
           <p>(c) Determine the probability of selecting a Spade
             <m>S</m> OR an Ace
             <m>A</m>. First write the event space,
-            <m>S\cup A</m>. 
+            <m>S\cup A</m>.
           <md>
           <mrow>\amp S\cup A=\amp\amp</mrow>
           <mrow>\amp\{2S, 3S, 4S, 5S, 6S, 7S, 8S, 9S, 10S,\amp\amp</mrow>
@@ -227,10 +229,10 @@
           </md>
           The probability of getting a Spade or an Ace is
             <m>\dfrac{16}{52}</m> or approximately
-            <m>30.77\%\checkmark</m>. 
+            <m>30.77\%\checkmark</m>.
           </p>
         </example>
-     
+
       <p>Part (a) of <xref ref="example-card-probabilities" autoname="yes" /> demonstrates an
         <term>impossible event</term>: selecting a Jack and an Ace on one draw.  Parts (b) and (c) demonstrate another probability concept.  Notice that:
       </p>
@@ -263,8 +265,8 @@
     <example>
       <title>Mutually Exclusive</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall Example <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013).
- <!--       <table>  -->
+      <p>(Recall Example <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013).</p>
+      <sidebyside>
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -307,8 +309,8 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-<!--        </table>  -->
-        Determine if the events survivor is a female and survivor is in the first class are mutually exclusive.</p>
+        </sidebyside>
+        <p>Determine if the events survivor is a female and survivor is in the first class are mutually exclusive.</p>
       <p>Label the event spaces
             <m>F</m> for female and
             <m>1st</m> for first class.
@@ -345,8 +347,8 @@
     <example>
       <title>Conditional Probability--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-<!--        <table>  -->
+      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
+      <sidebyside>
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -389,10 +391,10 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-<!--        </table>  -->
-      Determine the following probabilities.</p>
+        </sidebyside>
+      <p>Determine the following probabilities.</p>
       <p>(a) Determine the probability that a survivor was in the first class. Label the event space
-            <m>1st</m> for first class. 
+            <m>1st</m> for first class.
           <md>
           <mrow>P(1st) = \dfrac{n(1st)}{\text{Total #}}=\dfrac{193}{450}\approx 0.4289 \amp\amp\amp \text{Our Solution (a):}</mrow>
           </md>
@@ -483,7 +485,7 @@
         <m>2</m> are called
         <term>dependent events</term>.
       </p>
-   
+
   </subsection>
   <subsection>
     <title>Independent Events</title>
@@ -509,8 +511,8 @@
     <example>
       <title>Independent Events--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-<!--        <table>  -->
+      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
+      <sidebyside>
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -553,8 +555,8 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-<!--        </table>  -->
-      Determine if the events <em>"survivor is a female"</em> and <em>"survivor is in first class"</em> are independent.</p>
+        </sidebyside>
+      <p>Determine if the events <em>"survivor is a female"</em> and <em>"survivor is in first class"</em> are independent.</p>
       <p>Label the event spaces
             <m>F</m> for female and
             <m>1st</m> for first class. Compute both
@@ -649,7 +651,7 @@
             <li><m>B</m> represent a boy kitten</li>
             <li><m>G</m> represent a girl kitten</li>
           </ul>
-         Illustrate the possibilities with a tree diagram.
+         Illustrate the possibilities with a tree diagram.</p>
           <sidebyside widths="40% 55%" valign="middle" margins="0%">
           <paragraphs>
             <p>The tree has
@@ -660,50 +662,50 @@
           </paragraphs>
           <image source="images/tree-gender.svg" />
         </sidebyside>
-        We are told <m>P(B)=0.03</m>. Determine the probability of a girl using complementary events, since
+        <p>We are told <m>P(B)=0.03</m>. Determine the probability of a girl using complementary events, since
             <m>B'=G</m>.
           <md>
           <mrow>P(G)=P(B')=1-P(B)=1-0.03=0.97</mrow></md>
           Label the corresponding branches of the tree.
-          <sidebyside widths="40% 55%" valign="middle" margins="0%">
-          <paragraphs>
-            <p>Each branch with an outcome of
-            <m>B</m> has a
-            <m>0.03</m> chance of occurring.
-            </p>
-            <p>Each branch with an outcome of
-            <m>G</m> has a
-            <m>0.97</m> chance of occurring.</p>
-          </paragraphs>
+        </p>
+        <sidebyside widths="40% 55%" valign="middle" margins="0%">
+        <paragraphs>
+          <p>Each branch with an outcome of
+          <m>B</m> has a
+          <m>0.03</m> chance of occurring.
+          </p>
+          <p>Each branch with an outcome of
+          <m>G</m> has a
+          <m>0.97</m> chance of occurring.</p>
+        </paragraphs>
 <!--      <figure xml:id="figure-probability-tree-gender">  -->
-            <image xml:id="probability-tree-gender">
-              <latex-image-code><![CDATA[
-                      \begin{tikzpicture}
-                        \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$} node[shift={(-1.5,-.6)}] {$0.03$};
-                        \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$} node[shift={(-1.5,-.2)}] {$0.03$};
-                        \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$} node[shift={(-1,-.025)}] {$0.03$};
-                        \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$} node[shift={(-1,.025)}] {$0.97$};
+          <image xml:id="probability-tree-gender">
+            <latex-image-code><![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$} node[shift={(-1.5,-.6)}] {$0.03$};
+                      \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$} node[shift={(-1.5,-.2)}] {$0.03$};
+                      \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$} node[shift={(-1,-.025)}] {$0.03$};
+                      \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$} node[shift={(-1,.025)}] {$0.97$};
 
-                        \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$} node[shift={(-1.5,.15)}] {$0.97$};
-                        \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$} node[shift={(-1,-.025)}] {$0.03$};
-                        \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$} node[shift={(-1,.025)}] {$0.97$};
+                      \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$} node[shift={(-1.5,.15)}] {$0.97$};
+                      \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$} node[shift={(-1,-.025)}] {$0.03$};
+                      \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$} node[shift={(-1,.025)}] {$0.97$};
 
-                        \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$} node[shift={(-1.5,.55)}] {$0.97$};
-                        \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$} node[shift={(-1.5,-.2)}] {$0.03$};
-                        \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$} node[shift={(-1,-.025)}] {$0.03$};
-                        \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$} node[shift={(-1,.025)}] {$0.97$};
+                      \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$} node[shift={(-1.5,.55)}] {$0.97$};
+                      \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$} node[shift={(-1.5,-.2)}] {$0.03$};
+                      \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$} node[shift={(-1,-.025)}] {$0.03$};
+                      \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$} node[shift={(-1,.025)}] {$0.97$};
 
-                        \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$} node[shift={(-1.5,.15)}] {$0.97$};
-                        \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$} node[shift={(-1,-.025)}] {$0.03$};
-                        \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$} node[shift={(-1,.025)}] {$0.97$};
-                                  \end{tikzpicture} ]]></latex-image-code>
-                        </image>
+                      \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$} node[shift={(-1.5,.15)}] {$0.97$};
+                      \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$} node[shift={(-1,-.025)}] {$0.03$};
+                      \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$} node[shift={(-1,.025)}] {$0.97$};
+                                \end{tikzpicture} ]]></latex-image-code>
+                      </image>
 <!--                      </figure>  -->
-        </sidebyside>
-      </p>
+      </sidebyside>
       <p>(a) Determine the probability of all
             <m>3</m> calico kittens being boys. Multiply the probabilities along the path to the outcome
-            <m>BBB</m>. 
+            <m>BBB</m>.
           <md>
           <mrow>P(BBB)=(0.03)(0.03)(0.03) = 0.000027 \amp\amp\amp \text{Our Solution (a):}</mrow>
           </md>
@@ -716,14 +718,14 @@
             <m>GGG</m>. All of the other outcomes have at least one male kitten.  This means the event <em>"at least one boy"</em> is the complement of the event
             <m>GGG</m>. Use the complement:
             <m>P(\text{at least one boy})=1-P(GGG)</m>. Multiply the probabilities along the path to the outcome
-            <m>GGG</m>. 
+            <m>GGG</m>.
           <md>
           <mrow>\amp P(GGG)= (0.97)(0.97)(0.97)\approx 0.9127 \amp\amp \text{Now use the complement}</mrow>
           <mrow>\amp P(\text{at least one boy})=1-P(GGG)=\amp\amp</mrow>
           <mrow>\amp 1-(0.97)^3\approx 1-0.9127=0.0873 \amp\amp \text{Our Solution (b):}</mrow>
             </md>
             The probability of at least one of the calico kittens being a boy is approximately
-            <m>8.73\%\checkmark</m>. 
+            <m>8.73\%\checkmark</m>.
           </p>
     </example>
   </subsection>
