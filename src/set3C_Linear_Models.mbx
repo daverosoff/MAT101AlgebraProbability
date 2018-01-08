@@ -1,18 +1,20 @@
 <section xml:id="section-3C-linear-models">
   <title>Linear Models</title>
   <introduction>
-    <ul>
-      <li> Determine the slope of a given linear model and describe its meaning, in context.</li>
-      <li> Use a given linear model to solve problems.</li>
-      <li> Create a linear model from data to solve problems.</li>
-    </ul>jkku
+    <p>
+      <ul>
+        <li> Determine the slope of a given linear model and describe its meaning, in context.</li>
+        <li> Use a given linear model to solve problems.</li>
+        <li> Create a linear model from data to solve problems.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Linear Models</title>
     <p>Now that you have an understanding of lines, we will consider linear models.  A
       <term>linear model</term> is <!--an equation for--> a line that is connected to a real-world situation or data. What does this mean?
     </p>
-    <p>Recall that when we write the slope-intercept 
+    <p>Recall that when we write the slope-intercept
       equation for a line:
     <md>
       <mrow>y=mx+b</mrow>
@@ -64,7 +66,7 @@
     </p>
     <example xml:id="example-independent-dependent">
       <title>A Linear Model</title>
-      <p>Theo saved <m>\$500</m> from his summer job for spending money at college this fall.  If he spends about <m>\$20</m> per week, how long will his money last?  
+      <p>Theo saved <m>\$500</m> from his summer job for spending money at college this fall.  If he spends about <m>\$20</m> per week, how long will his money last?
         <!-- These are our own!-->
       </p>
       <p>Since the rate of change is a constant <m>-20</m> dollars per week, the model should be a line. The vertical intercept is how much he has at the beginning of the fall semester when zero weeks have passed: <m>500</m>.  The linear model is
@@ -75,13 +77,13 @@
         <md>
           <mrow>x= \text{ number of weeks}</mrow>
         </md>
-        and the response (or dependent variable) is 
+        and the response (or dependent variable) is
         <md>
           <mrow>y= \text{ amount of money left}</mrow>
         </md>
         We want to know how many weeks it will take until no money is left, when <m>y=0</m>.
           <md>
-            <mrow>0\amp= -20x+500 \amp\amp\text{Add <m>20x</m> to both sides.}</mrow>
+            <mrow>0\amp= -20x+500 \amp\amp\text{Add }20x\text{ to both sides.}</mrow>
            <mrow>20x\amp= 500 \amp\amp\text{Divide both sides by 20}</mrow>
           <mrow>x\amp= 25 \amp\amp</mrow>
           <mrow>\text{The money will be gone in }\amp 25 \text{ weeks}\amp\amp\text{Our Solution}\checkmark</mrow>
@@ -191,7 +193,7 @@
     <example xml:id="example-road-trip-slope-context">
       <title>Road Trip! Slope in Context</title>
         <!-- Our Own-->
-      <p>Continue with 
+      <p>Continue with
         <xref ref="example-road-trip-intro" autoname="yes" />. Recall the linear model
         <m>D=65t + 30</m> represents your distance
         <m>D</m> (in miles) from Caldwell
@@ -212,10 +214,10 @@
           </ul>
         </p>
       </example>
-      
+
     <example xml:id="example-road-trip-solve">
       <title>Road Trip! Solve for a Predictor Given a Response</title>
-      <p>Continue with 
+      <p>Continue with
         <xref ref="example-road-trip-intro" autoname="yes" />.  Recall the linear model
         <m>D=65t + 30</m> represents your distance
         <m>D</m> (in miles) from Caldwell
@@ -310,8 +312,8 @@
       </ul>
     </p>
   </example>
-    
-                 
+
+
     <example xml:id="eample-penguins-solve">
       <title>Penguins! Determine Response Given a Predictor</title>
         <!--Our own-->
@@ -351,7 +353,7 @@
                     \(\$3\) trillion}</mrow>
         </md>
         Since points in the plane are written
-          <m>(x,y)=(predictor, response)=(t,GDP)</m> we have 
+          <m>(x,y)=(predictor, response)=(t,GDP)</m> we have
           <md>
             <mrow>(0,3)\amp\amp\amp\text{corresponds to the year 1980 with a GDP of
                     \(\$3\) trillion}</mrow>
@@ -380,11 +382,11 @@
         <mrow>m\amp =\dfrac{3}{10}=.3\amp\amp\amp</mrow>
       </md>
       Now find the
-        <m>GDP</m>-intercept, <m>b</m>.  Since  
+        <m>GDP</m>-intercept, <m>b</m>.  Since
         <m>(0,3)</m> is the value of
         <m>GDP</m> when
         <m>t=0</m> the
-        <m>GDP</m>-intercept is 
+        <m>GDP</m>-intercept is
         <m>b=3</m>.  Putting this all together, we have
         <md>
           <mrow>GDP\amp =mt+b\amp\amp\text{The form of the linear model}</mrow>
@@ -395,11 +397,11 @@
     <example xml:id="example-GDP-solve">
       <title>Money! Solve for a Predictor Given a Response</title>
         <!--Our own-->
-      <p>Continue with the GDP 
+      <p>Continue with the GDP
         <xref ref="example-GDP-intro" autoname="yes" />. Use the linear model to determine the year when the GDP will reach
         <m>\$13.5</m> trillion.
       </p>
-      <p>Recall the response variable <m>GDP</m> represents the GDP (in trillions of dollars) at <m>t=</m> time (in years after 1980). Note we are given a GDP and asked to determine the corresponding year.  When will 
+      <p>Recall the response variable <m>GDP</m> represents the GDP (in trillions of dollars) at <m>t=</m> time (in years after 1980). Note we are given a GDP and asked to determine the corresponding year.  When will
         <m>GPD=13.5</m>? Write an equation to model the problem:
       <md>
         <mrow>GDP\amp =.3t+3\amp\amp\text{Plug the given \(GDP=13.5\) into the model}</mrow>
@@ -431,7 +433,7 @@
                     \(\$47\) for \(100\) copies}</mrow>
         </md>
         Since points in the plane are written
-          <m>(x,y)=(predictor, response)=(n,C)</m> we have 
+          <m>(x,y)=(predictor, response)=(n,C)</m> we have
           <md>
             <mrow>(100,47)\amp\amp\amp\text{corresponds to \(100\) copies with cost \(\$47\)}</mrow>
             <mrow>(259,63)\amp\amp\amp\text{corresponds to \(259\) copies with cost \(\$63\)}\checkmark</mrow>
@@ -473,8 +475,8 @@
       <title>Decimal Precision in WeBWorK</title>
       <p>It is generally a good idea to maintain
         <m>3</m> to
-        <m>5</m> decimals of accuracy when submitting answers. 
-        </p> 
+        <m>5</m> decimals of accuracy when submitting answers.
+        </p>
         <p>Note: For dollar amounts, only two decimal places will be accepted. It's still a good idea to use more accuracy when calculating your answer, then round to the nearest penny.
       </p>
     </assemblage>
