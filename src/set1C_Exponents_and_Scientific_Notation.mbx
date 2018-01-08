@@ -1,12 +1,14 @@
 <section xml:id="section-1C-exponents-and-scientific-notation">
   <title>Exponents and Scientific Notation</title>
   <introduction>
-    <ul>
-      <li>Simplify expressions using the properties of exponents.</li>
-      <li>Convert between standard and scientific notation.</li>
-      <li>Multiply and divide expressions using scientific notation and exponent properties.</li>
-      <li>Add and subtract expressions using scientific notation and exponent properties.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Simplify expressions using the properties of exponents.</li>
+        <li>Convert between standard and scientific notation.</li>
+        <li>Multiply and divide expressions using scientific notation and exponent properties.</li>
+        <li>Add and subtract expressions using scientific notation and exponent properties.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Exponent Properties</title>
@@ -54,11 +56,13 @@
         <m>a^3 a^2=a^{3+2}=a^5</m>. This is known as the
         <term>product rule of exponents</term>:
       </p>
-      <mdn>
-        <mrow xml:id="exponents-product-rule">\text{Product Rule of Exponents: }
-          a^m a^n=a^{m+n}
-        </mrow>
-      </mdn>
+      <p>
+        <mdn>
+          <mrow xml:id="exponents-product-rule">\text{Product Rule of Exponents: }
+            a^m a^n=a^{m+n}
+          </mrow>
+        </mdn>
+      </p>
 
       <p>The product rule of exponents can be used to multiply powers with the same base. This is shown in the following examples:</p>
 
@@ -115,21 +119,24 @@
         <m>\dfrac{a^5}{ a^2} = a^{5-2}= a^3</m>. This is known as the
         <term>quotient rule of exponents</term>.
       </p>
-      <mdn>
-        <mrow xml:id="exponents-quotient-rule"> \text{Quotient Rule of Exponents: }
-          \frac{a^m}{ a^n} =a^{m-n}
-        </mrow>
-      </mdn>
+      <p>
+        <mdn>
+          <mrow xml:id="exponents-quotient-rule"> \text{Quotient Rule of Exponents: }
+            \frac{a^m}{ a^n} =a^{m-n}
+          </mrow>
+        </mdn>
+      </p>
 
       <p>The quotient rule of exponents may be used to divide powers by subtracting exponents on like bases. This is shown in the following examples:</p>
       <example>
         <title>Quotient Rule of Exponents</title>
-        <p>Simplify:</p>
-        <md>
-          <mrow>\dfrac{7^5 x^8}{7^4 x^3} \amp\amp\amp \text{Subtract the exponents on like bases, \(5-4 = 1\) and \(8-3=5\)}</mrow>
-          <mrow>7^1x^5 \amp\amp\amp \text{Note that \(7^1 = 7\) since there is only one \(7\) to multiply.}</mrow>
-          <mrow>7x^5 \amp\amp\amp \text{Our Solution}\checkmark</mrow>
-        </md>
+        <p>Simplify:
+          <md>
+            <mrow>\dfrac{7^5 x^8}{7^4 x^3} \amp\amp\amp \text{Subtract the exponents on like bases, \(5-4 = 1\) and \(8-3=5\)}</mrow>
+            <mrow>7^1x^5 \amp\amp\amp \text{Note that \(7^1 = 7\) since there is only one \(7\) to multiply.}</mrow>
+            <mrow>7x^5 \amp\amp\amp \text{Our Solution}\checkmark</mrow>
+          </md>
+        </p>
       </example>
       <!--Remove this example <example> <title>Quotient Rule of Exponents</title> <p> <!** Cite Beginning and Intermediate Algebra by Tyler Wallace Example 201 pg 178**> </p> <md> <mrow>\dfrac{5a^3 b^5 c^2}{2ab^3 c} \amp\amp\amp \text{Subtract exponents on \(a, b\) and \(c\)}</mrow> <mrow>\frac{5}{2} a^2 b^2 c \amp\amp\amp \text{Our Solution}</mrow> </md> </example> -->
       <p>A power may itself be raised to a second exponent.</p>
@@ -150,13 +157,13 @@
         <m>(a^2)^3 = a^{2\cdot 3} = a^6.</m> This is known as the
         <term>power of a power rule of exponents</term>
       </p>
-
-      <mdn>
-        <mrow xml:id="exponents-power-of-a-power-rule"> \text{Power of a Power Rule of Exponents: }
-          (a^m)^n=a^{mn}
-        </mrow>
-      </mdn>
-
+      <p>
+        <mdn>
+          <mrow xml:id="exponents-power-of-a-power-rule"> \text{Power of a Power Rule of Exponents: }
+            (a^m)^n=a^{mn}
+          </mrow>
+        </mdn>
+      </p>
       <p>There are two more useful properties of exponents.</p>
       <example>
         <title>Powers of Products</title>
@@ -174,18 +181,18 @@
         <m>(ab)^3 = a^3b^3</m>. This is known as the
         <term>power of a product rule of exponents</term>:
       </p>
-
-      <mdn>
-        <mrow xml:id="exponents-power-of-a-product-rule"> \text{Power of a Product Rule of Exponents: }
-          (ab)^m=a^m b^m
-        </mrow>
-      </mdn>
-
+      <p>
+        <mdn>
+          <mrow xml:id="exponents-power-of-a-product-rule"> \text{Power of a Product Rule of Exponents: }
+            (ab)^m=a^m b^m
+          </mrow>
+        </mdn>
+      </p>
       <p>It is important that we only use the power of a product rule with multiplication inside parentheses. This property does NOT work if there is addition or subtraction inside the parentheses.</p>
       <aside>
-      <alert>WARNING:</alert>
-      <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Warning 204 pg 179-->
       <p>
+        <alert>WARNING:</alert>
+        <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Warning 204 pg 179-->
         <md>
           <mrow>(a+b)^n\ne a^n+b^n \amp\amp\amp \text{These are NOT equal if \(n\ne 1\), beware of this error!}</mrow>
         </md>
@@ -219,12 +226,13 @@
         <m>\left(\frac{a}{b} \right)^3=\frac{a^3}{b^3}</m>. This is known as the
         <term>power of a quotient rule of exponents</term>:
       </p>
-
-      <mdn>
-        <mrow xml:id="exponents-power-of-a-quotient-rule"> \text{Power of a Quotient Rule of Exponents: }
-          \left(\frac{a}{b} \right)^m=\frac{a^m}{b^m}
-        </mrow>
-      </mdn>
+      <p>
+        <mdn>
+          <mrow xml:id="exponents-power-of-a-quotient-rule"> \text{Power of a Quotient Rule of Exponents: }
+            \left(\frac{a}{b} \right)^m=\frac{a^m}{b^m}
+          </mrow>
+        </mdn>
+      </p>
 
       <p>We may need to use several rules to simplify an expression. This is shown in the following examples:</p>
       <example>
@@ -232,7 +240,7 @@
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 206 pg 179-->
         <p>Simplify.
         <md>
-          <mrow>(x^3y)^4 \amp\amp\amp \text{Raise each factor to the <m>4^{th}</m> power, multiply exponents}</mrow>
+          <mrow>(x^3y)^4 \amp\amp\amp \text{Raise each factor to the }4^{\mathrm{th}}\text{ power, multiply exponents}</mrow>
           <mrow>x^{12} y^4 \amp\amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
       </p>
@@ -249,7 +257,7 @@
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 207 pg 180-->
         <p>Simplify.
         <md>
-          <mrow>\left(\dfrac{a^3 b}{c^4 d^5} \right)^2 \amp\amp\amp \text{Raise each factor to the <m>2^{nd}</m> power, multiply exponents}</mrow>
+          <mrow>\left(\dfrac{a^3 b}{c^4 d^5} \right)^2 \amp\amp\amp \text{Raise each factor to the }2^{\mathrm{nd}}\text{ power, multiply exponents}</mrow>
           <mrow>\dfrac{a^6 b^2}{c^8d^{10}} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
       </p>
@@ -266,7 +274,7 @@
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 208 pg 180-->
         <p>Simplify.
         <md>
-          <mrow>(4x^2 y^5)^3 \amp\amp\amp \text{Raise each factor to the <m>3^{rd}</m> power, multiply exponents}</mrow>
+          <mrow>(4x^2 y^5)^3 \amp\amp\amp \text{Raise each factor to the }3^{\mathrm{rd}}\text{ power, multiply exponents}</mrow>
           <mrow>4^3 x^6 y^{15} \amp\amp\amp \text{Evaluate \(4^3=4\cdot 4\cdot 4\)}</mrow>
           <mrow>64x^6 y^{15} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
         </md>
@@ -277,8 +285,7 @@
         <m>12</m>: this would have been incorrect. Never multiply a base by the exponent.
       </p>
       <p>The exponent properties are summarized in the following table:</p>
-
-<!--      <table>  -->
+      <sidebyside>
         <tabular top="major" halign="center">
             <col halign="left" />
             <col halign="right" />
@@ -307,8 +314,7 @@
               <cell><m>\left(\frac{a}{b} \right)^m=\frac{a^m}{b^m}</m><xref ref="exponents-power-of-a-quotient-rule" /></cell>
             </row>
           </tabular>
-<!--        </table>  -->
-
+        </sidebyside>
       <p>Generally, simplifying an expression requires a combination of properties, and deciding which property to use first may be confusing. However, the order of operations
        <!-- <term>PEMDAS</term> (see <xref ref="section-00-preliminaries" autoname="yes" /> ) -->
        always applies and can be your guide. You should simplify inside any parentheses first, then simplify any exponents (using power rules), and finally simplify any multiplication or division (using product and quotient rules).
@@ -437,9 +443,8 @@
       </p>
       </example>
       <p>Following are the rules of negative exponents:</p>
-
-<!--      <table>  -->
-        <tabular top="major" halign="center">
+        <sidebyside>
+          <tabular top="major" halign="center">
             <col halign="center" />
             <!--  -->
             <row bottom="minor" halign="center">
@@ -458,8 +463,7 @@
               <cell><m>\left( \dfrac{a}{b}\right)^{-m}=\dfrac{b^m}{a^m}</m></cell>
             </row>
           </tabular>
- <!--       </table>  -->
-
+        </sidebyside>
       <p>The rules of exponents apply to negative exponents as well as positive exponents. It is convenient to keep the negative exponents until the end of the problem and then "move them around" to their correct location (numerator or denominator). It is important to be very careful of rules for adding, subtracting, and multiplying with negatives.</p>
       <example>
         <title>Negative Exponents</title>
