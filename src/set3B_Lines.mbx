@@ -1,14 +1,16 @@
 <section xml:id="section-3B-lines">
   <title>Lines</title>
   <introduction>
-    <ul>
-      <li>Determine the slope and
-        <m>y</m>-intercept of a line given a graph or two points.
-      </li>
-      <li>Determine if a line rises, falls, or is horizontal based on its slope.</li>
-      <li>Determine the slope-intercept form of a linear equation.</li>
-      <li>Compare relative steepness of lines of varying slopes.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Determine the slope and
+          <m>y</m>-intercept of a line given a graph or two points.
+        </li>
+        <li>Determine if a line rises, falls, or is horizontal based on its slope.</li>
+        <li>Determine the slope-intercept form of a linear equation.</li>
+        <li>Compare relative steepness of lines of varying slopes.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Slope</title>
@@ -167,21 +169,25 @@
       <m>y</m> coordinates of the points. Similarly, the change in the
       <m>x</m> values, we can calculate by subtracting the <m>x</m> coordinates of the points.
     </p>
-    <mdn>
-      <mrow xml:id="equation-slope">\text{The slope of a line through }
-        (x_1, y_1)\text{ and }
-        (x_2, y_2)\text{ is }
-        \dfrac{y_2-y_1}{x_2-x_1}</mrow>
-    </mdn>
+    <p>
+      <mdn>
+        <mrow xml:id="equation-slope">\text{The slope of a line through }
+          (x_1, y_1)\text{ and }
+          (x_2, y_2)\text{ is }
+          \dfrac{y_2-y_1}{x_2-x_1}</mrow>
+      </mdn>
+    </p>
     <p>When mathematicians began working with slope, it was called the modular slope. For this reason we often represent the slope with the variable
       <m>m</m>. Now we have the following formula:
-    </p>    
+    </p>
 
     <aside>
-    <mdn>
-      <mrow xml:id="equation-m-slope">\text{Slope}
-        =m=\dfrac{\text{rise}}{\text{run}}=\dfrac{\text{change in } y}{\text{change in }x} =\dfrac{y_2-y_1}{x_2-x_1}</mrow>
-      </mdn>
+      <p>
+        <mdn>
+          <mrow xml:id="equation-m-slope">\text{Slope}
+            =m=\dfrac{\text{rise}}{\text{run}}=\dfrac{\text{change in } y}{\text{change in }x} =\dfrac{y_2-y_1}{x_2-x_1}</mrow>
+        </mdn>
+      </p>
     </aside>
 
     <p>When calculating slope, it is important we subtract the <m>y</m> values and the <m>x</m> values in the same order.
@@ -194,7 +200,7 @@
           <m>(-4, 3)</m> and
           <m>(2,-9)</m>. First identify
           <m>x_1, y_1, x_2, y_2</m>.
-        
+
       <md>
         <mrow>(x_1, y_1)\amp =(-4, 3)\text{ and}</mrow>
         <mrow>(x_2,y_2)\amp =(2,-9) \amp\amp\text{Use slope formula
@@ -362,7 +368,7 @@
     <example>
       <title>Determine Equation Given Graph</title>
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 134 pg 103-->
-      <p>
+      <!-- <p> -->
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-determine-equation">  -->
         <image xml:id="determine-equation" source="images/determine-equation.svg">
@@ -405,7 +411,7 @@
           <p><m>y =-\dfrac{2}{3}x+3</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>
-      </p>
+      <!-- </p> -->
     </example>
     <p>We can also use an equation to identify the slope and
       <m>y</m>-intercept and then graph the equation using this information. To put the equation in slope-intercept form, we solve it for
@@ -427,7 +433,7 @@
         <mrow>\overline{-4}\amp\phantom{1234}\overline{-4}\phantom{1}\overline{-4} \amp\amp \text{Divide each term by
           \(-4\)}</mrow>
         <mrow>\text{Slope-intercept form: }
-          y\amp =\dfrac{1}{2}x-\dfrac{3}{2}\amp\amp \text{Slope-intercept equation 
+          y\amp =\dfrac{1}{2}x-\dfrac{3}{2}\amp\amp \text{Slope-intercept equation
           \(y=mx+b\)}</mrow>
         <mrow>\text{Slope: }
           m=\dfrac{1}{2}\amp\text{, Intercept: }
@@ -570,7 +576,6 @@
     <example>
       <title>Vertical Line Equation</title>
         <!-- Cite Beginning and Intermediate Algebra by Tyler Wallace Example 138 pg 104-->
-      <p>
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-vertical-line">  -->
         <image xml:id="vertical-line" source="images/vertical-line.svg">
@@ -601,12 +606,10 @@
           <p><m>x=-4</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>
-      </p>
     </example>
     <example>
       <title>Horizontal Line Equation</title>
         <!-- Ours-->
-      <p>
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-horizontal-line"> -->
         <image xml:id="horizontal-line" source="images/horizontal-line.svg">
@@ -639,7 +642,6 @@
           <p><m>y=2</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>
-      </p>
     </example>
   </subsection>
 </section>
