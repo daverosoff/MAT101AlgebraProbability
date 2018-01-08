@@ -1,12 +1,14 @@
 <section xml:id="section-4A-sets-and-counting">
   <title>Sets and Counting</title>
   <introduction>
-    <ul>
-      <li>Use set operations including union, intersection and complement.</li>
-      <li>Use Venn diagrams to illustrate relations between sets.</li>
-      <li>Use set theory and Venn diagrams to solve counting problems.</li>
-      <li>Use tree diagrams and the Multiplication Axiom to solve counting problems.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Use set operations including union, intersection and complement.</li>
+        <li>Use Venn diagrams to illustrate relations between sets.</li>
+        <li>Use set theory and Venn diagrams to solve counting problems.</li>
+        <li>Use tree diagrams and the Multiplication Axiom to solve counting problems.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Sets</title>
@@ -14,7 +16,7 @@
     <p>A
       <term>set</term> is a collection of objects, and its members are called the
       <term>elements</term> of the set. We name the set by using capital letters, and enclose its members in braces
-      <m>\{\cdots\}</m>. Suppose we need to list the members of the chess club. We use the following set notation: 
+      <m>\{\cdots\}</m>. Suppose we need to list the members of the chess club. We use the following set notation:
       <md>
         <mrow>C=\{\text{Ken, Bob, Tran, Shanti, Eric}\}</mrow>
       </md>
@@ -193,11 +195,11 @@
                     <m>-3</m> is in the top interval
                     <m>(-\infty, 2]</m>, so
                     <m>-3</m> is in the union.</p>
-                  <p>Also 
+                  <p>Also
                     <m>2.7</m> is in the bottom interval
                     <m>(-2, \infty)</m>, so
                     <m>2.7</m> is in the union.</p>
-                  <p>And 
+                  <p>And
                     <m>-\frac{1}{3}</m> is in both intervals, so
                     <m>-\frac{1}{3}</m> is in the union.</p>
                 </paragraphs>
@@ -211,10 +213,10 @@
               </example>
               <assemblage>
                 <title>WeBWorK: Entering all Real Numbers</title>
-                <p>Type 
+                <p>Type
                   <c>(-inf,inf)</c> for the interval <m>(-\infty, \infty)</m>.
                 </p>
-                <p>Type 
+                <p>Type
                   <c>-inf &lt; x &lt; inf</c> for the inequality <m>-\infty \lt x \lt \infty</m>.
                 </p>
                 <p>Equivalently, you may type <c>all real numbers</c>.</p>
@@ -234,7 +236,7 @@
                     <m>-3</m> is NOT in the bottom interval
                     <m>(-2, \infty),</m> so
                     <m>-3</m> is NOT in the intersection.</p>
-                  <p>Also, 
+                  <p>Also,
                     <m>2.7</m> is NOT in the top interval
                     <m>(-\infty, 2],</m> so
                     <m>2.7</m> is NOT in the intersection.</p>
@@ -322,7 +324,7 @@
                         <!-- Modeled after and WeBWorK MAT105_Templates/setAlgebra_04_02_CompoundIneq/42IntAlg_07_CompoundIneq.pg -->
                       <p>Describe the
                         <term>union</term> of the points in the graph.
-                      </p> 
+                      </p>
                     <sidebyside widths="55% 40%" valign="middle">
 <!--                      <figure xml:id="figure-interval-non-overlapping"> -->
                         <image xml:id="interval-non-overlapping">
@@ -334,7 +336,7 @@
                         <p>Recall the
                             <term>union</term> of the points in the graph would be all values in either the first interval OR in the second (or in both).</p>
                           </sidebyside>
-                        <p> 
+                        <p>
                           <md>
                             <mrow>(-\infty, -2]\cup [1,\infty) \amp\amp\amp \text{A union of intervals describing the union}\checkmark</mrow>
                             <mrow>x\leq -2\text{ or }x\geq 1 \amp\amp\amp \text{A compound inequality describing the union}\checkmark</mrow>
@@ -352,9 +354,9 @@
                           <c>x &lt; = -2 or x &gt; = 1</c>
                           </p>
                           <p>Be sure to include the word "or" between the solutions.
-                        </p>  
+                        </p>
                       </assemblage>
-                        
+
                         <example>
                           <title>Intersection of Two Non-Overlapping Intervals</title>
                             <!-- Modeled after and WeBWorK MAT105_Templates/setAlgebra_04_02_CompoundIneq/42IntAlg_05_CompoundIneq.pg -->
@@ -381,8 +383,8 @@
                         <p>Type
                           <c>None</c> for empty sets.
                         </p>
-                      </assemblage>  
-                      </subsection>              
+                      </assemblage>
+                      </subsection>
   <subsection>
     <title>Universal Set</title>
     <p>A
@@ -524,7 +526,7 @@
       <paragraphs>
       <p>The shaded region represents the collection of all elements that are NOT in
         <m>A.</m></p>
-        <p>The region is 
+        <p>The region is
         <m>A'.</m>
       </p>
     </paragraphs>
@@ -612,7 +614,7 @@
     </p>
   -->
 
-   
+
     <p><!--Recall a Venn diagram represents a set as the interior of a circle. Often two or more circles are enclosed in a rectangle where the rectangle represents the universal set. These diagrams allow us to visualize an intersection or union of two sets or the complement of a set.-->We will now use Venn diagrams to sort various populations and count objects.  We use the notation
       <m>n(A)</m> to represent the number of elements in set
       <m>A</m>.  For example, if <m>A=\{\text{Maggie, Joe, Ben, Susanne}\}</m> then
@@ -636,7 +638,7 @@
           <m>S</m>
           <m>=A\cap S</m>.
         </p>
-        <p>That is 
+        <p>That is
           <m>n(A\cap S)=\color{red}{12}</m>.
         </p>
       </paragraphs>
@@ -687,7 +689,7 @@
           <p>This means
             <m>x + 12 = 30</m>. Subtract
             <m>12</m> from both sides to get
-            <m>x = 18</m>. 
+            <m>x = 18</m>.
           </p>
           <p>Record
             <m>\color{blue}{18}</m> in
@@ -717,7 +719,7 @@
           <p>This means
             <m>y + 12 = 20</m>. Subtract
             <m>12</m> from both sides to get
-            <m>y = 8</m>. 
+            <m>y = 8</m>.
           </p>
           <p>Record
             <m>\color{green}{8}</m> in
@@ -738,7 +740,7 @@
 <!--      </figure>  -->
       </sidebyside>
       <sidebyside widths="45% 45%" valign="middle">
-        <p>Now that all the information is sorted out, it is easy to read from the diagram that:</p> 
+        <p>Now that all the information is sorted out, it is easy to read from the diagram that:</p>
         <p><m>\color{blue}{18}</m> people drove cars with automatic transmissions only,
           <m>\color{red}{12}</m> people drove both types of cars, and
           <m>\color{green}{8}</m> drove cars with standard transmissions only.
@@ -912,8 +914,7 @@
     </p>
     <p>Looking back at the final Venn diagram of <xref ref="example-disneyland-knotts" autoname="yes" /> in which <m>100</m> people in California were surveyed, we can organize the results in a two-way table as follows:
     </p>
-    <p>
-<!--      <table>  -->
+      <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -945,7 +946,8 @@
             <cell><m>100</m></cell>
           </row>
         </tabular>
-<!--      </table>  -->
+      </sidebyside>
+      <p>
       Notice from the above table, we can determine particular counts.  For example, at the bottom of the Disneyland column is the boxed number
       <m>\fbox{60}</m>, which is the total number of people surveyed who visited Disneyland.  The red
       <m>\color{red}{6}</m> is the intersection of row Knott's and column Disneyland, which is
@@ -1390,8 +1392,7 @@
     <p>The tree diagrams help us visualize the different possibilities, but they are not practical when the possibilities are numerous. Besides, we are mostly interested in counting the number of elements in the set and not the actual possibilities. But once the problem is envisioned, we can solve it without a tree diagram. The two examples we just solved may have given us a clue to do just that.</p>
     <p>Let us now try to solve <xref ref="example-3-step-tree" autoname="yes" /> without a tree diagram. Recall that the problem involved three steps: choosing an appetizer, choosing a main course, and choosing a dessert. The number of ways of choosing each are listed below:
     </p>
-    <p>
-<!--      <table>  -->
+    <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1408,8 +1409,7 @@
             <cell><m>3</m></cell>
           </row>
         </tabular>
-<!--      </table>  -->
-    </p>
+      </sidebyside>
     <p>By multiplying these three numbers we get
       <m>2\cdot 4\cdot 3=24</m>, which is what we got when we did the problem using a tree diagram.  The procedure we just employed is called the <term>multiplication axiom</term>:
     </p>
@@ -1420,7 +1420,7 @@
       <m>m\cdot n</m> ways.
     </p>
     <p>The general multiplication axiom is not limited to just two tasks and can be used for any number of tasks.</p>
- 
+
   <example>
     <title>Multiplication Axiom</title>
       <!--   This is T http://cnx.org/content/col10613/1.5/ Example 11.12 page 176  -->
@@ -1428,8 +1428,7 @@
     </p>
     <p>Since there are <m>26</m> letters and <m>10</m> digits, we have the number of choices for each listed in the below table.
     </p>
-    <p>
-<!--      <table>  -->
+    <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1452,13 +1451,14 @@
             <cell><m>10</m></cell>
           </row>
         </tabular>
-<!--      </table>  -->
-      <md>
-        <mrow>26\cdot 10 \cdot 10 \cdot 10 \cdot 10\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
-        <mrow>260,000\amp\amp\amp\text{Our Solution:}</mrow>
-        </md>
+        <p>
+          <md>
+            <mrow>26\cdot 10 \cdot 10 \cdot 10 \cdot 10\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
+            <mrow>260,000\amp\amp\amp\text{Our Solution:}</mrow>
+          </md>
       There are <m>260,000</m> possible such license plates.<m>\checkmark</m>
     </p>
+    </sidebyside>
   </example>
   <example>
     <title>Multiplication Axiom</title>
@@ -1466,8 +1466,8 @@
     <p>In how many different ways can a
       <m>3</m>-question true-false test be answered?
     </p>
-    <p>Since there are two choices for each question, we have:
-<!--    <table>  -->
+    <p>Since there are two choices for each question, we have:</p>
+    <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1484,27 +1484,27 @@
             <cell><m>2</m></cell>
           </row>
         </tabular>
-<!--      </table>  -->
-      <md>
-        <mrow>2\cdot 2 \cdot 2\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
-        <mrow>8\amp\amp\amp\text{Our Solution: There are
-          \(8\) different ways.}\checkmark</mrow>
-      </md>
-      We list all eight possibilities below:
-      <md>
-        <mrow>TTT, TTF, TFT, TFF, FTT, FTF, FFT, FFF</mrow>
-      </md>
-      The reader should note that the first letter in each possibility is the answer corresponding to the first question, the second letter corresponds to the answer to the second question and so on. For example, <m>TFF</m>, says that the answer to the first question is given as true, and the answers to the second and third questions false.
-    </p>
-  </example>
+      </sidebyside>
+      <p>
+        <md>
+          <mrow>2\cdot 2 \cdot 2\amp\amp\amp\text{Multiply the possibilities using the Multiplication Axiom}</mrow>
+          <mrow>8\amp\amp\amp\text{Our Solution: There are
+            \(8\) different ways.}\checkmark</mrow>
+        </md>
+        We list all eight possibilities below:
+        <md>
+          <mrow>TTT, TTF, TFT, TFF, FTT, FTF, FFT, FFF</mrow>
+        </md>
+        The reader should note that the first letter in each possibility is the answer corresponding to the first question, the second letter corresponds to the answer to the second question and so on. For example, <m>TFF</m>, says that the answer to the first question is given as true, and the answers to the second and third questions false.
+      </p>
+    </example>
   <example>
     <title>Multiplication Axiom</title>
       <!--   This is T http://cnx.org/content/col10613/1.5/ Example 11.14 page 177  -->
     <p>In how many different ways can four people be seated in a row?</p>
     <p>Suppose we put four chairs in a row, and proceed to put four people in these seats.</p>
     <p>There are four choices for the first chair we choose. Once a person sits down in that chair, there are only three choices for the second chair, and so on. We list as shown below:</p>
-    <p>
-<!--      <table>  -->
+      <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col halign="center" right="minor" />
           <col halign="center" right="minor" />
@@ -1524,7 +1524,8 @@
             <cell><m>2</m></cell>
           </row>
         </tabular>
-<!--      </table>  -->
+      </sidebyside>
+    <p>
       <md>
         <mrow>4\cdot 3\cdot 2\cdot 1\amp\amp\amp \text{Multiply the possibilities using the Multiplication Axiom}</mrow>
         <mrow>24 \amp\amp\amp\text{Our Solution: There are \(24\) different ways.}\checkmark</mrow>
