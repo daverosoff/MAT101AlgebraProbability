@@ -1,19 +1,21 @@
 <section xml:id="section-2C-applications">
   <title>Applications</title>
   <introduction>
-    <ul>
-      <li>Solve number problems by creating and solving an equation.</li>
-      <li>Solve problems using scientific notation and exponent properties.</li>
-      <li>Solve formulas for a given variable.</li>
-      <li>Solve practical percent problems.</li>
-      <li>Solve weighted average problems.</li>
-      <li>Interpret plus or minus notation for intervals.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Solve number problems by creating and solving an equation.</li>
+        <li>Solve problems using scientific notation and exponent properties.</li>
+        <li>Solve formulas for a given variable.</li>
+        <li>Solve practical percent problems.</li>
+        <li>Solve weighted average problems.</li>
+        <li>Interpret plus or minus notation for intervals.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Linear Equation Applications</title>
     <p>Applications often involve converting an English sentence into a mathematical sentence. These first examples will focus on basic number problems to build your skills at "translating" words into math symbols.</p>
-    <p>A few important phrases can give us clues for how to set up a problem.</p>
+    <p>A few important phrases can give us clues for how to set up a problem.
     <ul>
       <li><p>
         <term>A number</term> (or <term>an unknown</term>, <term>a value</term>, etc) usually becomes our variable
@@ -28,7 +30,7 @@
         </ul></p>
       </li>
       <li><p>
-        <term>More than</term> often represents addition: 
+        <term>More than</term> often represents addition:
         <ul>
           <li>"Three more than a number" becomes <m>x+3</m></li>
         </ul></p>
@@ -50,7 +52,7 @@
         </ul></p>
       </li>
     </ul>
-
+</p>
     <example>
       <title>Number Problem</title>
         <!--Cite Beginning and Intermediate Algebra by Tyler Wallace Example 102 pg 64-->
@@ -106,7 +108,7 @@
       <p>Enter currency with a dollar sign
         <m>\$</m> in front.  If your answer is not in whole dollars, type two decimal places:
         <c>$35.50</c> and <em>not</em>
-        <c>35.5</c>. 
+        <c>35.5</c>.
       </p>
       <p>If your calculation results in more than two decimal places, round the answer to the nearest penny (hundredths):  For <m>7.386</m>, round to <c>$7.39</c>.
     </p>
@@ -127,7 +129,7 @@
           \(x=\) the mass of one atom of carbon} \amp\amp\amp \text{Convert the given information into an equation}</mrow>
         <mrow>(6.022\times 10^{23})x =12 \amp\amp\amp \text{The number of atoms times the mass of each } </mrow>
         <mrow> \text{ } \amp\amp\amp \text{equals the total mass of
-          \(12\) grams}</mrow>          
+          \(12\) grams}</mrow>
       </md>
       Now we solve the equation.
       <md>
@@ -272,7 +274,7 @@ same idea is seen in the following example.</p>
               <m>50</m>?</li>
             </ul>
         </li>
-        <li><term>Determine a number from a given percent of another number.</term> 
+        <li><term>Determine a number from a given percent of another number.</term>
           <ul>
             <li>For example,
               <m>37.5\%</m> of what number is
@@ -310,7 +312,7 @@ same idea is seen in the following example.</p>
           <m>30.</m></p>
         <p>First, think about the question.  We know that <m>50\%</m> of
           <m>30</m> is <m>15</m>.  The <term>of</term> is multiplication: <m>0.5\cdot 30 = 15</m>. We are asked to determine <m>175\%</m> of
-          <m>30</m>. Translate the words into an equation.  Let 
+          <m>30</m>. Translate the words into an equation.  Let
           <ul>
             <li><m>x=</m> the <term>unknown</term> amount we are to determine</li>
           </ul>
@@ -361,7 +363,7 @@ same idea is seen in the following example.</p>
               </mrow>
               <mrow>\text{
               ? \( \cdot 80\) \( = 10 \) ?} \amp\amp\amp \text{Let \(x\) represent the percent in decimal.}
-              </mrow> 
+              </mrow>
               <mrow>\text{
               \(x\cdot 80=10\)} \amp\amp\amp \text{solve our equation for
               \(x\): Divide both sides by
@@ -396,7 +398,7 @@ same idea is seen in the following example.</p>
                 </mrow>
                 <mrow>\text{
                 \(10\% \cdot \) ? \( = 12 \) ?} \amp\amp\amp \text{Let \(x\) represent the number.}
-                </mrow> 
+                </mrow>
                 <mrow>\text{ } \amp\amp\amp \text{
                 \(10\%\) in decimal form is \(.10\)}</mrow>
                 <mrow>
@@ -420,7 +422,7 @@ same idea is seen in the following example.</p>
           <p>Translate the words into an equation. Let
           <ul>
             <li><m>x=</m> the <term>unknown</term> number</li>
-          </ul>  
+          </ul>
           Recall <term>of</term> translates to times, and <term>is</term> translates to equals.
           <md>
             <mrow>0.375\cdot x \amp\amp\amp \text{Translate: \(37.5\%\) of the number}</mrow>
@@ -434,7 +436,7 @@ same idea is seen in the following example.</p>
     </subsection>
     <subsection>
       <title>Applications of Percent</title>
-      <p><!--Most of the time when you need to solve a percent problem, it will not be presented purely as a "percent" problem.  It will come in some setting like a Chemistry or Business problem. 
+      <p><!--Most of the time when you need to solve a percent problem, it will not be presented purely as a "percent" problem.  It will come in some setting like a Chemistry or Business problem.
         A person's salary can increase by a percentage. A town's population can decrease by a percentage. A clothing firm can discount its apparel.  -->
         Consider the following examples. Recognizing the "type" of percent problem will be the key to translating the problem into an equation.</p>
       <example>
@@ -467,13 +469,14 @@ same idea is seen in the following example.</p>
       </example>
       <p>Let us take time to summarize the steps to solve a word problem</p>
       <aside>
-         <p>When solving a word problem you'll need to </p>
+         <p>When solving a word problem you'll need to
          <ul>
           <li> Break the situation down into parts you know how to handle.</li>
           <li> Use a variable for the unknown quantity.</li>
-          <li> Build mathematical expressions from the description in the problem.</li> 
+          <li> Build mathematical expressions from the description in the problem.</li>
           <li> Put the expressions together to make an equality which you may solve with algebra operations.</li>
         </ul>
+      </p>
       </aside>
       <example>
         <title>Percent Increase</title>
@@ -499,13 +502,13 @@ same idea is seen in the following example.</p>
         </md>
       </p>
       </example>
-      The basic idea used to solve one problem may be the same in a different setting.
+      <p>The basic idea used to solve one problem may be the same in a different setting.</p>
       <example>
         <title>Sales Tax</title>
           <!-- Our own-->
         <p>Bea orders gardening tools online and <m>\$532.45</m> is charged to her credit card for the order. How much did the garden tools cost if shipping/handling is <m>8.5\%</m> of the purchase? i.e. what was the cost of just the tools?
         </p>
-        <p>First recognize this involves the same strategies used in the previous problem. We start by translating the words into an equation.  Let 
+        <p>First recognize this involves the same strategies used in the previous problem. We start by translating the words into an equation.  Let
         <ul>
           <li><m>x=</m> the <term>unknown</term> cost of the tools</li>
         </ul>
@@ -536,7 +539,7 @@ same idea is seen in the following example.</p>
           <m>\$310</m>. However, a sign in the shop indicates that skis are being discounted at
           <m>15\%.</m> What will be the new selling price of the skis?
         </p>
-        <p>First recognize this involves the first type of percent problem: <term>1. Determine a certain percent of a given number.</term> Start by translating the words into an equation.  Let 
+        <p>First recognize this involves the first type of percent problem: <term>1. Determine a certain percent of a given number.</term> Start by translating the words into an equation.  Let
         <ul>
           <li><m>x=</m> the <term>unknown</term> selling price</li>
         </ul>
@@ -562,7 +565,7 @@ same idea is seen in the following example.</p>
       <title>Computing Desired Score for a Minimum Average</title>
 <!-- Our own-->
       <p>Suppose your scores on <m>2</m> homework assignments are <m>89</m> and <m>85</m>.  What minimum score should you achieve on your third assignment if you desire the average of the <m>3</m> assignments to be at least <m>90</m>?</p>
-      <p>Let 
+      <p>Let
         <ul>
           <li><m>x</m> represent the <term>unknown</term> third score</li>
         </ul>
@@ -579,10 +582,10 @@ same idea is seen in the following example.</p>
       </p>
     </example>
 
-<p>The final course grade in <term>MAT 101</term> is a weighted average.  The final course grade is weighted by groups as follows: 
+<p>The final course grade in <term>MAT 101</term> is a weighted average.  The final course grade is weighted by groups as follows:
 <ul>
   <li><term>Attendance and Participation</term> has weight <m>5\%</m></li>
-  <li><term>Unit Exams</term> have weight <m>20\%</m></li>, and the
+  <li><term>Unit Exams</term> have weight <m>20\%</m>, and the</li>
   <li><term>Final Exam</term> has weight <m>75\%</m>.</li>
 </ul>
 Consider the computation of the following example grade:
@@ -608,7 +611,7 @@ Consider the computation of the following example grade:
   <title>Computing Desired Score for a Minimum Weighted Average</title>
 <!-- Our own-->
   <p>Suppose your <term>MAT 101</term> final course grades are as follows: Attendance and Participation <m>=100</m> and your Unit Exams average <m>=88</m>.  What minimum score should you achieve on your Final Exam if you desire your overall weighted average in MAT 101 to be at least <m>80</m>?</p>
-  <p>Let 
+  <p>Let
     <ul>
       <li><m>x</m> represent the <term>unknown</term> Final Exam score</li>
     </ul>
@@ -628,7 +631,7 @@ Consider the computation of the following example grade:
     <subsection>
     <title>Intervals in Context</title>
     <p>In this section we introduce a notation that is used in two different ways.  The correct interpretation of the notation depends on the context in which it occurs.  The notation is called the "plus or minus" sign,
-      <m>\pm.</m> 
+      <m>\pm.</m>
     </p>
     <example>
       <title>The Plus or Minus sign</title>
@@ -662,8 +665,8 @@ Consider the computation of the following example grade:
       <m>45 \pm 3</m> percent.  Here, it means that the percentage of people in favor of the idea could range any where from
       <m>42\%</m> to
       <m>48\%</m>. It's the interval
-      <m>[42, 48]</m> where the ends of the interval are calculated by 
-      <m>42=45-3</m> and 
+      <m>[42, 48]</m> where the ends of the interval are calculated by
+      <m>42=45-3</m> and
       <m>48=45+3.</m> In this case, the
       <m>\pm</m> symbol represents a range of values, not just two numbers as in the previous example.
     </p>
@@ -683,4 +686,4 @@ Consider the computation of the following example grade:
     </example>
   </subsection>
 </section>
-                     
+
