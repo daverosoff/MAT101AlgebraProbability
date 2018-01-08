@@ -1,12 +1,14 @@
 <section xml:id="section-4B-probability">
   <title>Probability</title>
   <introduction>
-    <ul>
-      <li>Determine sample and event spaces.</li>
-      <li>Calculate probabilities using event and sample spaces.</li>
-      <li>Calculate probabilities from one- and two-way tables.</li>
-      <li>Calculate probabilities using Venn diagrams.</li>
-    </ul>
+    <p>
+      <ul>
+        <li>Determine sample and event spaces.</li>
+        <li>Calculate probabilities using event and sample spaces.</li>
+        <li>Calculate probabilities from one- and two-way tables.</li>
+        <li>Calculate probabilities using Venn diagrams.</li>
+      </ul>
+    </p>
   </introduction>
   <subsection>
     <title>Introduction</title>
@@ -54,9 +56,9 @@
       <term>probability</term> of event
       <m>A</m> happening is
     <mdn>
-      <mrow>P(A) = \dfrac{\text{# of outcomes in event space
-        <m>A</m>}}{\text{# of outcomes in sample space
-        <m>SS</m>}}=\dfrac{n(A)}{n(SS)}
+      <mrow>P(A) = \dfrac{\text{# of outcomes in event space }
+        A}{\text{# of outcomes in sample space }SS
+        }=\dfrac{n(A)}{n(SS)}
       </mrow>
     </mdn>
   </p>
@@ -110,8 +112,7 @@
       <p>There are two choices for each child's gender. We create a table as in Set
         <xref ref="section-4A-sets-and-counting" />.
       </p>
-      <p>
-<!--      <table>  -->
+      <sidebyside>
         <tabular halign="center" top="minor" left="minor" right="minor">
           <col right="minor" />
           <col right="minor" />
@@ -134,13 +135,15 @@
             </cell>
           </row>
         </tabular>
-<!--      </table>  --> 
+      </sidebyside>
+      <p>
       <md>
         <mrow>2\cdot 2 \cdot 2\amp\amp\amp \text{Multiply the possibilities using the
-          <term>Multiplication Axiom</term>}
+          \textbf{Multiplication Axiom}}
         </mrow>
         <mrow>8 \amp\amp\amp \text{There are \(8\) elements in the sample space.}</mrow>
       </md>
+    </p>
       <sidebyside widths="40% 55%" valign="middle">
         <paragraphs>
           <p>Illustrate the possibilities with a tree diagram. The tree has
@@ -150,12 +153,11 @@
             <m>BGB</m>, for example, indicates that the first born is a boy, the second born a girl, and the third a boy.
           </p>
         </paragraphs>
-<!--        <figure xml:id="figure-tree-gender">  -->
-          <image xml:id="tree-gender">
+        <image xml:id="tree-gender">
             <latex-image-code><![CDATA[\begin{tikzpicture} \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$}; \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$}; \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$}; \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$}; \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$}; \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$}; \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$}; \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$}; \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$}; \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$}; \end{tikzpicture} ]]></latex-image-code>
           </image>
-<!--        </figure>  -->
       </sidebyside>
+      <p>
       <md>
         <mrow>SS=\{BBB,BBG,BGB,BGG,GBB,GBG,GGB,GGG \} \amp\amp\amp \text{Our Solution}\checkmark</mrow>
       </md>
@@ -188,7 +190,8 @@
       <p>Two fair dice are rolled. Write the sample space.
       </p>
       <p>We assume one of the dice is red, and the other green. We create a table as before:
-<!--      <table>  -->
+      </p>
+      <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col right="minor" />
           <col right="minor" />
@@ -366,13 +369,14 @@
             </cell>
           </row>
         </tabular>
-<!--      </table>  -->
-      <md>
-        <mrow>SS=\{(1,1), (1,2),...,(6,6) \} \amp\amp\amp \text{Our Solution:}</mrow>
-      </md>
-      The sample space is the
-        <m>36=6\times 6</m> outcomes listed in the table above.
-        <m>\checkmark</m>
+      </sidebyside>
+      <p>
+        <md>
+          <mrow>SS=\{(1,1), (1,2),...,(6,6) \} \amp\amp\amp \text{Our Solution:}</mrow>
+        </md>
+        The sample space is the
+          <m>36=6\times 6</m> outcomes listed in the table above.
+          <m>\checkmark</m>
       </p>
     </example>
     <example>
@@ -416,9 +420,9 @@
         <m>4</m> suits (black spades
         <m>S</m>, black clubs
         <m>C</m>,
-        <font color="#FF0000"/>red diamonds
+        red diamonds
         <m>D</m>, and
-        <font color="#FF0000"/>red hearts
+        red hearts
         <m>H</m>) each with
         <m>13</m> cards (numbers
         <m>2</m> through
@@ -426,7 +430,7 @@
         <m>J</m>, queen
         <m>Q</m>, king
         <m>K</m>, and ace
-        <m>A</m>). We will generally consider the face cards to be the jacks, hearts, queens, kings, and aces. 
+        <m>A</m>). We will generally consider the face cards to be the jacks, hearts, queens, kings, and aces.
       </p>
       <p>
         <md>
@@ -486,8 +490,8 @@
     <example>
       <title>One-Way Table Probabilities</title>
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.1 Homework Problem 1, page 113 -->
-      <p>A bag of chocolate candies contained the following distribution of colors.
-<!--      <table>  -->
+      <p>A bag of chocolate candies contained the following distribution of colors.</p>
+      <sidebyside>
         <tabular halign="center" top="minor" left="minor">
           <col right="minor" />
           <col right="minor" />
@@ -534,7 +538,8 @@
             </cell>
           </row>
         </tabular>
-<!--      </table>  -->
+      </sidebyside>
+      <p>
         If all of the candies are placed in a bowl and one is selected at random, determine the probability of selecting the following candies.</p>
         <p>(a) Determine the probability of selecting a blue candy. Label the event space <m>B</m> for blue.
         <md>
@@ -553,8 +558,8 @@
       <example xml:id="example-titanic">
         <title>Two-Way Table Probabilities</title>
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-        <p>The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.
-<!--        <table>  -->
+        <p>The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
+        <sidebyside>
           <tabular halign="center" top="minor" left="minor">
             <col right="minor" />
             <col right="minor" />
@@ -597,8 +602,8 @@
               <cell><m>450</m></cell>
             </row>
           </tabular>
-<!--        </table>  -->
-        Determine the following probabilities.</p>
+        </sidebyside>
+        <p>Determine the following probabilities.</p>
         <p>(a) Determine the probability that a survivor was female. Label the event space <m>F</m> for female.
         <md>
           <mrow>P(F) = \dfrac{n(F)}{\text{Total #}}=\dfrac{308}{450}\approx 0.6844\amp\amp\amp \text{Our Solution (a):}</mrow>
