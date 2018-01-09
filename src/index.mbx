@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 <docinfo>
     <brandlogo source="images/seal.jpg"/> <!--see sample article about 176x240 pixels brand logo-->
@@ -55,38 +55,38 @@
             <email>kyoshiwara@hotmail.com</email>
         </author>
         <date>
-            <today />
+            <today/>
         </date>
     </titlepage>
 </frontmatter>
  
 <chapter xml:id="chapter-0-preliminaries">
     <title>Preliminaries</title>
-    <xi:include href="./set00_Preliminaries.mbx" />
+    <xi:include href="./set00_Preliminaries.mbx"/>
 </chapter>
 <chapter xml:id="chapter-1-numbers">
     <title>Numbers</title>
-<xi:include href="./set1A_Fractions.mbx" />
-<xi:include href="./set1B_Percents_and_Estimation.mbx" />
-<xi:include href="./set1C_Exponents_and_Scientific_Notation.mbx" />
+<xi:include href="./set1A_Fractions.mbx"/>
+<xi:include href="./set1B_Percents_and_Estimation.mbx"/>
+<xi:include href="./set1C_Exponents_and_Scientific_Notation.mbx"/>
 </chapter>
 <chapter xml:id="chapter-2-equations-intervals-inequalities">
     <title>Equations, Intervals, and Inequalities</title>
-<xi:include href="./set2A_Equations_and_Absolute_Value.mbx" />
-<xi:include href="./set2B_Intervals_and_Inequalities.mbx" />
-<xi:include href="./set2C_Applications.mbx" />
+<xi:include href="./set2A_Equations_and_Absolute_Value.mbx"/>
+<xi:include href="./set2B_Intervals_and_Inequalities.mbx"/>
+<xi:include href="./set2C_Applications.mbx"/>
 </chapter>
 <chapter xml:id="chapter-3-graphs">
     <title>Graphs</title>
-<xi:include href="./set3A_Interpreting_Graphs.mbx" />
-<xi:include href="./set3B_Lines.mbx" />
-<xi:include href="./set3C_Linear_Models.mbx" />
+<xi:include href="./set3A_Interpreting_Graphs.mbx"/>
+<xi:include href="./set3B_Lines.mbx"/>
+<xi:include href="./set3C_Linear_Models.mbx"/>
 </chapter>
 <chapter xml:id="chapter-4-sets-and-probability">
     <title>Sets and Probability</title>
-<xi:include href="./set4A_Sets_and_Counting.mbx" />
-<xi:include href="./set4B_Probability.mbx" />
-<xi:include href="./set4C_Probability_Rules.mbx" />
+<xi:include href="./set4A_Sets_and_Counting.mbx"/>
+<xi:include href="./set4B_Probability.mbx"/>
+<xi:include href="./set4C_Probability_Rules.mbx"/>
 </chapter>
 </book>
 </mathbook>

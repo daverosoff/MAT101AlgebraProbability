@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-4C-probability-rules">
   <title>Probability Rules</title>
   <introduction>
@@ -15,7 +16,7 @@
     <title>Probability Properties</title>
     <p>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf page 116 -->The examples and WeBWorK problems of
-      <xref ref="section-4B-probability" autoname="yes" /> demonstrated some important probability results which are summarized below.
+      <xref ref="section-4B-probability" text="type-global"/> demonstrated some important probability results which are summarized below.
     </p>
     <!-- adds number <list xml:id="probability-properties">
       <title>Probability Properties</title>-->
@@ -150,7 +151,7 @@
         <m>4</m>.
         </p>
         <p>The
-            <m>SS</m> is written in <xref ref="example-2-dice-sample-space" autoname="yes" />. Recall the sample space has
+            <m>SS</m> is written in <xref ref="example-2-dice-sample-space" text="type-global"/>. Recall the sample space has
             <m>36</m> outcomes. Rolling a sum that is <em>at least</em>
             <m>4</m> would involve listing all of the sums that are
             <m>4</m> or more. It would be much easier to list the outcomes that make up the complement. First write
@@ -184,7 +185,7 @@
         <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.2 Example 4.2.5, page 121 -->
       <p>In an experiment of picking one card from a deck, what is the probability of getting a Jack and an Ace? What is the probability of getting a Jack or an Ace? What is the probability of getting a Spade or an Ace?
         </p>
-        <p>Recall the sample space for a deck of cards in <xref ref="example-sample-space-deck-of-cards" autoname="yes" /></p>
+        <p>Recall the sample space for a deck of cards in <xref ref="example-sample-space-deck-of-cards" text="type-global"/></p>
         <p>(a) Determine the probability of selecting a Jack
             <m>J</m> AND an Ace
             <m>A</m>. First write the event space,
@@ -233,7 +234,7 @@
           </p>
         </example>
 
-      <p>Part (a) of <xref ref="example-card-probabilities" autoname="yes" /> demonstrates an
+      <p>Part (a) of <xref ref="example-card-probabilities" text="type-global"/> demonstrates an
         <term>impossible event</term>: selecting a Jack and an Ace on one draw.  Parts (b) and (c) demonstrate another probability concept.  Notice that:
       </p>
       <p>
@@ -265,18 +266,18 @@
     <example>
       <title>Mutually Exclusive</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall Example <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013).</p>
+      <p>(Recall Example <xref ref="example-titanic" text="type-global"/>.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013).</p>
       <sidebyside>
           <tabular halign="center" top="minor" left="minor">
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
         <!--  -->
             <row>
-              <cell></cell>
+              <cell/>
               <cell colspan="2">Gender</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell>Class</cell>
@@ -347,18 +348,18 @@
     <example>
       <title>Conditional Probability--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
+      <p>(Recall <xref ref="example-titanic" text="type-global"/>.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
       <sidebyside>
           <tabular halign="center" top="minor" left="minor">
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
         <!--  -->
             <row>
-              <cell></cell>
+              <cell/>
               <cell colspan="2">Gender</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell>Class</cell>
@@ -470,10 +471,10 @@
             <m>25\%\checkmark</m>.
           </p>
       </example>
-      <p>If you look at the results of <xref ref="example-conditional-cards" autoname="yes" />, notice that you get
+      <p>If you look at the results of <xref ref="example-conditional-cards" text="type-global"/>, notice that you get
         <m>P(Spade|\text{the card is a }Jack)=\dfrac{1}{4}</m> which is exactly the same as
         <m>P(Spade)=\dfrac{13}{52}</m> since there are
-        <m>13</m> total spades in the entire deck. This means that knowing that the card is a Jack did not change the probability that the card is a Spade. This added knowledge did not help you in any way. It is as if that information was not given at all. However, if you compare the conditional probability of <xref ref="example-card-probabilities" autoname="yes" />
+        <m>13</m> total spades in the entire deck. This means that knowing that the card is a Jack did not change the probability that the card is a Spade. This added knowledge did not help you in any way. It is as if that information was not given at all. However, if you compare the conditional probability of <xref ref="example-card-probabilities" text="type-global"/>
         <m>P(D=5|\text{the first die is a }2)=\dfrac{1}{6}\approx 16.67\%</m> with
         <m>P(D=5)=\dfrac{n(D=5)}{36}=\dfrac{4}{36}\approx 11.11\%</m>, you will notice that they are not the same answer. In this case, knowing that the first die is a
         <m>2</m> did change the probability of getting a sum of
@@ -511,18 +512,18 @@
     <example>
       <title>Independent Events--Titanic</title>
       <!--   This is CoconinoCC_chapter_4_Probability.pdf Section 4.3 Homework Problem 11, page 140 -->
-      <p>(Recall <xref ref="example-titanic" autoname="yes" />.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
+      <p>(Recall <xref ref="example-titanic" text="type-global"/>.) The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
       <sidebyside>
           <tabular halign="center" top="minor" left="minor">
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
         <!--  -->
             <row>
-              <cell></cell>
+              <cell/>
               <cell colspan="2">Gender</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell>Class</cell>
@@ -660,7 +661,7 @@
             <p>The possibility
             <m>BGB</m>, for example, indicates that the first kitten is a boy, the second born a girl, and the third a boy.</p>
           </paragraphs>
-          <image source="images/tree-gender.svg" />
+          <image source="images/tree-gender.svg"/>
         </sidebyside>
         <p>We are told <m>P(B)=0.03</m>. Determine the probability of a girl using complementary events, since
             <m>B'=G</m>.
@@ -680,7 +681,7 @@
         </paragraphs>
 <!--      <figure xml:id="figure-probability-tree-gender">  -->
           <image xml:id="probability-tree-gender">
-            <latex-image-code><![CDATA[
+            <latex-image>
                     \begin{tikzpicture}
                       \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$} node[shift={(-1.5,-.6)}] {$0.03$};
                       \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$} node[shift={(-1.5,-.2)}] {$0.03$};
@@ -699,7 +700,7 @@
                       \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$} node[shift={(-1.5,.15)}] {$0.97$};
                       \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$} node[shift={(-1,-.025)}] {$0.03$};
                       \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$} node[shift={(-1,.025)}] {$0.97$};
-                                \end{tikzpicture} ]]></latex-image-code>
+                                \end{tikzpicture} </latex-image>
                       </image>
 <!--                      </figure>  -->
       </sidebyside>

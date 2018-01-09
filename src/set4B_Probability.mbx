@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-4B-probability">
   <title>Probability</title>
   <introduction>
@@ -110,13 +111,13 @@
         <m>G</m> represent a girl.  First determine the number of outcomes in the sample space.
       </p>
       <p>There are two choices for each child's gender. We create a table as in Set
-        <xref ref="section-4A-sets-and-counting" />.
+        <xref ref="section-4A-sets-and-counting"/>.
       </p>
       <sidebyside>
         <tabular halign="center" top="minor" left="minor" right="minor">
-          <col right="minor" />
-          <col right="minor" />
-          <col />
+          <col right="minor"/>
+          <col right="minor"/>
+          <col/>
           <!--  -->
           <row bottom="minor">
             <cell>Child 1</cell>
@@ -154,7 +155,7 @@
           </p>
         </paragraphs>
         <image xml:id="tree-gender">
-            <latex-image-code><![CDATA[\begin{tikzpicture} \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$}; \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$}; \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$}; \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$}; \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$}; \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$}; \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$}; \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$}; \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$}; \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$}; \end{tikzpicture} ]]></latex-image-code>
+            <latex-image>\begin{tikzpicture} \draw (0,4) -- (3,6) node[shift={(.25,0)}] {$B$}; \draw (3.5, 6) -- (6.5,7) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 7) -- (9,7.5) node[shift={(1.5,0)}] {$B\rightarrow BBB$}; \draw (7.25, 7) -- (9,6.5) node[shift={(1.5,0)}] {$G\rightarrow BBG$}; \draw (3.5, 6) -- (6.5,5) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 5) -- (9,5.5) node[shift={(1.5,0)}] {$B\rightarrow BGB$}; \draw (7.25, 5) -- (9,4.5) node[shift={(1.5,0)}] {$G\rightarrow BGG$}; \draw (0,4) -- (3,2) node[shift={(.25,0)}] {$G$}; \draw (3.5, 2) -- (6.5,3) node[shift={(0.4,0)}] {$B$}; \draw (7.25, 3) -- (9,3.5) node[shift={(1.5,0)}] {$B\rightarrow GBB$}; \draw (7.25, 3) -- (9,2.5) node[shift={(1.5,0)}] {$G\rightarrow GBG$}; \draw (3.5, 2) -- (6.5,1) node[shift={(0.4,0)}] {$G$}; \draw (7.25, 1) -- (9,1.5) node[shift={(1.5,0)}] {$B\rightarrow GGB$}; \draw (7.25, 1) -- (9,.5) node[shift={(1.5,0)}] {$G\rightarrow GGG$}; \end{tikzpicture} </latex-image>
           </image>
       </sidebyside>
       <p>
@@ -169,7 +170,7 @@
       <p>A family has three children. Determine the probability of the family having at least two girls.
       </p>
       <p>Recall from Example
-        <xref ref="example-sample-space-3-children" /> the sample space
+        <xref ref="example-sample-space-3-children"/> the sample space
         <m>SS</m> has
         <m>8</m> outcomes:
         <md>
@@ -193,16 +194,16 @@
       </p>
       <sidebyside>
         <tabular halign="center" top="minor" left="minor">
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
           <!--  -->
           <row bottom="minor">
-            <cell></cell>
+            <cell/>
             <cell colspan="6">
               <m>\color{green}{\text{Green}}</m>
             </cell>
@@ -385,7 +386,7 @@
       <p>Two fair dice are rolled. Determine the following probabilities.
       </p>
       <p>In Example
-        <xref ref="example-2-dice-sample-space" /> we, we determined the sample space
+        <xref ref="example-2-dice-sample-space"/> we, we determined the sample space
         <m>SS</m> has the
         <m>36</m> outcomes listed.
       </p>
@@ -493,13 +494,13 @@
       <p>A bag of chocolate candies contained the following distribution of colors.</p>
       <sidebyside>
         <tabular halign="center" top="minor" left="minor">
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
-          <col right="minor" />
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
           <!--  -->
           <row bottom="minor">
             <cell>Blue
@@ -514,7 +515,7 @@
             <cell>Yellow <m>(Y)</m></cell>
             <cell>Total</cell>
           </row>
-           <row bottom ="minor">
+           <row bottom="minor">
             <cell>
               <m>481</m>
             </cell>
@@ -561,15 +562,15 @@
         <p>The number of people who survived the Titanic based on class and gender is in the below table ("Encyclopedia Titanica," 2013). Suppose a person is picked at random from the survivors.</p>
         <sidebyside>
           <tabular halign="center" top="minor" left="minor">
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
-            <col right="minor" />
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
         <!--  -->
             <row>
-              <cell></cell>
+              <cell/>
               <cell colspan="2">Gender</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell>Class</cell>
@@ -632,7 +633,7 @@
       <example>
         <title>Venn Diagram Probabilities</title>
         <p>Recall in Example
-          <xref ref="example-disneyland-knotts" /> we considered a survey of
+          <xref ref="example-disneyland-knotts"/> we considered a survey of
           <m>100</m> people in California indicating that
           <m>60</m> people had visited Disneyland,
           <m>15</m> had visited Knott's Berry Farm, and
@@ -649,7 +650,7 @@
           </paragraphs>
  <!--         <figure xml:id="figure-venn-parks-solution">  -->
             <image xml:id="venn-parks-solution">
-              <latex-image-code><![CDATA[
+              <latex-image>
                       \begin{tikzpicture}
                         \draw \universe;
                         \node[anchor=south east] at (current bounding box.south east) {$U$};
@@ -659,7 +660,7 @@
                         \node[shift={(1,0)}] {$\color{red}{6}$};
                         \node[shift={(0,0)}] {$\color{blue}{54}$};
                         \node[shift={(2,0)}] {$\color{green}{9}$};
-                      \end{tikzpicture} ]]></latex-image-code>
+                      \end{tikzpicture} </latex-image>
             </image>
  <!--         </figure>  -->
         </sidebyside>

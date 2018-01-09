@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter>
 <title>MAT-101: WeBWorK Quick Reference</title>
 
@@ -56,10 +57,10 @@
 <title>Inequalities</title>
 
 <ul>
-  <li>Type the two symbols <b><gt />= </b> together for <m>\geq</m></li>
-  <li>Type the two symbols <b><lt />= </b> together for <m>\leq</m></li>
-  <li>Type <b>-inf <lt />x <lt />inf</b> for the inequality <m>-\infty \lt x \lt \infty</m></li>
-  <li>Type <b>x <lt />= -3</b> for the inequality <m>x \leq -3</m></li>
+  <li>Type the two symbols <b><gt/>= </b> together for <m>\geq</m></li>
+  <li>Type the two symbols <b><lt/>= </b> together for <m>\leq</m></li>
+  <li>Type <b>-inf <lt/>x <lt/>inf</b> for the inequality <m>-\infty \lt x \lt \infty</m></li>
+  <li>Type <b>x <lt/>= -3</b> for the inequality <m>x \leq -3</m></li>
 </ul>
 
 

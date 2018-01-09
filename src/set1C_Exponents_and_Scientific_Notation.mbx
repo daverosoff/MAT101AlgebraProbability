@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-1C-exponents-and-scientific-notation">
   <title>Exponents and Scientific Notation</title>
   <introduction>
@@ -13,7 +14,7 @@
   <subsection>
     <title>Exponent Properties</title>
     <p>Recall from
-      <xref ref="section-00-preliminaries" autoname="yes" /> that exponents represent repeated multiplication:
+      <xref ref="section-00-preliminaries" text="type-global"/> that exponents represent repeated multiplication:
       <ul>
         <li>
           <m>x^1 = x</m>
@@ -287,31 +288,31 @@
       <p>The exponent properties are summarized in the following table:</p>
       <sidebyside>
         <tabular top="major" halign="center">
-            <col halign="left" />
-            <col halign="right" />
+            <col halign="left"/>
+            <col halign="right"/>
             <!--  -->
             <row bottom="minor" halign="center">
               <cell colspan="2">Rules of Exponents</cell>
             </row>
             <row>
               <cell>Product Rule of Exponents</cell>
-              <cell><m>a^m a^n=a^{m+n}</m><xref ref="exponents-product-rule" /></cell>
+              <cell><m>a^m a^n=a^{m+n}</m><xref ref="exponents-product-rule"/></cell>
             </row>
             <row>
               <cell>Quotient Rule of Exponents</cell>
-              <cell><m>\frac{a^m}{a^n} =a^{m-n}</m><xref ref="exponents-quotient-rule" /></cell>
+              <cell><m>\frac{a^m}{a^n} =a^{m-n}</m><xref ref="exponents-quotient-rule"/></cell>
             </row>
             <row>
               <cell>Power of a Power Rule of Exponents</cell>
-              <cell><m>(a^m)^n=a^{mn}</m><xref ref="exponents-power-of-a-power-rule" /></cell>
+              <cell><m>(a^m)^n=a^{mn}</m><xref ref="exponents-power-of-a-power-rule"/></cell>
             </row>
             <row>
               <cell>Power of a Product Rule of Exponents</cell>
-              <cell><m>(ab)^m=a^m b^m</m><xref ref="exponents-power-of-a-product-rule" /></cell>
+              <cell><m>(ab)^m=a^m b^m</m><xref ref="exponents-power-of-a-product-rule"/></cell>
             </row>
             <row bottom="major">
               <cell>Power of a Quotient Rule of Exponents</cell>
-              <cell><m>\left(\frac{a}{b} \right)^m=\frac{a^m}{b^m}</m><xref ref="exponents-power-of-a-quotient-rule" /></cell>
+              <cell><m>\left(\frac{a}{b} \right)^m=\frac{a^m}{b^m}</m><xref ref="exponents-power-of-a-quotient-rule"/></cell>
             </row>
           </tabular>
         </sidebyside>
@@ -445,13 +446,13 @@
       <p>Following are the rules of negative exponents:</p>
         <sidebyside>
           <tabular top="major" halign="center">
-            <col halign="center" />
+            <col halign="center"/>
             <!--  -->
             <row bottom="minor" halign="center">
               <cell>Rules of Negative Exponents</cell>
             </row>
             <row>
-              <cell><m>a^0=1</m><xref ref="exponents-zero-power-rule" /></cell>
+              <cell><m>a^0=1</m><xref ref="exponents-zero-power-rule"/></cell>
             </row>
             <row>
               <cell><m>a^{-m}=\dfrac{1}{a^m}</m></cell>
@@ -503,9 +504,9 @@
       <p>We now have the following nine properties of exponents.</p>
       <sidebyside>
         <tabular top="major" halign="center">
-          <col halign="center" />
-          <col halign="center" />
-          <col halign="center" />
+          <col halign="center"/>
+          <col halign="center"/>
+          <col halign="center"/>
           <!--  -->
           <row bottom="minor">
             <cell colspan="3">Properties of Exponents</cell>
