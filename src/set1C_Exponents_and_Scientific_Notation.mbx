@@ -82,6 +82,22 @@
         </md>
       </p>
       </example>
+      <p>
+      When multiplication and addition/subtraction are used in the same expression, you need to keep track of which rule to use.
+      </p>
+      <example>
+        <title>Combine like terms</title>
+          <!--Our own -rac-->
+        <p>Write the expression without parenthesis.  Combine like terms.
+        <md>
+          <mrow>2t(3t+1)-4(5-t^2) \amp\amp\amp \text{Distribute the } 2t \text{ and } -4</mrow>
+          <mrow>2t \cdot 3t+2t \cdot 1 - 4\cdot 5- 4 \cdot -t^2 \amp\amp\amp \text{Simplify }</mrow> 
+           <mrow>6t^2+2t-20+4t^2 \amp\amp\amp \text{Combine like terms }</mrow>                   
+          <mrow>10t^2+2t-20 \amp\amp\amp \text{Our Solution}\checkmark</mrow>
+        </md>
+      </p>
+      </example>
+
       <p>Next, we consider what happens when we divide with exponents.</p>
       <example>
         <title>Division with Exponents</title>
@@ -305,7 +321,7 @@
           <mrow>(4x^3 y \cdot 5x^4 y^2)^3 \amp\amp\amp \underline{P}EMDAS\text{ First inside Parentheses:}</mrow>
           <mrow>\amp\amp\amp\text{Multiply constants \(4\cdot 5 = 20\),}\</mrow>
           <mrow>\amp\amp\amp\text{Apply Product Rule: add exponents}</mrow>
-          <mrow>(20x^7 y^3)^3 \amp\amp\amp P\underline{E}MDAS\text{: Next Eponents:}</mrow>
+          <mrow>(20x^7 y^3)^3 \amp\amp\amp P\underline{E}MDAS\text{: Next Exponents:}</mrow>
           <mrow>\amp\amp\amp\text{Apply Power of a Product Rule: multiply exponents}
           </mrow>
           <mrow>20^3 x^{21} y^9 \amp\amp\amp \text{Evaluate \(20^3\)}</mrow>
@@ -577,7 +593,7 @@
         </p>
         <p>For exponents with two or more digits, enter
           <c>7.24 x 10^21</c> for
-          <m>47.24 \times 10^{21}.</m> 
+          <m>7.24 \times 10^{21}.</m> 
         </p>
       </assemblage>
       <example>
