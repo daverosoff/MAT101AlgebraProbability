@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-2B-intervals-and-inequalities">
   <title>Intervals and Inequalities</title>
   <introduction>
@@ -67,8 +68,8 @@
       </p>
       <sidebyside widths="55% 40%" valign="middle">
         <image xml:id="interval-x-geq-4">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-            <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[fill=red] (4,.5) circle (.1cm); \draw[->, red] (4,.5) -- (5.5,.5); \end{tikzpicture} ]]></latex-image-code>
+          <latex-image>\begin{tikzpicture} \draw[
+            &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[fill=red] (4,.5) circle (.1cm); \draw[-&gt;, red] (4,.5) -- (5.5,.5); \end{tikzpicture} </latex-image>
         </image>
         <paragraphs>
           <p>Start at <m>4</m> and shade to the right. Use a closed circle for greater than or equal to.
@@ -94,10 +95,10 @@
           <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 151 pg 119 and WeBWorK Problems/MAT105_Templates/setAlgebra_04_01_LinearInequalities/41IntAlg_02_LinearIneq.pg -->
         <sidebyside widths="55% 40%" valign="middle">
           <image xml:id="interval-x-lt-neg4">
-            <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-              <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-4,.5) circle (.1cm); \draw[
-                <-, red] (-5.5,.5) -- (-4.1,.5); \end{tikzpicture} ]]>
-            </latex-image-code>
+            <latex-image>\begin{tikzpicture} \draw[
+              &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-4,.5) circle (.1cm); \draw[
+                &lt;-, red] (-5.5,.5) -- (-4.1,.5); \end{tikzpicture} 
+            </latex-image>
           </image>
           <paragraphs>
             <p>Start at <m>-4</m> and shade to the left. Use an open circle for less than.
@@ -121,9 +122,9 @@
         <!-- Modeled after Beginning and Intermediate Algebra by Tyler Wallace Example 151 pg 119 and WeBWorK MAT105_Templates/setAlgebra_04_01_LinearInequalities/41IntAlg_04_LinearIneq.pg -->
       <sidebyside widths="55% 40%" valign="middle">
         <image xml:id="interval-neg3-lt-x-lt-1">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                  <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \draw[color=blue] (1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (.9,.5); \end{tikzpicture} ]]>
-          </latex-image-code>
+          <latex-image>\begin{tikzpicture} \draw[
+                  &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \draw[color=blue] (1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (.9,.5); \end{tikzpicture} 
+          </latex-image>
         </image>
         <paragraphs>
           <p>Start at <m>-3</m> and shade to the right to <m>1</m>. Use open circles on both ends for less than.
@@ -191,10 +192,10 @@
               </p>
               <sidebyside widths="55% 40%" valign="middle">
                 <image xml:id="inequality-solution-x-leq-neg3">
-                  <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                    <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-3,.5) circle (.1cm); \draw[red,
-                      <-] (-5.5,.5) -- (-3,.5); \end{tikzpicture} ]]>
-                  </latex-image-code>
+                  <latex-image>\begin{tikzpicture} \draw[
+                    &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-3,.5) circle (.1cm); \draw[red,
+                      &lt;-] (-5.5,.5) -- (-3,.5); \end{tikzpicture} 
+                  </latex-image>
                 </image>
                 <paragraphs>
                   <p>Our Graph<m>\checkmark</m></p>
@@ -224,9 +225,9 @@
               </p>
               <sidebyside widths="55% 40%" valign="middle">
                 <image xml:id="inequality-solution-x-gt-4">
-                  <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                      <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (4,.5) circle (.1cm); \draw[blue, ->] (4.1,.5) -- (5.5,.5); \end{tikzpicture} ]]>
-                  </latex-image-code>
+                  <latex-image>\begin{tikzpicture} \draw[
+                      &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (4,.5) circle (.1cm); \draw[blue, -&gt;] (4.1,.5) -- (5.5,.5); \end{tikzpicture} 
+                  </latex-image>
                 </image>
                 <paragraphs>
                   <p>Our Graph<m>\checkmark</m></p>
@@ -258,9 +259,9 @@
                       </paragraphs>
 <!--                       <figure xml:id="figure-inequality-solution-neg4-leq-2x-4-lt-2">  -->
                       <image xml:id="inequality-solution-neg4-leq-2x-4-lt-2">
-                        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                          <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=blue] (-4,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-4,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (-1,.5) {$2x-4$}; \end{tikzpicture} ]]>
-                        </latex-image-code>
+                        <latex-image>\begin{tikzpicture} \draw[
+                          &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=blue] (-4,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-4,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (-1,.5) {$2x-4$}; \end{tikzpicture} 
+                        </latex-image>
                       </image>
                     </sidebyside>
                     <p>
@@ -272,14 +273,14 @@
                       </md>
                     </p>
                     <sidebyside widths="20% 20% 55%" valign="middle">
-                      <p></p>
+                      <p/>
                       <p>
                         <m>0\leq \color{red}{x} \lt 3</m>
                       </p>
                       <image xml:id="inequality-solution-zero-leq-x-lt-3">
-                        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                          <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (0,.5) circle (.1cm); \draw[color=red] (3,.5) circle (.1cm); \draw[red] (0,.5) -- (2.9,.5); \node[anchor=south, color=red] at (1.5,.5) {$x$}; \end{tikzpicture} ]]>
-                        </latex-image-code>
+                        <latex-image>\begin{tikzpicture} \draw[
+                          &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (0,.5) circle (.1cm); \draw[color=red] (3,.5) circle (.1cm); \draw[red] (0,.5) -- (2.9,.5); \node[anchor=south, color=red] at (1.5,.5) {$x$}; \end{tikzpicture} 
+                        </latex-image>
                       </image>
                     </sidebyside>
                     <p>
@@ -299,9 +300,9 @@
                       <p>The inequality requires the expression <m>\color{blue}{7-2x}</m> to lie in the interval <m>(-3,-1]</m></p>
                     </paragraphs>
                     <image xml:id="inequality-solution-neg3-leq-7-2x-lt-neg1">
-                      <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                        <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \fill[color=blue] (-1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (-1,.5); \node[anchor=south, color=blue] at (-2,.5) {$7-2x$}; \end{tikzpicture} ]]>
-                      </latex-image-code>
+                      <latex-image>\begin{tikzpicture} \draw[
+                        &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-3,.5) circle (.1cm); \fill[color=blue] (-1,.5) circle (.1cm); \draw[blue] (-2.9,.5) -- (-1,.5); \node[anchor=south, color=blue] at (-2,.5) {$7-2x$}; \end{tikzpicture} 
+                      </latex-image>
                     </image>
                   </sidebyside>
                   <p>
@@ -315,13 +316,13 @@
                     </md>
                   </p>
                   <sidebyside widths="20% 20% 55%" valign="middle">
-                    <p></p>
+                    <p/>
                     <p><m>5\gt \color{red}{x}\geq 4</m></p>
 <!--                           <figure xml:id="figure-inequality-solution-4-leq-x-lt-5">  -->
                     <image xml:id="inequality-solution-4-leq-x-lt-5">
-                      <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                          <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (4,.5) circle (.1cm); \draw[color=red] (5,.5) circle (.1cm); \draw[red] (4,.5) -- (4.9,.5); \node[anchor=south, color=red] at (4.5,.5) {$x$}; \end{tikzpicture} ]]>
-                      </latex-image-code>
+                      <latex-image>\begin{tikzpicture} \draw[
+                          &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (4,.5) circle (.1cm); \draw[color=red] (5,.5) circle (.1cm); \draw[red] (4,.5) -- (4.9,.5); \node[anchor=south, color=red] at (4.5,.5) {$x$}; \end{tikzpicture} 
+                      </latex-image>
                     </image>
                   </sidebyside>
                   <p>
@@ -348,9 +349,9 @@
 </p>
 <sidebyside>
   <image xml:id="absolute-value-x-lt-2">
-  <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-    <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-2,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-1.9,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (0,.5) {$-2
-      <x<2$}; \end{tikzpicture} ]]></latex-image-code>
+  <latex-image>\begin{tikzpicture} \draw[
+    &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=blue] (-2,.5) circle (.1cm); \draw[color=blue] (2,.5) circle (.1cm); \draw[blue] (-1.9,.5) -- (1.9,.5); \node[anchor=south, color=blue] at (0,.5) {$-2
+      &lt;x&lt;2$}; \end{tikzpicture} </latex-image>
     </image>
 </sidebyside>
 <p>This graph looks just like the graphs of the three part compound inequalities! When the absolute value is less than a positive number we will determine the solutions to the inequality by changing the problem to a three-part inequality, with the negative value on the "lesser than end" and the positive value on the "greater than end":
@@ -371,9 +372,9 @@
 </p>
 <sidebyside>
     <image xml:id="absolute-value-x-gt-2">
-      <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-        <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-2,.5) circle (.1cm); \draw[red,
-          <-] (-5.5,.5) -- (-2.1,.5); \node[anchor=south, color=red] at (-4,.5) {$x<-2$}; \draw[color=blue] (2,.5) circle (.1cm); \draw[blue, ->] (2.1,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x>2$}; \end{tikzpicture} ]]></latex-image-code>
+      <latex-image>\begin{tikzpicture} \draw[
+        &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=red] (-2,.5) circle (.1cm); \draw[red,
+          &lt;-] (-5.5,.5) -- (-2.1,.5); \node[anchor=south, color=red] at (-4,.5) {$x&lt;-2$}; \draw[color=blue] (2,.5) circle (.1cm); \draw[blue, -&gt;] (2.1,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x&gt;2$}; \end{tikzpicture} </latex-image>
         </image>
 </sidebyside>
     <p>When the absolute value is greater than a positive number we find the solution by rewriting the absolute value inequality as two inequalities.  The first inequality is used to determine the solutions greater than the positive number, the second inequality yields the solutions which are less than the negative of the number:
@@ -383,7 +384,7 @@
     </p>
     <p>The solution to an absolute value inequality may also be expressed in interval notation.  There is a special symbol to represent the "OR" when two intervals are required.  It's called the
       <term>union</term>:
-      <m>\cup.</m> We will learn more about unions in <xref ref="section-4A-sets-and-counting" autoname="yes" />.
+      <m>\cup.</m> We will learn more about unions in <xref ref="section-4A-sets-and-counting" text="type-global"/>.
     </p>
     <assemblage>
       <title>WeBWorK: Entering Two Inequalities or Two Intervals</title>
@@ -445,15 +446,15 @@
       </p>
       <sidebyside widths="55% 40%" valign="middle">
         <image xml:id="absolute-value-neg1-lt-x-lt-5">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[<->] (-5.5,0) -- (5.5,0);
+          <latex-image>\begin{tikzpicture} \draw[&lt;-&gt;] (-5.5,0) -- (5.5,0);
                   \foreach \x in {-5,...,5}
                   \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x};
                   \draw (2,.4) -- (2,.6);
                   \draw[color=M101_green] (-1,.5) circle (.1cm);
                   \draw[color=M101_green] (5,.5) circle (.1cm);
                   \draw[M101_green] (-.9,.5) -- (4.9,.5);
-                  \node[anchor=south, color=M101_green] at (2,.5) {$-1 < x < 5$}; \end{tikzpicture}]]>
-          </latex-image-code>
+                  \node[anchor=south, color=M101_green] at (2,.5) {$-1 &lt; x &lt; 5$}; \end{tikzpicture}
+          </latex-image>
         </image>
         <paragraphs>
           <p>Our Graph
@@ -508,15 +509,15 @@
           </p>
           <sidebyside widths="55% 40%" valign="middle">
             <image xml:id="absolute-value-x-plus-1-geq-3">
-              <latex-image-code><![CDATA[\begin{tikzpicture} \draw[<->] (-5.5,0) -- (5.5,0);
+              <latex-image>\begin{tikzpicture} \draw[&lt;-&gt;] (-5.5,0) -- (5.5,0);
               \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x};
               \fill[color=red] (-4,.5) circle (.1cm);
-              \draw[red,<-] (-5.5,.5) -- (-3.9,.5);
+              \draw[red,&lt;-] (-5.5,.5) -- (-3.9,.5);
               \node[anchor=south, color=red] at (-4.75,.5) {$x\leq -4$};
               \fill[color=blue] (2,.5) circle (.1cm);
-              \draw[blue, ->] (2.1,.5) -- (5.5,.5);
-              \node[anchor=south, color=blue] at (4,.5) {$x\geq 2$}; \end{tikzpicture} ]]>
-              </latex-image-code>
+              \draw[blue, -&gt;] (2.1,.5) -- (5.5,.5);
+              \node[anchor=south, color=blue] at (4,.5) {$x\geq 2$}; \end{tikzpicture} 
+              </latex-image>
             </image>
             <paragraphs>
               <p>Our Graph
@@ -608,9 +609,9 @@
         </p>
         <sidebyside widths="55% 40%" valign="middle">
           <image xml:id="absolute-value-4x-5-geq-6">
-            <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-            <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-.25,.5) circle (.1cm); \draw[red,
-              <-] (-5.5,.5) -- (-.35,.5); \node[anchor=south, color=red] at (-3,.5) {$x\leq -\frac{1}{4}$}; \fill[color=blue] (2.75,.5) circle (.1cm); \draw[blue, ->] (2.85,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x\geq\frac{11}{4}$}; \end{tikzpicture} ]]></latex-image-code>
+            <latex-image>\begin{tikzpicture} \draw[
+            &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \fill[color=red] (-.25,.5) circle (.1cm); \draw[red,
+              &lt;-] (-5.5,.5) -- (-.35,.5); \node[anchor=south, color=red] at (-3,.5) {$x\leq -\frac{1}{4}$}; \fill[color=blue] (2.75,.5) circle (.1cm); \draw[blue, -&gt;] (2.85,.5) -- (5.5,.5); \node[anchor=south, color=blue] at (4,.5) {$x\geq\frac{11}{4}$}; \end{tikzpicture} </latex-image>
            </image>
            <paragraphs>
               <p>Our Graph
@@ -640,10 +641,10 @@
           </p>
           <sidebyside widths="55% 40%" valign="middle">
             <image xml:id="absolute-value-neg1-lt-x-lt-2">
-              <latex-image-code><![CDATA[\begin{tikzpicture} \draw[
-                    <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=M101_green] (-1,.5) circle (.1cm); \draw[color=M101_green] (2,.5) circle (.1cm); \draw[M101_green] (-.9,.5) -- (1.9,.5); \node[anchor=south, color=M101_green] at (.5,.5) {$-1
-                      < x < 2$}; \end{tikzpicture} ]]>
-              </latex-image-code>
+              <latex-image>\begin{tikzpicture} \draw[
+                    &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {\x}; \draw[color=M101_green] (-1,.5) circle (.1cm); \draw[color=M101_green] (2,.5) circle (.1cm); \draw[M101_green] (-.9,.5) -- (1.9,.5); \node[anchor=south, color=M101_green] at (.5,.5) {$-1
+                      &lt; x &lt; 2$}; \end{tikzpicture} 
+              </latex-image>
             </image>
             <paragraphs>
                 <p>Our Graph

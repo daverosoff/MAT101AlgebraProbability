@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-3B-lines">
   <title>Lines</title>
   <introduction>
@@ -31,21 +32,21 @@
         <sidebyside widths="55% 40%" valign="middle" margins="0%">
 <!--          <figure xml:id="figure-negative-slope">  -->
           <image xml:id="negative-slope">
-            <latex-image-code><![CDATA[
+            <latex-image>
               \begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-                \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-                \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
                 \foreach \x in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
                 \foreach \y in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
                 \fill[color=black] (-4,3) circle (.15cm);
                 \fill[color=black] (2,-1) circle (.15cm);
-                \draw[line width=0.65mm,black,<->] (-6,4.333) -- (6,-3.667);
-                \draw[line width=0.75mm,red,->] (-4,3) -- (-4,-1) node[shift={(-1,2.5)}] {\Large Rise $-4$};
-                \draw[line width=0.75mm,blue,->] (-4,-1) -- (2,-1) node[shift={(-3,-.5)}] {\Large Run $6$};
-              \end{tikzpicture} ]]></latex-image-code>
+                \draw[line width=0.65mm,black,&lt;-&gt;] (-6,4.333) -- (6,-3.667);
+                \draw[line width=0.75mm,red,-&gt;] (-4,3) -- (-4,-1) node[shift={(-1,2.5)}] {\Large Rise $-4$};
+                \draw[line width=0.75mm,blue,-&gt;] (-4,-1) -- (2,-1) node[shift={(-3,-.5)}] {\Large Run $6$};
+              \end{tikzpicture} </latex-image>
               </image>
 <!--            </figure>  -->
             <paragraphs>
@@ -76,21 +77,21 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-positive-slope">   -->
         <image xml:id="positive-slope" source="images/positive-slope.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
               \fill[color=black] (1,-3) circle (.15cm);
               \fill[color=black] (4,3) circle (.15cm);
-              \draw[line width=0.65mm,black,<->] (-.5,-6) -- (5.5,6);
-              \draw[line width=0.75mm,blue,->] (1,-3) -- (1,3) node[shift={(-1,-2.5)}] {\Large Rise $6$};
-              \draw[line width=0.75mm,blue,->] (1,3) -- (4,3) node[shift={(-1.5,.5)}] {\Large Run $3$};
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-.5,-6) -- (5.5,6);
+              \draw[line width=0.75mm,blue,-&gt;] (1,-3) -- (1,3) node[shift={(-1,-2.5)}] {\Large Rise $6$};
+              \draw[line width=0.75mm,blue,-&gt;] (1,3) -- (4,3) node[shift={(-1.5,.5)}] {\Large Run $3$};
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -105,7 +106,7 @@
           </paragraphs>
         </sidebyside>
         <sidebyside widths="20% 35% 40%" valign="middle">
-          <p></p>
+          <p/>
           <p>Slope =
           <m>2</m></p>
           <p>Our Solution<m>\checkmark</m>
@@ -119,36 +120,36 @@
       <sidebyside widths="45% 45%" valign="middle">
 <!--        <figure xml:id="figure-horizontal-slope">  -->
           <image xml:id="horizontal-slope" source="images/horizontal-slope.svg">
-            <latex-image-code><![CDATA[
+            <latex-image>
               \begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-                \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-                \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
                 \foreach \x in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
                 \foreach \y in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
                 \fill[color=black] (-2,2) circle (.15cm);
                 \fill[color=black] (1,2) circle (.15cm);
-                \draw[line width=0.65mm,black,<->] (-6,2) -- (6,2);
-              \end{tikzpicture} ]]></latex-image-code>
+                \draw[line width=0.65mm,black,&lt;-&gt;] (-6,2) -- (6,2);
+              \end{tikzpicture} </latex-image>
               </image>
 <!--          </figure>  -->
 <!--        <figure xml:id="figure-vertical-slope">  -->
           <image xml:id="vertical-slope" source="images/vertical-slope.svg">
-            <latex-image-code><![CDATA[
+            <latex-image>
               \begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-                \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-                \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
                 \foreach \x in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
                 \foreach \y in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
                 \fill[color=black] (3,3) circle (.15cm);
                 \fill[color=black] (3,-2) circle (.15cm);
-                \draw[line width=0.65mm,black,<->] (3,6) -- (3,-6);
-              \end{tikzpicture} ]]></latex-image-code>
+                \draw[line width=0.65mm,black,&lt;-&gt;] (3,6) -- (3,-6);
+              \end{tikzpicture} </latex-image>
               </image>
 <!--          </figure>  -->
         </sidebyside>
@@ -372,21 +373,21 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-determine-equation">  -->
         <image xml:id="determine-equation" source="images/determine-equation.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
               \fill[color=black] (0,3) circle (.15cm);
               \fill[color=black] (3,1) circle (.15cm);
-              \draw[line width=0.65mm,black,<->] (-4.2,5.8) -- (6,-1);
-              \draw[line width=0.75mm,red,->] (0,3) -- (0,1);
-              \draw[line width=0.75mm,blue,->] (0,1) -- (3,1);
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-4.2,5.8) -- (6,-1);
+              \draw[line width=0.75mm,red,-&gt;] (0,3) -- (0,1);
+              \draw[line width=0.75mm,blue,-&gt;] (0,1) -- (3,1);
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -402,12 +403,12 @@
           </paragraphs>
         </sidebyside>
         <sidebyside widths="20% 30% 45%" valign="middle">
-          <p></p>
+          <p/>
           <p><m>y =mx+b</m></p>
-          <p>Slope-intercept equation <xref ref="equation-slope-intercept" /></p>
+          <p>Slope-intercept equation <xref ref="equation-slope-intercept"/></p>
         </sidebyside>
         <sidebyside widths="20% 30% 45%" valign="middle">
-          <p></p>
+          <p/>
           <p><m>y =-\dfrac{2}{3}x+3</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>
@@ -470,21 +471,21 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-determine-graph-pos-slope">  -->
         <image xml:id="determine-graph-pos-slope" source="images/determine-graph-pos-slope.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
               \fill[color=black] (0,-4) circle (.15cm);
               \fill[color=black] (2,-3) circle (.15cm);
-              \draw[line width=0.65mm,black,<->] (-4,-6) -- (6,-1);
-              \draw[line width=0.75mm,blue,->] (0,-4) -- (0,-3);
-              \draw[line width=0.75mm,blue,->] (0,-3) -- (2,-3);
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-4,-6) -- (6,-1);
+              \draw[line width=0.75mm,blue,-&gt;] (0,-4) -- (0,-3);
+              \draw[line width=0.75mm,blue,-&gt;] (0,-3) -- (2,-3);
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -528,21 +529,21 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-determine-graph-neg-slope">  -->
         <image xml:id="determine-graph-neg-slope" source="images/determine-graph-neg-slope.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
               \fill[color=black] (0,3) circle (.15cm);
               \fill[color=black] (4,0) circle (.15cm);
-              \draw[line width=0.65mm,black,<->] (-4,6) -- (6,-1.5);
-              \draw[line width=0.75mm,red,->] (0,3) -- (0,0);
-              \draw[line width=0.75mm,blue,->] (0,0) -- (4,0);
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-4,6) -- (6,-1.5);
+              \draw[line width=0.75mm,red,-&gt;] (0,3) -- (0,0);
+              \draw[line width=0.75mm,blue,-&gt;] (0,0) -- (4,0);
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -579,17 +580,17 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-vertical-line">  -->
         <image xml:id="vertical-line" source="images/vertical-line.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
-              \draw[line width=0.65mm,black,<->] (-4,6) -- (-4,-6);
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-4,6) -- (-4,-6);
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -602,7 +603,7 @@
           </paragraphs>
         </sidebyside>
       <sidebyside widths="20% 35% 40%" valign="middle">
-          <p></p>
+          <p/>
           <p><m>x=-4</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>
@@ -613,19 +614,19 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-horizontal-line"> -->
         <image xml:id="horizontal-line" source="images/horizontal-line.svg">
-          <latex-image-code><![CDATA[
+          <latex-image>
             \begin{tikzpicture}
               \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-              \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
-              \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis};
+              \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis};
               \foreach \x in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
               \foreach \y in {-4,-2,2,4}
                   \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
               \fill[color=black] (-2,2) circle (.15cm);
               \fill[color=black] (1,2) circle (.15cm);
-              \draw[line width=0.65mm,black,<->] (-6,2) -- (6,2);
-            \end{tikzpicture} ]]></latex-image-code>
+              \draw[line width=0.65mm,black,&lt;-&gt;] (-6,2) -- (6,2);
+            \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -638,7 +639,7 @@
           </paragraphs>
         </sidebyside>
         <sidebyside widths="20% 35% 40%" valign="middle">
-          <p></p>
+          <p/>
           <p><m>y=2</m></p>
           <p>Our Solution<m>\checkmark</m></p>
         </sidebyside>

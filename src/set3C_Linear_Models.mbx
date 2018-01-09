@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-3C-linear-models">
   <title>Linear Models</title>
   <introduction>
@@ -92,11 +93,11 @@
       </example>
       <example>
         <title>Use a Graph to Determine a Solution</title>
-        <p>Consider <xref ref="example-independent-dependent" autoname="yes" />. Use the graph of the model to determine (a) when <m>\$300</m> remains and also (b) how much money remains after <m>5</m> weeks.</p>
+        <p>Consider <xref ref="example-independent-dependent" text="type-global"/>. Use the graph of the model to determine (a) when <m>\$300</m> remains and also (b) how much money remains after <m>5</m> weeks.</p>
         <p>Reading the graph of an equation is sometimes faster than computing an answer from the equation.</p>
         <sidebyside widths="40% 55%" valign="middle">
           <paragraphs>
-          <p> The graph of the model from <xref ref="example-independent-dependent" autoname="yes" /> is given at the right.
+          <p> The graph of the model from <xref ref="example-independent-dependent" text="type-global"/> is given at the right.
           </p>
           <p><md>
           <mrow>y=-20x+500</mrow>
@@ -104,16 +105,16 @@
         </paragraphs>
 <!--          <figure xml:id="figure-college-spending-model">  -->
           <image xml:id="college-spending-model">
-            <latex-image-code><![CDATA[\begin{tikzpicture}
+            <latex-image>\begin{tikzpicture}
                   \draw[step=1cm,gray,very thin] (0,0) grid (5.9,5.9);
-                  \draw[line width=0.55mm,black,->] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
-                  \draw[line width=0.55mm,black,->] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
+                  \draw[line width=0.55mm,black,-&gt;] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
+                  \draw[line width=0.55mm,black,-&gt;] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
                   \draw[line width=0.55mm,black] (1 cm,3pt) -- (1 cm,-3pt) node[shift={(0.05,-.3)}] {$5$};
                   \draw[line width=0.55mm,black] (5 cm,3pt) -- (5 cm,-3pt) node[shift={(0.05,-.3)}] {$25$};
                   \draw[line width=0.55mm,black] (3pt,1 cm) -- (-3pt,1 cm) node[shift={(-.5,0.05)}] {$\$100$};
                   \draw[line width=0.55mm,black] (3pt,5 cm) -- (-3pt,5 cm) node[shift={(-.5,0.05)}] {$\$500$};
-                  \draw[line width=0.65mm,black,<->] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
-          \end{tikzpicture}]]></latex-image-code>
+                  \draw[line width=0.65mm,black,&lt;-&gt;] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
+          \end{tikzpicture}</latex-image>
                           </image>
 <!--              </figure>  -->
             </sidebyside>
@@ -125,18 +126,18 @@
           </paragraphs>
 <!--          <figure xml:id="figure-college-spending-model-300-remains"> -->
           <image xml:id="college-spending-model-300-remains">
-            <latex-image-code><![CDATA[\begin{tikzpicture}
+            <latex-image>\begin{tikzpicture}
         \draw[step=1cm,gray,very thin] (0,0) grid (5.9,5.9);
-        \draw[line width=0.55mm,black,->] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
-        \draw[line width=0.55mm,black,->] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
+        \draw[line width=0.55mm,black,-&gt;] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
+        \draw[line width=0.55mm,black,-&gt;] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
         \draw[line width=0.55mm,black] (1 cm,3pt) -- (1 cm,-3pt) node[shift={(0.05,-.3)}] {$5$};
         \draw[line width=0.55mm,black] (5 cm,3pt) -- (5 cm,-3pt) node[shift={(0.05,-.3)}] {$25$};
         \draw[line width=0.55mm,black] (3pt,1 cm) -- (-3pt,1 cm) node[shift={(-.5,0.05)}] {$\$100$};
         \draw[line width=0.55mm,black] (3pt,5 cm) -- (-3pt,5 cm) node[shift={(-.5,0.05)}] {$\$500$};
-        \draw[line width=0.65mm,black,<->] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
-        \draw[line width=0.65mm,gray,dotted,<->] (6,3) -- (0,3) node[shift={(-.5,0.05)}] {$\$300$};
+        \draw[line width=0.65mm,black,&lt;-&gt;] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
+        \draw[line width=0.65mm,gray,dotted,&lt;-&gt;] (6,3) -- (0,3) node[shift={(-.5,0.05)}] {$\$300$};
         \draw[line width=0.65mm,red,dashed] (2,3) -- (2,-.5) node[shift={(0,-.25)}] {\LARGE $x=10$};
-\end{tikzpicture}]]></latex-image-code>
+\end{tikzpicture}</latex-image>
                           </image>
 <!--              </figure>  -->
             </sidebyside>
@@ -148,18 +149,18 @@
           </paragraphs>
 <!--          <figure xml:id="figure-college-spending-model-5-weeks">  -->
           <image xml:id="college-spending-model-5-weeks">
-            <latex-image-code><![CDATA[\begin{tikzpicture}
+            <latex-image>\begin{tikzpicture}
         \draw[step=1cm,gray,very thin] (0,0) grid (5.9,5.9);
-        \draw[line width=0.55mm,black,->] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
-        \draw[line width=0.55mm,black,->] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
+        \draw[line width=0.55mm,black,-&gt;] (0,0) -- (6,0) node[anchor=north west] {$x$-axis};
+        \draw[line width=0.55mm,black,-&gt;] (0,0) -- (0,6) node[anchor=south east] {$y$-axis};
         \draw[line width=0.55mm,black] (1 cm,3pt) -- (1 cm,-3pt) node[shift={(0.05,-.3)}] {$5$};
         \draw[line width=0.55mm,black] (5 cm,3pt) -- (5 cm,-3pt) node[shift={(0.05,-.3)}] {$25$};
         \draw[line width=0.55mm,black] (3pt,1 cm) -- (-3pt,1 cm) node[shift={(-.5,0.05)}] {$\$100$};
         \draw[line width=0.55mm,black] (3pt,5 cm) -- (-3pt,5 cm) node[shift={(-.5,0.05)}] {$\$500$};
-        \draw[line width=0.65mm,black,<->] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
-        \draw[line width=0.65mm,gray,dotted,<->] (1,6) -- (1,0);
+        \draw[line width=0.65mm,black,&lt;-&gt;] (5,0) -- (0,5)  node[shift={(3,-.5)}] {\LARGE $y=-20x+500$};
+        \draw[line width=0.65mm,gray,dotted,&lt;-&gt;] (1,6) -- (1,0);
         \draw[line width=0.65mm,red,dashed] (1,4) -- (0,4) node[shift={(-.5,0.05)}] {$\$400$};
-\end{tikzpicture}]]></latex-image-code>
+\end{tikzpicture}</latex-image>
                           </image>
 <!--              </figure>  -->
             </sidebyside>
@@ -174,7 +175,7 @@
         <m>D=30</m> which corresponds to you being 30 miles from Caldwell (and in Ontario).
         <!-- These are our own!-->
       </p>
-      <p>First, determine the slope and intercept for the model.  Recall the slope-intercept form of a line <xref ref="equation-slope-intercept" autoname="yes" />:
+      <p>First, determine the slope and intercept for the model.  Recall the slope-intercept form of a line <xref ref="equation-slope-intercept" text="type-global"/>:
         <md>
           <mrow>y=mx+b</mrow>
         </md>
@@ -194,7 +195,7 @@
       <title>Road Trip! Slope in Context</title>
         <!-- Our Own-->
       <p>Continue with
-        <xref ref="example-road-trip-intro" autoname="yes" />. Recall the linear model
+        <xref ref="example-road-trip-intro" text="type-global"/>. Recall the linear model
         <m>D=65t + 30</m> represents your distance
         <m>D</m> (in miles) from Caldwell
         <m>t</m> hours after cruise. Describe what the slope means.</p>
@@ -218,7 +219,7 @@
     <example xml:id="example-road-trip-solve">
       <title>Road Trip! Solve for a Predictor Given a Response</title>
       <p>Continue with
-        <xref ref="example-road-trip-intro" autoname="yes" />.  Recall the linear model
+        <xref ref="example-road-trip-intro" text="type-global"/>.  Recall the linear model
         <m>D=65t + 30</m> represents your distance
         <m>D</m> (in miles) from Caldwell
         <m>t</m> hours after using cruise. How many hours after setting your cruise control will you be
@@ -239,10 +240,10 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-caldwell-lagrande">  -->
           <image xml:id="caldwell-lagrande" source="images/caldwell-lagrande.svg">
-            <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-4.9,-1.9) grid (4.9,5.9); \draw[line width=0.55mm,black,
-              <->] (-5,0) -- (5,0) node[anchor=north west] {$t$}; \draw[line width=0.55mm,black] (4 cm,3pt) -- (4 cm,-3pt)node[shift={(0.05,-.3)}] {$10$}; \draw[line width=0.55mm,black] (-4 cm,3pt) -- (-4 cm,-3pt)node[shift={(0.05,-.3)}] {$-10$}; \draw[line width=0.55mm,black] (3pt,0cm) -- (-3pt,0 cm) node[shift={(-0.05,-.3)}] {$0$}; \draw[line width=0.55mm,black,
-                <->] (0,-2) -- (0,6) node[anchor=south east] {$D$}; \draw[line width=0.55mm,black] (3pt,5 cm) -- (-3pt,5 cm)node[shift={(-.3,0.05)}] {500}; \fill[color=black] (0,.33) circle (.15cm) node[shift={(-1.,.1)}] {\LARGE $(0,30)$}; \fill[color=black] (1.5,2.25) circle (.15cm) node[shift={(1.2,0)}] {\LARGE $(3,225)$}; \draw[line width=0.65mm,black,
-                  <->] (-1,-1) -- (4,5.5) node[shift={(-3.6,-1.8)}] {\LARGE $D=65t+30$}; \end{tikzpicture} ]]></latex-image-code>
+            <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-4.9,-1.9) grid (4.9,5.9); \draw[line width=0.55mm,black,
+              &lt;-&gt;] (-5,0) -- (5,0) node[anchor=north west] {$t$}; \draw[line width=0.55mm,black] (4 cm,3pt) -- (4 cm,-3pt)node[shift={(0.05,-.3)}] {$10$}; \draw[line width=0.55mm,black] (-4 cm,3pt) -- (-4 cm,-3pt)node[shift={(0.05,-.3)}] {$-10$}; \draw[line width=0.55mm,black] (3pt,0cm) -- (-3pt,0 cm) node[shift={(-0.05,-.3)}] {$0$}; \draw[line width=0.55mm,black,
+                &lt;-&gt;] (0,-2) -- (0,6) node[anchor=south east] {$D$}; \draw[line width=0.55mm,black] (3pt,5 cm) -- (-3pt,5 cm)node[shift={(-.3,0.05)}] {500}; \fill[color=black] (0,.33) circle (.15cm) node[shift={(-1.,.1)}] {\LARGE $(0,30)$}; \fill[color=black] (1.5,2.25) circle (.15cm) node[shift={(1.2,0)}] {\LARGE $(3,225)$}; \draw[line width=0.65mm,black,
+                  &lt;-&gt;] (-1,-1) -- (4,5.5) node[shift={(-3.6,-1.8)}] {\LARGE $D=65t+30$}; \end{tikzpicture} </latex-image>
                 </image>
 <!--              </figure>  -->
               <paragraphs>
@@ -269,7 +270,7 @@
           <m>DD</m> represents the dive duration in minutes (min) and
           <m>D</m> represents the depth in meters (m).
         </p>
-        <p>First, determine the slope and intercept for the model.  Recall the slope-intercept form of a line <xref ref="equation-slope-intercept" autoname="yes" />:
+        <p>First, determine the slope and intercept for the model.  Recall the slope-intercept form of a line <xref ref="equation-slope-intercept" text="type-global"/>:
         <md>
           <mrow>y=mx+b</mrow>
         </md>
@@ -289,7 +290,7 @@
     <example xml:id="example-penguins-slope-context">
       <title>Penguins! Slope in Context</title>
       <p>Continue with
-        <xref ref="example-penguins-intro" autoname="yes" />. Recall the linear model
+        <xref ref="example-penguins-intro" text="type-global"/>. Recall the linear model
         <m>DD = 0.0072D + 3</m>, where
         <m>DD</m> represents the dive duration in minutes (min) and
         <m>D</m> represents the depth in meters (m). Describe what the slope means.
@@ -318,7 +319,7 @@
       <title>Penguins! Determine Response Given a Predictor</title>
         <!--Our own-->
       <p>Continue with
-        <xref ref="example-penguins-intro" autoname="yes" />. Recall the linear model
+        <xref ref="example-penguins-intro" text="type-global"/>. Recall the linear model
         <m>DD=0.0072D+3</m>, where
         <m>DD</m> represents the dive duration in minutes (min) and
         <m>D</m> represents the depth in meters (m). According to the model, how long does a typical dive to a depth of
@@ -366,12 +367,12 @@
     <example xml:id="example-GDP-model">
       <title>Money! Model Data</title>
       <p>Continue with the GDP
-        <xref ref="example-GDP-intro" autoname="yes" />. Determine a linear model for the data points
+        <xref ref="example-GDP-intro" text="type-global"/>. Determine a linear model for the data points
         <m>(0,3)</m> and
         <m>(10,6).</m>
         <!--Our own-->
       </p>
-      <p>First determine the slope.  Recall from <xref ref="section-3B-lines" autoname="yes" />, to determine the slope between
+      <p>First determine the slope.  Recall from <xref ref="section-3B-lines" text="type-global"/>, to determine the slope between
         <m>(0,3)</m> and
         <m>(10,6)</m> we first identify
         <m>t_1,GDP_1,t_2,GDP_2</m>.
@@ -398,7 +399,7 @@
       <title>Money! Solve for a Predictor Given a Response</title>
         <!--Our own-->
       <p>Continue with the GDP
-        <xref ref="example-GDP-intro" autoname="yes" />. Use the linear model to determine the year when the GDP will reach
+        <xref ref="example-GDP-intro" text="type-global"/>. Use the linear model to determine the year when the GDP will reach
         <m>\$13.5</m> trillion.
       </p>
       <p>Recall the response variable <m>GDP</m> represents the GDP (in trillions of dollars) at <m>t=</m> time (in years after 1980). Note we are given a GDP and asked to determine the corresponding year.  When will
@@ -444,11 +445,11 @@
         <title>Copies: Model Data</title>
           <!--Our own-->
         <p>Continue with the Copies
-          <xref ref="example-copies-intro" autoname="yes" />. Determine a linear model for the data points
+          <xref ref="example-copies-intro" text="type-global"/>. Determine a linear model for the data points
           <m>(100,47)</m> and
           <m>(259,63)</m>.
         </p>
-         <p>First determine the slope.  Recall from <xref ref="section-3B-lines" autoname="yes" />, to determine the slope between
+         <p>First determine the slope.  Recall from <xref ref="section-3B-lines" text="type-global"/>, to determine the slope between
         <m>(100,47)</m> and
         <m>(259,63)</m> we first identify
         <m>n_1,C_1,n_2,C_2</m>.

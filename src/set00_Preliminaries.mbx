@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-00-preliminaries">
   <title>Preliminaries</title>
   <introduction>
@@ -15,8 +16,8 @@
 <!--    <figure xml:id="figure-numberline"> -->
       <sidebyside>
         <image xml:id="numberline">
-          <latex-image-code><![CDATA[\begin{tikzpicture} [scale = 0.5, transform shape] \draw[
-                <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \end{tikzpicture}]]></latex-image-code>
+          <latex-image>\begin{tikzpicture} [scale = 0.5, transform shape] \draw[
+                &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \end{tikzpicture}</latex-image>
         </image>
       </sidebyside>
 <!--      </figure> -->
@@ -58,9 +59,9 @@
         </title>
           <sidebyside widths="55% 40%" valign="middle">
             <image xml:id="numberline-ex-1plus3">
-              <latex-image-code><![CDATA[\begin{tikzpicture} [scale = 0.5, transform shape] \draw[
-                  <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=green, ->] (0:1) arc (180:15:.5); \draw[color=green, ->] (0:2) arc (180:15:.5); \draw[color=green, ->] (0:3) arc (180:15:.5); \filldraw[color=blue] (1,0) circle (.1); \filldraw[color=green] (4,0) circle (.1); \end{tikzpicture}]]>
-              </latex-image-code>
+              <latex-image>\begin{tikzpicture} [scale = 0.5, transform shape] \draw[
+                  &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=green, -&gt;] (0:1) arc (180:15:.5); \draw[color=green, -&gt;] (0:2) arc (180:15:.5); \draw[color=green, -&gt;] (0:3) arc (180:15:.5); \filldraw[color=blue] (1,0) circle (.1); \filldraw[color=green] (4,0) circle (.1); \end{tikzpicture}
+              </latex-image>
             </image>
             <paragraphs>
               <p>Plot
@@ -88,10 +89,10 @@
           <!-- Our own-->
           <sidebyside widths="55% 40%" valign="middle">
               <image xml:id="numberline-ex-neg1minus2">
-                <latex-image-code>
-                  <![CDATA[\begin{tikzpicture}[scale = 0.5, transform shape] \draw[
-                    <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=red, ->] (0:-1) arc (0:165:.5); \draw[color=red, ->] (0:-2) arc (0:165:.5); \filldraw[color=blue] (-1,0) circle (.1); \filldraw[color=red] (-3,0) circle (.1); \end{tikzpicture}]]>
-                </latex-image-code>
+                <latex-image>
+                  \begin{tikzpicture}[scale = 0.5, transform shape] \draw[
+                    &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=red, -&gt;] (0:-1) arc (0:165:.5); \draw[color=red, -&gt;] (0:-2) arc (0:165:.5); \filldraw[color=blue] (-1,0) circle (.1); \filldraw[color=red] (-3,0) circle (.1); \end{tikzpicture}
+                </latex-image>
               </image>
               <paragraphs>
                 <p>Plot
@@ -106,7 +107,7 @@
             </sidebyside>
           </example>
           <p>Notice in
-            <xref ref="example-add-neg-2-to-neg-1" autoname="yes" /> that adding two negative numbers is equivalent to adding the two corresponding positive numbers, but the final result is negative:
+            <xref ref="example-add-neg-2-to-neg-1" text="type-global"/> that adding two negative numbers is equivalent to adding the two corresponding positive numbers, but the final result is negative:
             <m>1+2=3</m> and
             <m>-1+(-2)=-3</m>.
           </p>
@@ -128,7 +129,7 @@
             </p>
             </example>
 
-            <p>If you were to sketch out a number line to solve <xref ref="example-add-two-negatives" autoname="yes" />, you would start at
+            <p>If you were to sketch out a number line to solve <xref ref="example-add-two-negatives" text="type-global"/>, you would start at
               <m>-4</m> then move left
               <m>11</m> positions.  The result would end up at
               <m>-15</m>.
@@ -144,10 +145,10 @@
           <sidebyside widths="55% 40%" valign="middle">
          <!--     <figure xml:id="figure-numberline-ex-1minus3"> -->
             <image xml:id="numberline-ex-1minus3">
-              <latex-image-code>
-                <![CDATA[\begin{tikzpicture} [scale = 0.5, transform shape] \draw[
-                  <->] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=red, ->] (0:1) arc (0:165:.5); \draw[color=red, ->] (0:0) arc (0:165:.5); \draw[color=red, ->] (0:-1) arc (0:165:.5); \filldraw[color=blue] (1,0) circle (.1); \filldraw[color=red] (-2,0) circle (.1); \end{tikzpicture}]]>
-              </latex-image-code>
+              <latex-image>
+                \begin{tikzpicture} [scale = 0.5, transform shape] \draw[
+                  &lt;-&gt;] (-5.5,0) -- (5.5,0); \foreach \x in {-5,...,5} \draw (\x, 0.1) -- (\x, -0.1) node [below] {$\x$}; \draw[color=red, -&gt;] (0:1) arc (0:165:.5); \draw[color=red, -&gt;] (0:0) arc (0:165:.5); \draw[color=red, -&gt;] (0:-1) arc (0:165:.5); \filldraw[color=blue] (1,0) circle (.1); \filldraw[color=red] (-2,0) circle (.1); \end{tikzpicture}
+              </latex-image>
             </image>
             <paragraphs>
               <p>Plot
@@ -321,7 +322,7 @@
             </p>
             </example>
 
-            <p>The previous <xref ref="example-warning" autoname="yes" /> illustrates that if the same problem is done two different ways we will arrive at two different solutions. However, only one method can be correct. It turns out the second method, with solution
+            <p>The previous <xref ref="example-warning" text="type-global"/> illustrates that if the same problem is done two different ways we will arrive at two different solutions. However, only one method can be correct. It turns out the second method, with solution
             <m>17</m>, is the correct method. This list then is the order of operations we will use to simplify expressions.
             </p>
 
@@ -492,7 +493,7 @@
 
             <p>Whenever we replace a variable with a number, we put the new number inside parentheses. Notice the
               <m>3</m> and
-              <m>5</m> in the previous <xref ref="example-evaluate-expression" autoname="yes" /> are in parentheses. This is to preserve operations that are sometimes lost without parentheses. Sometimes the parentheses won't make a difference, but it is a good habit to always use them to prevent problems later.
+              <m>5</m> in the previous <xref ref="example-evaluate-expression" text="type-global"/> are in parentheses. This is to preserve operations that are sometimes lost without parentheses. Sometimes the parentheses won't make a difference, but it is a good habit to always use them to prevent problems later.
             </p>
 
             <example>
@@ -582,7 +583,7 @@
             </p>
             </example>
 
-            <p>In the previous <xref ref="example-distribute-a-negative" autoname="yes" /> we again use the fact that the sign applies to the following number. This means we treat the
+            <p>In the previous <xref ref="example-distribute-a-negative" text="type-global"/> we again use the fact that the sign applies to the following number. This means we treat the
               <m>-6</m> as a negative number, this gives
               <m>(-7)(-6) = 42</m>, a positive number. The most common error in distributing is a sign error.
               <alert>Be very careful with your signs!</alert>
@@ -631,7 +632,7 @@
             </p>
             </example>
 
-            <p>In the previous <xref ref="example-simplify" autoname="yes" /> we distributed
+            <p>In the previous <xref ref="example-simplify" text="type-global"/> we distributed
               <m>-2</m>, not just
               <m>2</m>. This is because a negative sign goes with the number after it. Note that <m>-2</m> times <m>-5</m> is positive
               <m>10.</m> Following are more involved examples of distributing and combining like terms.
@@ -666,4 +667,3 @@
             </example>
           </subsection>
         </section>
-

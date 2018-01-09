@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="section-3A-graphs">
   <title>Interpreting Graphs</title>
   <introduction>
@@ -16,7 +17,7 @@
   </introduction>
   <subsection>
     <title>The Cartesian Coordinate Plane</title>
-    <p>To get an idea of the behavior of an equation we can make a picture that represents its solutions. A graph is simply a picture of the solutions to an equation. To graph an equation we use a Cartesian coordinate plane (named in honor of the 17th century philosopher, mathematician and scientist, Ren&#x00E9; Descartes).</p>
+    <p>To get an idea of the behavior of an equation we can make a picture that represents its solutions. A graph is simply a picture of the solutions to an equation. To graph an equation we use a Cartesian coordinate plane (named in honor of the 17th century philosopher, mathematician and scientist, René Descartes).</p>
     <p>The plane is divided into four regions, called
       <term>quadrants</term>, by a horizontal number line (labelled the
       <m>x</m>-axis on the graph below) and a vertical number line (labelled the
@@ -25,9 +26,9 @@
     <sidebyside widths="55% 40%" valign="middle">
 <!--      <figure xml:id="figure-grid-quadrants">  -->
         <image xml:id="grid-quadrants">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-            <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-              <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.65mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.65mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=M101_green] (0,0) circle (.2cm); \draw[thick,red] (3,3) node {\LARGE $Q1$}; \draw[thick,red] (-3,3) node {\LARGE $Q2$}; \draw[thick,red] (-3,-3) node {\LARGE $Q3$}; \draw[thick,red] (3,-3) node {\LARGE $Q4$}; \end{tikzpicture} ]]></latex-image-code>
+          <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+            &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+              &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.65mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.65mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=M101_green] (0,0) circle (.2cm); \draw[thick,red] (3,3) node {\LARGE $Q1$}; \draw[thick,red] (-3,3) node {\LARGE $Q2$}; \draw[thick,red] (-3,-3) node {\LARGE $Q3$}; \draw[thick,red] (3,-3) node {\LARGE $Q4$}; \end{tikzpicture} </latex-image>
             </image>
 <!--          </figure>  -->
           <paragraphs>
@@ -54,9 +55,9 @@
   <sidebyside widths="55% 40%" valign="middle">
 <!--    <figure xml:id="figure-grid-3-points">  -->
       <image xml:id="grid-3-points">
-        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-          <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-            <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (1,4) circle (.15cm); \draw[thick,black] (1,4) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-5,3) circle (.15cm); \draw[thick,black] (-5,3) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (0,-2) circle (.15cm); \draw[thick,black] (0,-2) node[shift={(.3,0.3)}] {\LARGE $C$}; \end{tikzpicture} ]]></latex-image-code>
+        <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+          &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+            &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-5,...,5} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-5,...,5} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (1,4) circle (.15cm); \draw[thick,black] (1,4) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-5,3) circle (.15cm); \draw[thick,black] (-5,3) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (0,-2) circle (.15cm); \draw[thick,black] (0,-2) node[shift={(.3,0.3)}] {\LARGE $C$}; \end{tikzpicture} </latex-image>
           </image>
 <!--        </figure> -->
         <paragraphs>
@@ -123,9 +124,9 @@
   <sidebyside widths="55% 40%" valign="middle">
 <!--    <figure xml:id="figure-grid-2-of-7-points">  -->
       <image xml:id="grid-2-of-7-points">
-        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-          <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-            <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,red] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \draw[line width=0.75mm,red,->] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,->] (3,0) -- (3,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,blue] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,->] (-2,0) -- (-2,1) node[shift={(-.6,-.5)}] {\Large Up $1$}; \end{tikzpicture} ]]></latex-image-code>
+        <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+          &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+            &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,red] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \draw[line width=0.75mm,red,-&gt;] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,-&gt;] (3,0) -- (3,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,blue] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \draw[line width=0.75mm,blue,-&gt;] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,-&gt;] (-2,0) -- (-2,1) node[shift={(-.6,-.5)}] {\Large Up $1$}; \end{tikzpicture} </latex-image>
           </image>
 <!--        </figure>  -->
         <paragraphs>
@@ -145,9 +146,9 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-grid-4-of-7-points">  -->
           <image xml:id="grid-4-of-7-points">
-            <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-              <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-                <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,red] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \draw[line width=0.75mm,red,->] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,->] (3,0) -- (3,-4) node[shift={(1,2.5)}] {\Large Down $4$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,blue] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,->] (-2,0) -- (-2,-3) node[shift={(-1,1.5)}] {\Large Down $3$}; \end{tikzpicture} ]]></latex-image-code>
+            <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+              &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+                &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,red] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \draw[line width=0.75mm,red,-&gt;] (0,0) -- (3,0) node[shift={(-1.5,0.2)}] {\Large Right $3$}; \draw[line width=0.75mm,red,-&gt;] (3,0) -- (3,-4) node[shift={(1,2.5)}] {\Large Down $4$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,blue] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \draw[line width=0.75mm,blue,-&gt;] (0,0) -- (-2,0) node[shift={(1,0.3)}] {\Large Left $2$}; \draw[line width=0.75mm,blue,-&gt;] (-2,0) -- (-2,-3) node[shift={(-1,1.5)}] {\Large Down $3$}; \end{tikzpicture} </latex-image>
               </image>
 <!--            </figure>  -->
             <paragraphs>
@@ -165,9 +166,9 @@
           <sidebyside widths="55% 40%" valign="middle">
  <!--           <figure xml:id="figure-grid-7-of-7-points">  -->
               <image xml:id="grid-7-of-7-points">
-                <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-                  <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-                    <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,blue] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \draw[line width=0.75mm,blue,->] (0,0) -- (-3,0) node[shift={(2,0.3)}] {\Large Left $3$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,red] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \draw[line width=0.75mm,red,->] (0,0) -- (0,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,purple] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} ]]></latex-image-code>
+                <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+                  &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+                    &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,blue] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \draw[line width=0.75mm,blue,-&gt;] (0,0) -- (-3,0) node[shift={(2,0.3)}] {\Large Left $3$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,red] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \draw[line width=0.75mm,red,-&gt;] (0,0) -- (0,2) node[shift={(.6,-.75)}] {\Large Up $2$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,purple] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} </latex-image>
                   </image>
 <!--                </figure>  -->
                 <paragraphs>
@@ -191,9 +192,9 @@
               <sidebyside widths="55% 40%" valign="middle">
 <!--                <figure xml:id="figure-grid-7-points">  -->
                   <image xml:id="grid-7-points">
-                    <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-                      <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-                        <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,black] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,black] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,black] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} ]]></latex-image-code>
+                    <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+                      &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+                        &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (3,2) circle (.15cm); \draw[thick,black] (3,2) node[shift={(.3,0.3)}] {\LARGE $A$}; \fill[color=black] (-2,1) circle (.15cm); \draw[thick,black] (-2,1) node[shift={(.3,0.3)}] {\LARGE $B$}; \fill[color=black] (3,-4) circle (.15cm); \draw[thick,black] (3,-4) node[shift={(.3,0.3)}] {\LARGE $C$}; \fill[color=black] (-2,-3) circle (.15cm); \draw[thick,black] (-2,-3) node[shift={(.3,0.3)}] {\LARGE $D$}; \fill[color=black] (-3,0) circle (.15cm); \draw[thick,black] (-3,0) node[shift={(.3,0.3)}] {\LARGE $E$}; \fill[color=black] (0,2) circle (.15cm); \draw[thick,black] (0,2) node[shift={(.3,0.3)}] {\LARGE $F$}; \fill[color=black] (0,0) circle (.15cm); \draw[thick,black] (0,0) node[shift={(.3,0.3)}] {\LARGE $G$}; \end{tikzpicture} </latex-image>
                       </image>
 <!--                    </figure>  -->
                     <p>Our Solution
@@ -260,23 +261,23 @@
               </row>
               <row bottom="minor">
                 <cell><m>-3</m></cell>
-                <cell></cell>
+                <cell/>
               </row>
               <row bottom="minor">
                 <cell><m>-1</m></cell>
-                <cell></cell>
+                <cell/>
               </row>
               <row bottom="minor">
                 <cell><m>0</m></cell>
-                <cell></cell>
+                <cell/>
               </row>
               <row bottom="minor">
                 <cell><m>1</m></cell>
-                <cell></cell>
+                <cell/>
               </row>
               <row bottom="minor">
                 <cell><m>5</m></cell>
-                <cell></cell>
+                <cell/>
               </row>
             </tabular>
  <!--         </table>  -->
@@ -353,15 +354,15 @@
             </row>
             <row bottom="minor">
               <cell><m>-1</m></cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell><m>0</m></cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row bottom="minor">
               <cell><m>1</m></cell>
-              <cell></cell>
+              <cell/>
             </row>
           </tabular>
 <!--        </table>  -->
@@ -405,16 +406,16 @@
       <sidebyside widths="55% 40%" valign="middle">
 <!--        <figure xml:id="figure-graph-line-2x-3">  -->
             <image xml:id="graph-line-2x-3">
-              <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-                <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-                  <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-1,-5) circle (.15cm); \fill[color=black] (0,-3) circle (.15cm); \fill[color=black] (1,-1) circle (.15cm); \draw[line width=0.65mm,black,
-                    <->] (-1.5,-6) -- (4,5); \end{tikzpicture} ]]></latex-image-code>
+              <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+                &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+                  &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-1,-5) circle (.15cm); \fill[color=black] (0,-3) circle (.15cm); \fill[color=black] (1,-1) circle (.15cm); \draw[line width=0.65mm,black,
+                    &lt;-&gt;] (-1.5,-6) -- (4,5); \end{tikzpicture} </latex-image>
                   </image>
 <!--                </figure>  -->
           <paragraphs>
                 <p>We plot each point.</p>
                 <p>In
-                  <xref ref="section-3B-lines" autoname="yes" />, we will see thatall solutionjs of this particular equation lie on a line.  Thus, once the points are plotted on the graph, we connect the dots to make a line.</p>
+                  <xref ref="section-3B-lines" text="type-global"/>, we will see thatall solutionjs of this particular equation lie on a line.  Thus, once the points are plotted on the graph, we connect the dots to make a line.</p>
                 <p>The graph is Our Solution.<m>\checkmark</m>
                 </p>
               </paragraphs>
@@ -451,19 +452,19 @@
         <cell>
           <m>-3</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>0</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>3</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
     </tabular>
 <!--  </table>  -->
@@ -473,8 +474,8 @@
 </sidebyside>
 <sidebyside>
   <tabular>
-    <col halign="right" />
-    <col />
+    <col halign="right"/>
+    <col/>
     <!--  -->
     <row>
       <cell>
@@ -503,7 +504,7 @@
       <cell>
         <m>\underline{+6\hphantom{12345}+6}</m>
       </cell>
-      <cell></cell>
+      <cell/>
     </row>
     <row>
       <cell>
@@ -517,7 +518,7 @@
       <cell>
         <m>\overline{-3}\hphantom{123}\overline{-3}</m>
       </cell>
-      <cell></cell>
+      <cell/>
     </row>
     <row>
       <cell>
@@ -532,8 +533,8 @@
 </sidebyside>
 <sidebyside>
   <tabular>
-    <col halign="right" />
-    <col />
+    <col halign="right"/>
+    <col/>
     <!--  -->
     <row>
       <cell>
@@ -561,7 +562,7 @@
       <cell>
         <m>\overline{-3}\hphantom{12}\overline{-3}</m>
       </cell>
-      <cell></cell>
+      <cell/>
     </row>
     <row>
       <cell>
@@ -576,8 +577,8 @@
 </sidebyside>
 <sidebyside>
   <tabular>
-    <col halign="right" />
-    <col />
+    <col halign="right"/>
+    <col/>
     <!--  -->
     <row>
       <cell>
@@ -603,7 +604,7 @@
       <cell>
         <m>\underline{-6\hphantom{12345}-6}</m>
       </cell>
-      <cell></cell>
+      <cell/>
     </row>
     <row>
       <cell>
@@ -617,7 +618,7 @@
       <cell>
         <m>\overline{-3}\hphantom{12}\overline{-3}</m>
       </cell>
-      <cell></cell>
+      <cell/>
     </row>
     <row>
       <cell>
@@ -678,10 +679,10 @@
 <sidebyside widths="55% 40%" valign="middle">
 <!--  <figure xml:id="figure-graph-line-2x-3y-equals-6">  -->
     <image xml:id="graph-line-2x-3y-equals-6">
-      <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-        <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-          <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-3,-4) circle (.15cm); \fill[color=black] (0,-2) circle (.15cm); \fill[color=black] (3,0) circle (.15cm); \draw[line width=0.65mm,black,
-            <->] (-6,-6) -- (6,2); \end{tikzpicture} ]]></latex-image-code>
+      <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+        &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+          &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-3,-4) circle (.15cm); \fill[color=black] (0,-2) circle (.15cm); \fill[color=black] (3,0) circle (.15cm); \draw[line width=0.65mm,black,
+            &lt;-&gt;] (-6,-6) -- (6,2); \end{tikzpicture} </latex-image>
           </image>
 <!--        </figure>  -->
         <paragraphs>
@@ -722,31 +723,31 @@
         <cell>
           <m>-2</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>-1</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>0</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>1</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
       <row bottom="minor">
         <cell>
           <m>2</m>
         </cell>
-        <cell></cell>
+        <cell/>
       </row>
     </tabular>
 <!--  </table>  -->
@@ -825,9 +826,9 @@
 <sidebyside widths="55% 40%" valign="middle">
 <!--    <figure xml:id="figure-graph-absolute-value-of-x">  -->
       <image xml:id="graph-absolute-value-of-x">
-        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-          <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-            <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-2,2) circle (.15cm); \fill[color=black] (-1,1) circle (.15cm); \fill[color=black] (0,0) circle (.15cm); \fill[color=black] (1,1) circle (.15cm); \fill[color=black] (2,2) circle (.15cm); \draw[line width=0.65mm,black,->] (0,0) -- (-5,5); \draw[line width=0.65mm,black,->] (0,0) -- (5,5) node[shift={(-2,-3.75)}] {\LARGE $y=\lvert x\rvert $}; \end{tikzpicture} ]]></latex-image-code>
+        <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+          &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+            &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-2,2) circle (.15cm); \fill[color=black] (-1,1) circle (.15cm); \fill[color=black] (0,0) circle (.15cm); \fill[color=black] (1,1) circle (.15cm); \fill[color=black] (2,2) circle (.15cm); \draw[line width=0.65mm,black,-&gt;] (0,0) -- (-5,5); \draw[line width=0.65mm,black,-&gt;] (0,0) -- (5,5) node[shift={(-2,-3.75)}] {\LARGE $y=\lvert x\rvert $}; \end{tikzpicture} </latex-image>
           </image>
 <!--        </figure>  -->
         <paragraphs>
@@ -923,10 +924,10 @@
     </p>
 <!--    <figure xml:id="figure-determine-y-intercept">  -->
       <image xml:id="determine-y-intercept">
-        <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-          <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-            <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (0,2) circle (.15cm) node[shift={(1,-.3)}] {\LARGE $(0,2)$}; \draw[line width=0.65mm,black,
-              <->] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} ]]></latex-image-code>
+        <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+          &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+            &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (0,2) circle (.15cm) node[shift={(1,-.3)}] {\LARGE $(0,2)$}; \draw[line width=0.65mm,black,
+              &lt;-&gt;] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} </latex-image>
             </image>
  <!--         </figure>  -->
         </sidebyside>
@@ -964,10 +965,10 @@
         </p>
 <!--          <figure xml:id="figure-determine-x-intercepts">  -->
         <image xml:id="determine-x-intercepts">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-            <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-              <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-.67,0) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $\left(-\frac{2}{3},0\right)$}; \draw[line width=0.65mm,black,
-                <->] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} ]]></latex-image-code>
+          <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+            &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+              &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-.67,0) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $\left(-\frac{2}{3},0\right)$}; \draw[line width=0.65mm,black,
+                &lt;-&gt;] (-2,-4) -- (1,5) node[shift={(-3,-1.75)}] {\LARGE $y=3x+2$}; \end{tikzpicture} </latex-image>
               </image>
 <!--             </figure>  -->
           </sidebyside>
@@ -1011,17 +1012,17 @@
         </paragraphs>
 <!--          <figure xml:id="figure-determine-Q-intercepts">  -->
           <image xml:id="determine-Q-intercepts">
-            <latex-image-code><![CDATA[\begin{tikzpicture}
+            <latex-image>\begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-                \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$a$-axis};
-                \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$Q$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$a$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$Q$-axis};
                 \foreach \x in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
                 \foreach \y in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
                 \fill[color=black] (0,1.6) circle (.15cm) node[shift={(-1,-.3)}] {\LARGE $\left(0,\frac{8}{5}\right)$};
-                \draw[line width=0.65mm,black,<->] (-6,4) -- (6,-0.8) node[shift={(-2.2,-.4)}] {\LARGE $2a+5Q=8$};
-                \end{tikzpicture} ]]></latex-image-code>
+                \draw[line width=0.65mm,black,&lt;-&gt;] (-6,4) -- (6,-0.8) node[shift={(-2.2,-.4)}] {\LARGE $2a+5Q=8$};
+                \end{tikzpicture} </latex-image>
                 </image>
   <!--            </figure>  -->
             </sidebyside>
@@ -1038,19 +1039,19 @@
   <sidebyside widths="55% 40%" valign="middle">
 <!--          <figure xml:id="figure-determine-intersection-of-two-lines"> -->
           <image xml:id="determine-intersection-of-two-lines">
-            <latex-image-code><![CDATA[\begin{tikzpicture}
+            <latex-image>\begin{tikzpicture}
                 \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9);
-                \draw[line width=0.55mm,black,<->] (-6,0) -- (6,0) node[anchor=north west] {$t$-axis};
-                \draw[line width=0.55mm,black,<->] (0,-6) -- (0,6) node[anchor=south east] {$P$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$t$-axis};
+                \draw[line width=0.55mm,black,&lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$P$-axis};
                 \foreach \x in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$};
                 \foreach \y in {-4,-2,2,4}
                     \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$};
                 \fill[color=black] (1,3) circle (.15cm) node[shift={(-.1,.5)}] {\LARGE $\left(1,3\right)$};
-                \draw[line width=0.65mm,black,<->] (4,6) -- (-6,-4)  node[shift={(1.5,.65)}] {\LARGE $f(t)$};
-                \draw[line width=0.65mm,black,<->] (6,.5) -- (-5,6) node[shift={(.5,-.75)}] {\LARGE $g(t)$};
+                \draw[line width=0.65mm,black,&lt;-&gt;] (4,6) -- (-6,-4)  node[shift={(1.5,.65)}] {\LARGE $f(t)$};
+                \draw[line width=0.65mm,black,&lt;-&gt;] (6,.5) -- (-5,6) node[shift={(.5,-.75)}] {\LARGE $g(t)$};
                 \draw[line width=0.65mm,red,dashed] (1,3) -- (1,-.5) node[shift={(0,-.25)}] {\LARGE $t=1$};
-        \end{tikzpicture}]]></latex-image-code>
+        \end{tikzpicture}</latex-image>
                 </image>
 <!--              </figure>  -->
               <paragraphs>
@@ -1073,10 +1074,10 @@
 <sidebyside widths="55% 40%" valign="middle">
 <!-- <figure xml:id="figure-graph-two-equations-intercepts">  -->
   <image xml:id="graph-two-equations-intercepts">
-    <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-      <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-        <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-4,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(-4,3)$}; \fill[color=black] (2,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(2,3)$}; \draw[line width=0.65mm,blue,
-          <->] (-6,3) -- (6,3); \draw[line width=0.65mm,black,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,->] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \end{tikzpicture} ]]></latex-image-code>
+    <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+      &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+        &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \fill[color=black] (-4,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(-4,3)$}; \fill[color=black] (2,3) circle (.15cm) node[shift={(1.4,.4)}] {\LARGE $(2,3)$}; \draw[line width=0.65mm,blue,
+          &lt;-&gt;] (-6,3) -- (6,3); \draw[line width=0.65mm,black,-&gt;] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,-&gt;] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \end{tikzpicture} </latex-image>
         </image>
 <!--      </figure>  -->
       <paragraphs>
@@ -1105,10 +1106,10 @@
     <sidebyside widths="55% 40%" valign="middle">
  <!--     <figure xml:id="figure-graph-two-equations-less-than">  -->
         <image xml:id="graph-two-equations-less-than">
-          <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-            <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-              <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
-                <->] (-6,3) -- (6,3); \draw[line width=0.65mm,black,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,->] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red] (-1,0) -- (-4,3); \draw[line width=0.65mm,red] (-1,0) -- (2,3); \draw[line width=0.65mm,red] (-4,0) -- (2,0); \end{tikzpicture} ]]></latex-image-code>
+          <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+            &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+              &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
+                &lt;-&gt;] (-6,3) -- (6,3); \draw[line width=0.65mm,black,-&gt;] (-1,0) -- (-6,5); \draw[line width=0.65mm,black,-&gt;] (-1,0) -- (5,6) node[shift={(-3,-4.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red] (-1,0) -- (-4,3); \draw[line width=0.65mm,red] (-1,0) -- (2,3); \draw[line width=0.65mm,red] (-4,0) -- (2,0); \end{tikzpicture} </latex-image>
               </image>
 <!--            </figure>  -->
         <paragraphs>
@@ -1139,10 +1140,10 @@
 <sidebyside widths="55% 40%" valign="middle">
 <!-- <figure xml:id="figure-graph-two-equations-greater-than"> -->
   <image xml:id="graph-two-equations-greater-than">
-    <latex-image-code><![CDATA[\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
-      <->] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
-        <->] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
-          <->] (-6,3) -- (6,3); \draw[line width=0.65mm,red,->] (-1,0) -- (-6,5); \draw[line width=0.65mm,red,->] (-1,0) -- (5,6); \draw[line width=0.65mm,black] (-1,0) -- (-4,3); \draw[line width=0.65mm,black] (-1,0) -- (2,3)  node[shift={(0,-1.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red,->] (-4,0) -- (-6,0); \draw[line width=0.65mm,red,->] (2,0) -- (6,0); \end{tikzpicture} ]]></latex-image-code>
+    <latex-image>\begin{tikzpicture} \draw[step=1cm,gray,very thin] (-5.9,-5.9) grid (5.9,5.9); \draw[line width=0.55mm,black,
+      &lt;-&gt;] (-6,0) -- (6,0) node[anchor=north west] {$x$-axis}; \draw[line width=0.55mm,black,
+        &lt;-&gt;] (0,-6) -- (0,6) node[anchor=south east] {$y$-axis}; \foreach \x in {-4,-2,2,4} \draw[line width=0.55mm,black] (\x cm,3pt) -- (\x cm,-3pt) node[shift={(0.05,-.3)}] {$\x$}; \foreach \y in {-4,-2,2,4} \draw[line width=0.55mm,black] (3pt,\y cm) -- (-3pt,\y cm) node[shift={(-.3,0.05)}] {$\y$}; \draw[line width=0.65mm,blue,
+          &lt;-&gt;] (-6,3) -- (6,3); \draw[line width=0.65mm,red,-&gt;] (-1,0) -- (-6,5); \draw[line width=0.65mm,red,-&gt;] (-1,0) -- (5,6); \draw[line width=0.65mm,black] (-1,0) -- (-4,3); \draw[line width=0.65mm,black] (-1,0) -- (2,3)  node[shift={(0,-1.75)}] {\LARGE $y=\lvert x+1\rvert $}; \draw[line width=0.65mm,red,-&gt;] (-4,0) -- (-6,0); \draw[line width=0.65mm,red,-&gt;] (2,0) -- (6,0); \end{tikzpicture} </latex-image>
         </image>
 <!--      </figure>  -->
       <paragraphs>
@@ -1162,5 +1163,3 @@
 </example>
 </subsection>
 </section>
-
-
